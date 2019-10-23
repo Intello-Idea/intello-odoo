@@ -21,7 +21,10 @@
             <field name="arch" type="xml">
                 <field  name="name" position="replace">
                     <h1>
-                        <field name="name" placeholder="Name" attrs="{'required' : [('is_company','=', True)], 'readonly': [('is_company','=', False)]}"/>
+                        <field name="label_name" class="oe_read_only"/>
+                    </h1>
+                    <h1>
+                        <field name="name" class="oe_edit_only" placeholder="Name" attrs="{'required' : [('is_company','=', True)], 'invisible': [('is_company','=', False)]}"/>
                     </h1>
                     <h1>
                         <div class="o_row">
