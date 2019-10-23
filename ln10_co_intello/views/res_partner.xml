@@ -1,34 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <odoo>
     <data>
-        <!-- Add first name and lalst name fields to existing view -->
+        <!-- Add first name and last name fields to existing view -->
+<!--
+        <record model="ir.ui.view" id="partner_dian_short_form_view">
+            <field name="name">partner.dian</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_short_form"/>
+            <field name="arch" type="xml">
+                <field  name="name" position="replace">
+
+            </field>
+        </record>
+-->
+        <!-- Add first name and last name fields to existing view -->
         <record model="ir.ui.view" id="partner_dian_form_view">
             <field name="name">partner.dian</field>
             <field name="model">res.partner</field>
             <field name="inherit_id" ref="base.view_partner_form"/>
             <field name="arch" type="xml">
-                <!--
-                <field name="name" position="attributes">
-                    <attribute name="attrs">{'invisible': False, 'readonly': [('is_company','=', False)]}</attribute>
-                </field>
-                -->
-                <field  name="name" position="after">
-                    <h3>
+                <field  name="name" position="replace">
+                    <h1>
+                        <field name="name" placeholder="Name" attrs="{'required' : [('is_company','=', True)], 'readonly': [('is_company','=', False)]}"/>
+                    </h1>
+                    <h1>
                         <div class="o_row">
-                            <field name="first_name" placeholder="First Name" default_focus="1"
-                                   attrs="{'required' : [('type', '=', 'contact')],
+                            <field name="first_name" placeholder="First Name" default_focus="1" class="oe_edit_only"
+                                   attrs="{'required' : [('is_company','=', False)],
                                            'invisible': ['|', '&amp;', ('is_company','=', True),('parent_id', '=', False),('company_name', '!=', False),('company_name', '!=', '')]}" />
-                            <field name="second_name" placeholder="Second Name" string=""
+                            <field name="second_name" placeholder="Second Name" string="" class="oe_edit_only"
                                    attrs="{'invisible': ['|', '&amp;', ('is_company','=', True),('parent_id', '=', False),('company_name', '!=', False),('company_name', '!=', '')]}" />
                         </div>
                         <div class="o_row">
-                            <field name="surname" placeholder="Surname"
-                                   attrs="{'required' : [('type', '=', 'contact')],
+                            <field name="surname" placeholder="Surname" class="oe_edit_only"
+                                   attrs="{'required' : [('is_company','=', False)],
                                            'invisible': ['|', '&amp;', ('is_company','=', True),('parent_id', '=', False),('company_name', '!=', False),('company_name', '!=', '')]}" />
-                            <field name="second_surname" placeholder="Second Surname"
+                            <field name="second_surname" placeholder="Second Surname" class="oe_edit_only"
                                    attrs="{'invisible': ['|', '&amp;', ('is_company','=', True),('parent_id', '=', False),('company_name', '!=', False),('company_name', '!=', '')]}" />
                         </div>
-                    </h3>
+                    </h1>
                 </field>
             </field>
         </record>

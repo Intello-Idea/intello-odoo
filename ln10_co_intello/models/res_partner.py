@@ -6,6 +6,7 @@ class Partner(models.Model):
 
     # Add a new column to the res.partner model, by default partners are not
     # instructors
+    name = fields.Char(index=True)
     first_name = fields.Char(default='')
     second_name = fields.Char(default='')
     surname = fields.Char(default='')
