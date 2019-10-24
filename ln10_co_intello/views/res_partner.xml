@@ -2,18 +2,6 @@
  <odoo>
     <data>
         <!-- Add first name and last name fields to existing view -->
-<!--
-        <record model="ir.ui.view" id="partner_dian_short_form_view">
-            <field name="name">partner.dian</field>
-            <field name="model">res.partner</field>
-            <field name="inherit_id" ref="base.view_partner_short_form"/>
-            <field name="arch" type="xml">
-                <field  name="name" position="replace">
-
-            </field>
-        </record>
--->
-        <!-- Add first name and last name fields to existing view -->
         <record model="ir.ui.view" id="partner_dian_form_view">
             <field name="name">partner.dian</field>
             <field name="model">res.partner</field>
@@ -42,6 +30,21 @@
                                    attrs="{'invisible': ['|', '&amp;', ('is_company','=', True),('parent_id', '=', False),('company_name', '!=', False),('company_name', '!=', '')]}" />
                         </div>
                     </h1>
+                </field>
+                <field name="l10n_co_document_type" position="replace">
+                    <field name="document_type" attrs="{'required' : [True]}" />
+                </field>
+                <!--
+                <field name="l10n_co_verification_code" position="replace">
+                    <field name="verification_code" readonly="1"/>
+                </field>
+                -->
+                <field name="vat" position="replace">
+                    <label for="vat" string="NIF"/>
+                    <div  class="o_row">
+                        <field name="vat" placeholder="e.g. EJ000000000" attrs="{'readonly': [('parent_id','!=',False)]}"/>
+                        <field name="verification_code" readonly="1"/>
+                    </div>
                 </field>
             </field>
         </record>

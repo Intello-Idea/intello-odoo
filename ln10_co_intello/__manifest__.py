@@ -27,6 +27,7 @@
         # 'security/library_security.xml',
         # 'security/ir.model.access.csv',
         # 'views/library_menu.xml',
+        'data/ln10co_document_type.xml',
         'views/res_partner.xml',
     ],
 
