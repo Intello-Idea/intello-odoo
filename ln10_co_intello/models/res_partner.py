@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-from odoo import fields, models, api
+from odoo import fields, models, api, exceptions
+import re
 
 class Partner(models.Model):
     _inherit = 'res.partner'
@@ -15,7 +16,6 @@ class Partner(models.Model):
     # document_type = fields.One2many('ln10_co_intello.documenttype', 'key_dian', string='Document Type')
     document_type = fields.Many2one('ln10_co_intello.documenttype', ondelete='set null', string='Document Type')
     verification_code = fields.Char(compute='_compute_verification_code', string='Verification Code', help='Redundancy check to verify the vat number has been typed in correctly.')
-
 
     @api.depends('name')
     def _compute_label_name(self):
@@ -63,4 +63,28 @@ class Partner(models.Model):
                     else:
                         self.verification_code = 11 - number
                 except ValueError:
-                    self.verification_code = False
+                    self.verification_code = ' '
+
+    @api.constrains('document_type', 'vat', 'verification_code')
+    def _check_document_type_with_digit_and_digit(self):
+        if self.document_type.with_digit:
+            print('Si')
+            print(self.verification_code)
+            if self.verification_code.strip() == '':
+                raise exceptions.ValidationError("The VAT number isn correct, verification code couldn't be calculated")
+
+    def _validate_mail(self):
+        if self.email:
+            match = re.match('^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$', self.email)
+            if match == None:
+                raise exceptions.ValidationError('Not a valid E-mail, is not the correct structure like something@example.com')
+
+    @api.onchange('email')
+    def validate_mail(self):
+        self._validate_mail()
+
+    @api.constrains('email')
+    def _check_valid_mail(self):
+        self._validate_mail()
+
+    _sql_constraints = [('document_type_number_uniq', 'UNIQUE(document_type,vat)', 'Duplicate Document Type and VAT is not allowed!')]

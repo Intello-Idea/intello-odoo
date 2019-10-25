@@ -42,7 +42,8 @@
                 <field name="vat" position="replace">
                     <label for="vat" string="NIF"/>
                     <div  class="o_row">
-                        <field name="vat" placeholder="e.g. EJ000000000" attrs="{'readonly': [('parent_id','!=',False)]}"/>
+                        <field name="vat" placeholder="e.g. EJ000000000" attrs="{'required' : [True], 'readonly': [('parent_id','!=',False)]}"/>
+                        <label for="verification_code" string=" - "/>
                         <field name="verification_code" readonly="1"/>
                     </div>
                 </field>

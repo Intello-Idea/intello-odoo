@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0+e-20191002\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-23 15:08+0000\n"
-"PO-Revision-Date: 2019-10-23 11:49-0500\n"
+"POT-Creation-Date: 2019-10-25 16:54+0000\n"
+"PO-Revision-Date: 2019-10-25 11:56-0500\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -23,6 +23,47 @@ msgid "Contact"
 msgstr "Contacto"
 
 #. module: ln10_co_intello
+#: model:ir.model.fields,field_description:ln10_co_intello.field_ln10_co_intello_documenttype__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: ln10_co_intello
+#: model:ir.model.fields,field_description:ln10_co_intello.field_ln10_co_intello_documenttype__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: ln10_co_intello
+#: model:ir.model.fields,field_description:ln10_co_intello.field_ln10_co_intello_documenttype__key_dian
+msgid "DIAN Key"
+msgstr "Código DIAN"
+
+#. module: ln10_co_intello
+#: model:ir.model.fields,field_description:ln10_co_intello.field_ln10_co_intello_documenttype__display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: ln10_co_intello
+#: model:ir.model.fields,field_description:ln10_co_intello.field_res_partner__document_type
+#: model:ir.model.fields,field_description:ln10_co_intello.field_res_users__document_type
+msgid "Document Type"
+msgstr "Tipo de Identificación"
+
+#. module: ln10_co_intello
+#: sql_constraint:res.partner:0
+msgid "Duplicate Document Type and VAT is not allowed!"
+msgstr "Tipo y Número de Identificación ya existe. No se permite duplicados!"
+
+#. module: ln10_co_intello
+#: sql_constraint:ln10_co_intello.documenttype:0
+msgid "Duplicate Key DIAN value is not allowed!"
+msgstr "Código DIAN ya existe. No se permite duplicados!"
+
+#. module: ln10_co_intello
+#: sql_constraint:ln10_co_intello.documenttype:0
+msgid "Duplicate Name is not allowed!"
+msgstr "Tipo de Identificación DIAN ya existe. No se permite duplicados!"
+
+#. module: ln10_co_intello
 #: model:ir.model.fields,field_description:ln10_co_intello.field_res_partner__first_name
 #: model:ir.model.fields,field_description:ln10_co_intello.field_res_users__first_name
 #: model_terms:ir.ui.view,arch_db:ln10_co_intello.partner_dian_form_view
@@ -30,10 +71,49 @@ msgid "First Name"
 msgstr "Primer Nombre"
 
 #. module: ln10_co_intello
+#: model:ir.model.fields,field_description:ln10_co_intello.field_ln10_co_intello_documenttype__id
+msgid "ID"
+msgstr ""
+
+#. module: ln10_co_intello
+#: model:ir.model.fields,field_description:ln10_co_intello.field_res_partner__label_name
+#: model:ir.model.fields,field_description:ln10_co_intello.field_res_users__label_name
+msgid "Label Name"
+msgstr ""
+
+#. module: ln10_co_intello
+#: model:ir.model.fields,field_description:ln10_co_intello.field_ln10_co_intello_documenttype____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: ln10_co_intello
+#: model:ir.model.fields,field_description:ln10_co_intello.field_ln10_co_intello_documenttype__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: ln10_co_intello
+#: model:ir.model.fields,field_description:ln10_co_intello.field_ln10_co_intello_documenttype__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: ln10_co_intello
+#: model_terms:ir.ui.view,arch_db:ln10_co_intello.partner_dian_form_view
+msgid "NIF"
+msgstr "Número de Identificación"
+
+#. module: ln10_co_intello
+#: model:ir.model.fields,field_description:ln10_co_intello.field_ln10_co_intello_documenttype__name
 #: model:ir.model.fields,field_description:ln10_co_intello.field_res_partner__name
 #: model:ir.model.fields,field_description:ln10_co_intello.field_res_users__name
+#: model_terms:ir.ui.view,arch_db:ln10_co_intello.partner_dian_form_view
 msgid "Name"
-msgstr "Razón Social"
+msgstr "Nombre"
+
+#. module: ln10_co_intello
+#: model:ir.model.fields,help:ln10_co_intello.field_res_partner__verification_code
+#: model:ir.model.fields,help:ln10_co_intello.field_res_users__verification_code
+msgid "Redundancy check to verify the vat number has been typed in correctly."
+msgstr ""
 
 #. module: ln10_co_intello
 #: model:ir.model.fields,field_description:ln10_co_intello.field_res_partner__second_name
@@ -55,3 +135,24 @@ msgstr "Segundo Apellido"
 #: model_terms:ir.ui.view,arch_db:ln10_co_intello.partner_dian_form_view
 msgid "Surname"
 msgstr "Primer Apellido"
+
+#. module: ln10_co_intello
+#: model:ir.model.fields,field_description:ln10_co_intello.field_res_partner__verification_code
+#: model:ir.model.fields,field_description:ln10_co_intello.field_res_users__verification_code
+msgid "Verification Code"
+msgstr "Dígito de Verificación"
+
+#. module: ln10_co_intello
+#: model:ir.model.fields,field_description:ln10_co_intello.field_ln10_co_intello_documenttype__with_digit
+msgid "With Verification Digit"
+msgstr "Maneja Dígito de Verificación"
+
+#. module: ln10_co_intello
+#: model_terms:ir.ui.view,arch_db:ln10_co_intello.partner_dian_form_view
+msgid "e.g. EJ000000000"
+msgstr "Por ej. MB000000000"
+
+#. module: ln10_co_intello
+#: model:ir.model,name:ln10_co_intello.model_ln10_co_intello_documenttype
+msgid "ln10_co_intello.documenttype"
+msgstr ""
