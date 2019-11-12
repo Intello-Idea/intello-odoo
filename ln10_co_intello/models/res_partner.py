@@ -17,6 +17,22 @@ class Partner(models.Model):
     document_type = fields.Many2one('ln10_co_intello.documenttype', ondelete='set null', string='Document Type')
     verification_code = fields.Char(compute='_compute_verification_code', string='Verification Code', help='Redundancy check to verify the vat number has been typed in correctly.')
 
+    payment_type = fields.Selection(string='Payment Type', selection=[('1', 'Cash'), ('2', 'Credit')], default='1')
+
+    # person_type = fields.Many2one('ln10_co_intello.persontype', ondelete='set null', string='Person Type')
+    person_type = fields.Many2one('ln10_co_intello.diancodes', ondelete='set null', string='Person Type', domain=[('type', '=', 'persontype')])
+    # fiscal_regime = fields.Many2one('ln10_co_intello.fiscalregime', ondelete='set null', string='Fiscal Regime')
+    fiscal_regime = fields.Many2one('ln10_co_intello.diancodes', ondelete='set null', string='Fiscal Regime', domain=[('type', '=', 'fiscalregime')])
+    # fiscal_responsibility = fields.Many2one('ln10_co_intello.fiscalresponsibility', ondelete='set null', string='Fiscal Responsibility')
+    # fiscal_responsibility = fields.Many2many('ln10_co_intello.fiscalresponsibility', column1='partner_id', column2='id', ondelete='set null', string='Fiscal Responsibility', domain="[('active', '=', True)]")
+    fiscal_responsibility = fields.Many2many('ln10_co_intello.diancodes', column1='partner_id', column2='id', ondelete='set null', string='Fiscal Responsibility', domain=[('type', '=', 'fiscalresponsibility')])
+    payment_method = fields.Many2many('ln10_co_intello.diancodes', column1='partner_id', column2='id', ondelete='set null', string='Payment Method', domain=[('type', '=', 'paymentmethod')])
+
+    commercial_registration = fields.Char(string="Commercial Registration")
+    code_ciiu_primary = fields.Many2one('ln10_co_intello.ciiucodes', ondelete='set null', string='Primary CIIU Code', domain="[('industry_id', '=?', industry_id)]")
+    code_ciiu_secondary = fields.Many2many('ln10_co_intello.ciiucodes', column1='partner_id', column2='id', ondelete='set null', string='Secondary CIIU Code', domain="[('industry_id', '=?', industry_id)]")
+
+
     @api.depends('name')
     def _compute_label_name(self):
         self.label_name = self.name
@@ -88,3 +104,21 @@ class Partner(models.Model):
         self._validate_mail()
 
     _sql_constraints = [('document_type_number_uniq', 'UNIQUE(document_type,vat)', 'Duplicate Document Type and VAT is not allowed!')]
+    # TODO:Activar código
+    # ,'name_document_number_uniq', 'UNIQUE(name,vat)', 'Duplicate Name and VAT is not allowed!']
+
+    @api.constrains('code_ciiu_primary', 'code_ciiu_secondary')
+    def _check_ciiu_primary_not_in_secondary(self):
+        for r in self:
+            if r.code_ciiu_primary and r.code_ciiu_primary in r.code_ciiu_secondary:
+                raise exceptions.ValidationError("Primary CIIU Code can't be a Secondary Activity Code")
+
+    @api.onchange('industry_id')
+    def _onchange_industry_id(self):
+        if self.industry_id and self.industry_id != self.code_ciiu_primary.industry_id:
+            self.code_ciiu_primary = False
+
+    @api.onchange('code_ciiu_primary')
+    def _onchange_primary_ciiu(self):
+        if self.code_ciiu_primary.industry_id:
+            self.industry_id = self.code_ciiu_primary.industry_id

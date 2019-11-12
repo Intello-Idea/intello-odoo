@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <data>
+        <record id="dian_codes_view_tree" model="ir.ui.view">
+            <field name="name">ln10_co_intello.diancodes.tree</field>
+            <field name="model">ln10_co_intello.diancodes</field>
+            <field name="arch" type="xml">
+                <!--<tree editable="bottom">-->
+                <tree>
+                    <field name="type"/>
+                    <field name="key_dian"/>
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
 
+        <record id="dian_codes_view_form" model="ir.ui.view">
+            <field name="name">ln10_co_intello.diancodes.form</field>
+            <field name="model">ln10_co_intello.diancodes</field>
+            <field name="arch" type="xml">
+                <!--<tree editable="bottom">-->
+                <form string="Colombian DIAN Codes">
+                    <sheet>
+                        <group>
+                            <field name="key_dian"/>
+                            <field name="name"/>
+                            <field name="type"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="dian_codes_view_search" model="ir.ui.view">
+            <field name="name">ln10_co_intello.diancodes.search</field>
+            <field name="model">ln10_co_intello.diancodes</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="key_dian"/>
+                    <field name="name"/>
+
+                    <!--
+                    <filter name="my_courses" string="My Courses"
+                            domain="[('responsible_id', '=', uid)]"/>
+                    -->
+
+                    <group string="Group By">
+                        <filter name="by_Type" string="Code Type"
+                                context="{'group_by': 'type'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <record id="action_dian_code" model="ir.actions.act_window">
+            <field name="name">Colombian DIAN codes</field>
+            <field name="res_model">ln10_co_intello.diancodes</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem
+            action="action_dian_code"
+            name="Colombian DIAN codes"
+            id="dian_code_menu"
+            parent="account.account_account_menu"
+            sequence="100"/>
     </data>
 </odoo>

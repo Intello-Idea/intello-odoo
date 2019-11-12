@@ -1,0 +1,12 @@
+<odoo>
+    <data>
+        <record id="fiscal_regime_one" model="ln10_co_intello.fiscalregime">
+            <field name="key_dian">04</field>
+            <field name="name">Régimen Simple</field>
+        </record>
+        <record id="fiscal_regime_two" model="ln10_co_intello.fiscalregime">
+            <field name="key_dian">05</field>
+            <field name="name">Régimen Ordinario</field>
+        </record>
+    </data>
+</odoo>

@@ -47,6 +47,39 @@
                         <field name="verification_code" readonly="1"/>
                     </div>
                 </field>
+
+                <xpath expr="//page[@name='sales_purchases']/group[@name='container_row_2']/group[@name='sale']/field[@name='user_id']" position="replace" >
+                    <field name="user_id" attrs="{'required' : [('customer', '=', True)]}"/>
+                    <field name="payment_type" widget="radio" options="{'horizontal': true}"/>
+                    <field name="payment_method" string="Payment Method" options="{'no_create_edit': True, 'no_create': True, 'no_open': True}" widget="many2many_tags" />
+                </xpath>
+
+                <field name="property_payment_term_id" position="replace">
+                    <field string="Payment Terms" name="property_payment_term_id" widget="selection" groups="account.group_account_invoice" attrs="{'required' : [('customer', '=', True)]}"/>
+                </field>
+
+                <field name="property_supplier_payment_term_id" position="replace">
+                    <field string="Payment Terms" name="property_supplier_payment_term_id" widget="selection" groups="account.group_account_invoice" attrs="{'required' : [('supplier', '=', True)]}"/>
+                </field>
+
+                <field name="industry_id" position="replace">
+
+                </field>
+
+                <group name="fiscal_information" position="inside">
+                    <field name="person_type" string="Person Type" options="{'no_create_edit': True, 'no_create': True, 'no_open': True}" />
+                    <field name="fiscal_regime" string="Fiscal Regime" options="{'no_create_edit': True, 'no_create': True, 'no_open': True}" />
+                    <field name="fiscal_responsibility" string="Fiscal Responsibility" options="{'no_create_edit': True, 'no_create': True, 'no_open': True}" widget="many2many_tags" />
+                </group>
+
+                <group name="fiscal_information" position="after">
+                    <group name="commercial_information" string="Commercial Information">
+                        <field name="commercial_registration"/>
+                        <field name="industry_id" options="{'no_create': True}"/>
+                        <field name="code_ciiu_primary" string="Primary CIIU Code" />
+                        <field name="code_ciiu_secondary" string="Secondary CIIU Code" widget="many2many_tags" context="{'display_code': True}" />
+                    </group>
+                </group>
             </field>
         </record>
 <!--

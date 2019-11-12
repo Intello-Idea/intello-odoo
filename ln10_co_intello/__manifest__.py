@@ -10,7 +10,7 @@
         # subtitle on modules listing or apps.openerp.com""",
 
     'author': "Intello Idea",
-    # 'website': "http://www.intelloidea.com",
+    'website': "http://www.intelloidea.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/12.0/odoo/addons/base/data/ir_module_category_data.xml
@@ -24,10 +24,15 @@
 
     # always loaded
     'data': [
-        # 'security/library_security.xml',
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         # 'views/library_menu.xml',
         'data/ln10co_document_type.xml',
+        'data/ln10_co_intello.diancodes.csv',
+        'data/ln10_co_intello.ciiucodes.csv',
+        # 'data/ln10co_person_type.xml',
+        # 'data/ln10co_fiscal_regime.xml',
+        # 'data/ln10co_fiscal_responsibility.xml',
+        'views/ln10co_intello.xml',
         'views/res_partner.xml',
     ],
 
