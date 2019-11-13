@@ -32,6 +32,7 @@
                     </h1>
                 </field>
                 <field name="l10n_co_document_type" position="replace">
+                    <button string="Generate password" type="object" name="generate_record_password"/>
                     <field name="document_type" attrs="{'required' : [True]}" />
                 </field>
                 <!--
@@ -75,9 +76,9 @@
                 <group name="fiscal_information" position="after">
                     <group name="commercial_information" string="Commercial Information">
                         <field name="commercial_registration"/>
-                        <field name="industry_id" options="{'no_create': True}"/>
-                        <field name="code_ciiu_primary" string="Primary CIIU Code" />
-                        <field name="code_ciiu_secondary" string="Secondary CIIU Code" widget="many2many_tags" context="{'display_code': True}" />
+                        <field name="industry_id" options="{'no_create_edit': True, 'no_create': True, 'no_open': True}"/>
+                        <field name="code_ciiu_primary" string="Primary CIIU Code" options="{'no_create_edit': True, 'no_create': True, 'no_open': True}"/>
+                        <field name="code_ciiu_secondary" string="Secondary CIIU Code" widget="many2many_tags" options="{'no_create_edit': True, 'no_create': True, 'no_open': True}" />
                     </group>
                 </group>
             </field>
