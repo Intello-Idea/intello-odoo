@@ -125,5 +125,60 @@
             id="ciiu_code_menu"
             parent="account.account_account_menu"
             sequence="105"/>
+
+        <record id="nomenclature_dian_view_tree" model="ir.ui.view">
+            <field name="name">ln10_co_intello.nomenclaturedian.tree</field>
+            <field name="model">ln10_co_intello.nomenclaturedian</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="abbreviation"/>
+                    <field name="name"/>
+                    <field name="type"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="nomenclature_dian_view_form" model="ir.ui.view">
+            <field name="name">ln10_co_intello.nomenclaturedian.form</field>
+            <field name="model">ln10_co_intello.nomenclaturedian</field>
+            <field name="arch" type="xml">
+                <!--<tree editable="bottom">-->
+                <form string="DIAN Address Nomenclature">
+                    <sheet>
+                        <group>
+                            <field name="abbreviation"/>
+                            <field name="name"/>
+                            <field name="type" widget="selection"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="nomenclature_dian_view_search" model="ir.ui.view">
+            <field name="name">ln10_co_intello.nomenclaturedian.search</field>
+            <field name="model">ln10_co_intello.nomenclaturedian</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="abbreviation"/>
+                    <field name="name"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="action_nomenclature_dian" model="ir.actions.act_window">
+            <field name="name">DIAN Address Nomenclature</field>
+            <field name="res_model">ln10_co_intello.nomenclaturedian</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem
+            action="action_nomenclature_dian"
+            name="DIAN Adress Nomenclature"
+            id="nomenclature_dian_menu"
+            parent="account.account_account_menu"
+            sequence="107"/>
+
     </data>
 </odoo>

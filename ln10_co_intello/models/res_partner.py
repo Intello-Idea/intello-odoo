@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 from odoo import fields, models, api, exceptions
 import re
 
@@ -12,6 +13,15 @@ class Partner(models.Model):
     second_name = fields.Char(default='')
     surname = fields.Char(default='')
     second_surname = fields.Char(default='')
+
+    street_one_id = fields.Many2one('ln10_co_intello.nomenclaturedian', ondelete='set null', string='1', domain=[('type', '=', 'principal')])
+    street_one = fields.Char(default='')
+    street_two_id = fields.Many2one('ln10_co_intello.nomenclaturedian', ondelete='set null', string='1', domain=[('type', '=', 'letters')])
+    street_two_id = fields.Many2one('ln10_co_intello.nomenclaturedian', ondelete='set null', string='1', domain=[('type', '=', 'qualifiying')])
+    street_two = fields.Char(default='')
+
+    # dian_address = fields.Char(compute='_compute_address', store=True)
+
 
     # document_type = fields.One2many('ln10_co_intello.documenttype', 'key_dian', string='Document Type')
     document_type = fields.Many2one('ln10_co_intello.documenttype', ondelete='set null', string='Document Type')
@@ -103,9 +113,12 @@ class Partner(models.Model):
     def _check_valid_mail(self):
         self._validate_mail()
 
+    @api.constrains('email')
+    def _check_valid_mail(self):
+        self._validate_mail()
+
     _sql_constraints = [('document_type_number_uniq', 'UNIQUE(document_type,vat)', 'Duplicate Document Type and VAT is not allowed!')]
-    # TODO:Activar código
-    # ,'name_document_number_uniq', 'UNIQUE(name,vat)', 'Duplicate Name and VAT is not allowed!']
+        # ,'name_document_number_uniq', 'UNIQUE(name,vat)', 'Duplicate Name and VAT is not allowed!']
 
     @api.constrains('code_ciiu_primary', 'code_ciiu_secondary')
     def _check_ciiu_primary_not_in_secondary(self):

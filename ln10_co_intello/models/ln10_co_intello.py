@@ -43,6 +43,19 @@ class CIIUCodes(models.Model):
     _sql_constraints = [('code_uniq', 'UNIQUE(code)', 'Duplicate Code value is not allowed!'),
                         ('name_uniq', 'UNIQUE(name)', 'Duplicate Name value is not allowed!')]
 
+class NomenclatureDIAN(models.Model):
+    _name = 'ln10_co_intello.nomenclaturedian'
+    _description = "Colombian DIAN Nomenclature"
+
+    abbreviation = fields.Char(required=True, string="Abbreviation")
+    name = fields.Char(required=True, index=True, string="Name")
+    type = fields.Selection([('principal', 'Principal'),
+                             ('qualifiying', 'Qualifiying'),
+                             ('additional', 'Additional')], string="Nomenclature Type")
+
+    _sql_constraints = [('abbreviation_uniq', 'UNIQUE(abbreviation)', 'Duplicate Abbreviation value is not allowed!'),
+                        ('name_uniq', 'UNIQUE(name)', 'Duplicate Name value is not allowed!')]
+
 '''
     @api.multi
     def name_get(self, context=None):
