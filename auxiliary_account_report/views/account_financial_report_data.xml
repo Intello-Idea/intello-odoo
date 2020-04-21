@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="action_account_report_auxiliary" model="ir.actions.client">
+            <field name="name">Auxiliary Account Report</field>
+            <field name="tag">account_report</field>
+            <field name="context" eval="{'model': 'account.auxiliary.report'}" />
+        </record>
+
+        <!--No borra para hacer mantenimiento -->
+        <!--<menuitem id="menu_action_account_report_auxiliary_report" name="Auxiliary Account Report M" action="auxiliary_account_report.action_account_report_auxiliary" parent="account_reports.account_reports_audit_reports_menu" groups="account.group_account_user"/>-->
+
+    </data>
+</odoo>
