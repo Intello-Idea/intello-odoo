@@ -1,0 +1,8 @@
+<odoo>
+    <data>
+        <record id="person_type_one" model="ln10_co_intello.fiscalresponsibiity">
+            <field name="key_dian">1</field>
+            <field name="name">Persona Jurídica</field>
+        </record>
+    </data>
+</odoo>
