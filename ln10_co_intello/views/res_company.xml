@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <odoo>
+    <data>
+        <!-- Add first name and last name fields to existing view -->
+        <record model="ir.ui.view" id="company_dian_form_view">
+            <field name="name">company.dian</field>
+            <field name="model">res.company</field>
+            <field name="inherit_id" ref="base.view_company_form"/>
+            <field name="arch" type="xml">
+                <field name="street2" position="replace">
+                    <field name="street2" attrs="{'invisible': [True]}"/>
+                </field>
+
+                <field name="state_id" position="replace">
+                    <field name="state_id" class="o_address_state" placeholder="State" options='{"no_open": True}'
+                        attrs="{'invisible': [True]}"/>
+                </field>
+
+                <field name="country_id" position="replace">
+                    <field name="country_id" placeholder="Country" class="o_address_country" options='{"no_open": True, "no_create": True}'
+                        attrs="{'invisible': [True]}"/>
+                </field>
+
+                <field name="city" position="replace">
+                    <field name="city" placeholder="City" class="o_address_city" attrs="{'invisible': [True]}"/>
+                </field>
+
+                <field name="zip" position="replace">
+                    <field name="zip" placeholder="ZIP" class="o_address_zip" attrs="{'invisible': [True]}"/>
+                </field>
+
+                <field name="street" position="replace">
+                    <field name="dian_address" attrs="{'invisible': [True], 'required': [True]}"/>
+                    <field name="street" class="oe_read_only"/>
+
+                    <div class="o_row">
+                        <div class="col-12" style="padding-right: 1px!important;">
+                            <div class="row" style="padding-right: 16px!important;">
+                                <div class="col-5" style="padding: 0px 1px!important;">
+                                    <field name="street_01" class="oe_edit_only" options="{'no_create_edit': True, 'no_create': True, 'no_open': True}"/>
+                                </div>
+
+                                <div class="col-3" style="padding: 0px 1px!important;">
+                                    <div class="o_row">
+                                        <field name="street_02" class="oe_edit_only"/>
+                                        <field name="street_03" class="oe_edit_only" options="{'no_create_edit': True, 'no_create': True, 'no_open': True}"/>
+                                    </div>
+                                </div>
+
+                                <div class="col-4" style="padding: 0px 1px!important;">
+                                    <div class="o_row">
+                                        <field name="street_04" class="oe_edit_only" options="{'no_create_edit': True, 'no_create': True, 'no_open': True}"/>
+                                        <field name="street_05" class="oe_edit_only" options="{'no_create_edit': True, 'no_create': True, 'no_open': True}"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="o_row">
+                        <div class="col-12" style="padding-right: 16px!important;">
+                            <div class="row" style="padding: 0px 1px!important;">
+                                <div class="col-3" style="padding: 0px 1px!important;">
+                                    <div class="o_row">
+                                        <label for="street_06" class="oe_edit_only" string="No. "/>
+                                        <field name="street_06" class="oe_edit_only"/>
+                                    </div>
+                                </div>
+
+                                <div class="col-9" style="padding: 0px 1px!important;">
+                                    <div class="o_row" style="padding: 0px 1px!important;">
+                                        <field name="street_07" class="oe_edit_only" options="{'no_create_edit': True, 'no_create': True, 'no_open': True}"/>
+                                        <field name="street_08" class="oe_edit_only" options="{'no_create_edit': True, 'no_create': True, 'no_open': True}"/>
+                                        <label for="street_09" class="oe_edit_only" string=" - "/>
+                                        <field name="street_09" class="oe_edit_only"/>
+                                        <field name="street_10" class="oe_edit_only" options="{'no_create_edit': True, 'no_create': True, 'no_open': True}"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="o_row">
+                        <div class="col-5" style="padding: 0px 1px!important;">
+                            <field name="street_11" class="oe_edit_only" options="{'no_create_edit': True, 'no_create': True, 'no_open': True}"/>
+                        </div>
+                        <div class="col-7" style="padding: 0px 1px!important;">
+                            <field name="street_12" class="oe_edit_only"/>
+                        </div>
+                    </div>
+
+                    <div class="o_row">
+                        <div class="col-5" style="padding: 0px 1px!important;">
+                            <field name="street_13" class="oe_edit_only" options="{'no_create_edit': True, 'no_create': True, 'no_open': True}"/>
+                        </div>
+                        <div class="col-7" style="padding: 0px 1px!important;">
+                            <field name="street_14" class="oe_edit_only"/>
+                        </div>
+                    </div>
+
+                    <div class="o_row">
+                        <div class="col-5" style="padding: 0px 1px!important;">
+                            <field name="street_15" class="oe_edit_only" options="{'no_create_edit': True, 'no_create': True, 'no_open': True}"/>
+                        </div>
+                        <div class="col-7" style="padding: 0px 1px!important;">
+                            <field name="street_16" class="oe_edit_only"/>
+                        </div>
+                    </div>
+
+                    <field name="country_id" placeholder="Country" class="o_address_country" options='{"no_open": True}'/>
+                    <!--
+                    <field name="city" placeholder="City" class="o_address_city"/>
+                    <field name="city_id" placeholder="City" class="o_address_city"/>
+                    <field name="zip" placeholder="ZIP" class="o_address_zip"/>
+                    -->
+
+                    <div class="o_row">
+                        <field name="state_id" class="o_address_state" placeholder="State" options='{"no_open": True}' context="{'country_id': country_id, 'zip': zip}"/>
+                        <field name="country_enforce_cities" invisible="1"/>
+                        <field name='city' placeholder="City" class="o_address_city"
+                            attrs="{'invisible': [('country_enforce_cities', '=', True)]}"/>
+                        <field name='city_id' placeholder="City" string="City" class="o_address_city"
+                            context="{'default_country_id': country_id,
+                                      'default_name': city,
+                                      'default_zipcode': zip,
+                                      'default_state_id': state_id}"
+                            domain="['|', ('country_id', '=', country_id), ('state_id', '=', state_id)]"
+                            attrs="{'invisible': [('country_enforce_cities', '=', False)]}" options='{"no_open": True}'/>
+                        <field name="zip" placeholder="ZIP" class="o_address_zip"/>
+                    </div>
+
+                </field>
+
+                <field name="vat" position="before">
+                    <field name="document_type" attrs="{'required' : [True]}" />
+                </field>
+
+                <field name="vat" position="replace">
+                    <label for="vat" string="NIF"/>
+                    <div  class="o_row">
+                        <field name="vat" placeholder="e.g. EJ000000000" attrs="{'required' : [True]}"/>
+                        <label for="verification_code" string=" - "/>
+                        <field name="verification_code" readonly="1"/>
+                    </div>
+                </field>
+
+            </field>
+        </record>
+    </data>
+</odoo>

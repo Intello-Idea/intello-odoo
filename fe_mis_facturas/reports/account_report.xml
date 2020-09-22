@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_invoices_intello" inherit_id="account.report_invoice_document">
+        <xpath expr="//p[@name='note']" position="before">
+            <div>
+                <span t-field="o.send_registry.cufe"/>
+            </div>
+            <!-- <span t-field="o.fe_qr_code"/> -->
+            <div>
+                <p>
+                    <img class="border border-dark rounded"
+                         t-att-src="o.build_fe_qr_code()"/>
+                </p>
+            </div>
+        </xpath>
+    </template>
+</odoo>

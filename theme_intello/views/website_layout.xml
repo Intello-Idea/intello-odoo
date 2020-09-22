@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Assets Template -->
+    <template id="thi_frontend_layout" name="Intello Main Frontend Layout" inherit_id="portal.frontend_layout">
+        <xpath expr="//head" position="inside">
+            <t t-call-assets="theme_intello.thi_assets_frontend_css" t-js="false"/>
+            <t t-call-assets="theme_intello.thi_assets_frontend_js" t-js="true"/>
+        </xpath>
+
+        <xpath expr="//div[@id='wrapwrap']/header/nav" position="attributes">
+            <attribute name="id">sticky-nav</attribute>
+            <attribute name="class">navbar navbar-expand-md navbar-transparent bg-transparent</attribute>
+        </xpath>
+
+    </template>
+
+    <template id="thi_footer_custom" inherit_id="website.layout" name="Intello Footer">
+        <xpath expr="//div[@id='footer']" position="replace">
+            <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+                <section class="s_text_block pt16 pb8">
+                    <div class="container-fluid footer_body">
+                        <div class="row">
+                            <div class="col-lg-4 offset-lg-1 section_one">
+                                <a href="#" class="navbar-brand logo">
+                                    <img src="/theme_intello/static/src/img/footer/Logo-intello-footer.png"
+                                         class="footer_logo"/>
+                                </a>
+                                <div class="row">
+                                    <div class="col-lg-7 description">
+                                        <h5>LLEGO LA ERA DE LA TRANSFORMACIÓN DIGITAL</h5>
+                                        <p>
+                                            Te brindamos herramientas de software que permitirán a tu empresa alcanzar
+                                            el éxito y perdurar en el tiempo.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-5 pages b-left-orange-4">
+                                        <h5>NUESTRO TRABAJO</h5>
+                                        <ul class="list-unstyled">
+                                            <li><a href="/odoo">ERP ODOO</a></li>
+                                            <li><a href="/app-mobile">APP MOBILE</a></li>
+                                            <li><a href="/web-develop">WEB DEVELOP</a></li>
+                                            <li><a href="/sap-consulting">SAP CONSULTING</a></li>
+                                            <li><a href="/blog">BLOG</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 b-left-orange-4 section_two" id="connect">
+                                <div class="row">
+                                    <div class="col-lg-7 title">
+                                        <h5 class="add">COMPARTAMOS<br/><span>IDEAS</span></h5>
+                                        <a href="contactus" class="btn btn-orange btn-lg">CONTÁCTANOS</a>
+
+                                    </div>
+                                    <div class="col-lg-5 info">
+                                        <ul class="list-unstyled">
+                                            <li><i class="fa fa-map-marker circle-icon"/><span
+                                                    t-field="res_company.street"/></li>
+                                            <li><i class="fa fa-phone circle-icon"/> <span class="o_force_ltr"
+                                                                                           t-field="res_company.phone"/></li>
+                                            <li><i class="fa fa-envelope circle-icon"/>  <span
+                                                    t-field="res_company.email"/></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-1 b-left-orange-4 section_three">
+                                <div class="row d-flex align-items-center justify-content-center">
+                                    <div class="col-lg-12">
+                                        <a t-if="website.social_facebook" t-att-href="website.social_facebook"
+                                           class="btn btn-sm btn-link"><i class="fa fa-2x fa-facebook-square"/></a>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <a t-if="website.social_twitter" t-att-href="website.social_twitter"
+                                           class="btn btn-sm btn-link"><i class="fa fa-2x fa-twitter"/></a>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <a t-if="website.social_linkedin" t-att-href="website.social_linkedin"
+                                           class="btn btn-sm btn-link"><i class="fa fa-2x fa-linkedin"/></a>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <a t-if="website.social_youtube" t-att-href="website.social_youtube"
+                                           class="btn btn-sm btn-link"><i class="fa fa-2x fa-youtube-play"/></a>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <a t-if="website.social_github" t-att-href="website.social_github"
+                                           class="btn btn-sm btn-link"><i class="fa fa-2x fa-github"/></a>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <a t-if="website.social_instagram" t-att-href="website.social_instagram"
+                                           class="btn btn-sm btn-link"><i class="fa fa-2x fa-instagram"/></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </xpath>
+        <xpath expr="//footer[@id='bottom']/div[hasclass('o_footer_copyright')]" position="replace">
+            <div class="o_footer_copyright">
+                <div class="container py-3">
+                    <div class="row">
+                        <div class="col-sm text-center text-sm-left text-muted">
+                            <t t-call="web.debug_icon"/>
+                            <span>Copyright &amp;copy; <script>document.write(new
+                                Date().getFullYear());</script></span> <span t-field="res_company.name" itemprop="name">
+                            Company
+                            name</span>
+                            <t t-call="website.language_selector"/>
+                        </div>
+                        <div class="col-sm text-center text-sm-right">
+                            <t t-call="web.brand_promotion"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="thi_language_selector" inherit_id="website.language_selector" name="Intello Lenguage Selector">
+        <xpath expr="//div[hasclass('dropup')]/button" position="replace">
+            <button class="btn btn-sm btn-light dropdown-toggle" type="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="true">
+                <span t-esc="list(filter(lambda lg : lg[0] == lang, languages))[0][2].split('/').pop()"/>
+                <span class="caret ml4"/>
+            </button>
+        </xpath>
+    </template>
+
+    <template id="thi_brand_promotion" inherit_id="web.brand_promotion"
+              name="Intello Brand Promotion">
+        <xpath expr="//div[hasclass('o_brand_promotion')]" position="replace">
+            <div class="o_brand_promotion">
+                Powered by
+                <a target="_blank"
+                   t-attf-href="http://www.odoo.com?utm_source=db&amp;utm_medium=#{_utm_medium}"
+                   class="badge badge-light">
+                    <img alt="Odoo"
+                         src="/theme_intello/static/src/img/footer/logos-footer.png"
+                         style="height: 1em; vertical-align: baseline;"/>
+                </a>
+                -
+                Crea una <a target="_blank"
+                            href="http://www.odoo.com/page/website-builder?utm_source=db&amp;utm_medium=website">web
+                aquí</a>
+
+            </div>
+        </xpath>
+    </template>
+
+    <template id="thi_submenu" inherit_id="website.submenu" name="Intello Submenu">
+        <xpath expr="//li[1]" position="replace">
+            <li t-if="submenu.is_visible and not has_visible_submenu" t-attf-class="#{item_class or ''}">
+                <a t-att-href="submenu.clean_url()"
+                   t-attf-class="#{link_class or ''} #{'active' if submenu.clean_url() and unslug_url(request.httprequest.path) == unslug_url(submenu.clean_url()) else ''}"
+                   role="menuitem"
+                   t-ignore="true"
+                   t-att-target="'_blank' if submenu.new_window else None">
+                    <i t-if="submenu.class_icon" t-attf-class="#{submenu.class_icon}"/><span t-field="submenu.name"/>
+                </a>
+            </li>
+        </xpath>
+    </template>
+</odoo>

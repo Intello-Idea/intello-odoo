@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-from odoo import fields, models, api
+from odoo import fields, models, api, exceptions, _
+import inspect
+
 
 class DocumentType(models.Model):
     _name = 'ln10_co_intello.documenttype'
@@ -8,9 +10,11 @@ class DocumentType(models.Model):
     key_dian = fields.Integer(required=True, string="DIAN Key")
     name = fields.Char(required=True, index=True, string="Name")
     with_digit = fields.Boolean(default=False, string="With Verification Digit")
+    code_short = fields.Char('Code Short')
 
     _sql_constraints = [('keyDian_uniq', 'UNIQUE(key_dian)', 'Duplicate Key DIAN value is not allowed!'),
                         ('name_uniq', 'UNIQUE(name)', 'Duplicate Name is not allowed!')]
+
 
 class DianCodes(models.Model):
     _name = 'ln10_co_intello.diancodes'
@@ -24,13 +28,20 @@ class DianCodes(models.Model):
                              ('paymentmethod', 'Payment Method'),
                              ('representation', 'Representation'),
                              ('customs', 'Customs'),
-                             ('establishment', 'Establishment')],
+                             ('establishment', 'Establishment'),
+                             ('uom', 'Unit of Measure'),
+                             ('lang', 'Language'),
+                             ('fiscalposition', 'Fiscal Position'),
+                             ('creditnote', 'Credit Note Concept'),
+                             ('debitnote', 'Debit Note Concept')],
+
                             required=True, string="Code Type")
 
     '''
     _sql_constraints = [('keyDian_uniq', 'UNIQUE(type,key_dian)', 'Duplicate Key DIAN value is not allowed!')]
     ,('name_uniq', 'UNIQUE(type,name)', 'Duplicate Name is not allowed!')]
     '''
+
 
 class CIIUCodes(models.Model):
     _name = 'ln10_co_intello.ciiucodes'
@@ -43,6 +54,7 @@ class CIIUCodes(models.Model):
     _sql_constraints = [('code_uniq', 'UNIQUE(code)', 'Duplicate Code value is not allowed!'),
                         ('name_uniq', 'UNIQUE(name)', 'Duplicate Name value is not allowed!')]
 
+
 class NomenclatureDIAN(models.Model):
     _name = 'ln10_co_intello.nomenclaturedian'
     _description = "Colombian DIAN Nomenclature"
@@ -51,75 +63,48 @@ class NomenclatureDIAN(models.Model):
     name = fields.Char(required=True, index=True, string="Name")
     type = fields.Selection([('principal', 'Principal'),
                              ('qualifiying', 'Qualifiying'),
-                             ('additional', 'Additional')], string="Nomenclature Type")
+                             ('additional', 'Additional'),
+                             ('letter', 'Letters')], string="Nomenclature Type")
 
-    _sql_constraints = [('abbreviation_uniq', 'UNIQUE(abbreviation)', 'Duplicate Abbreviation value is not allowed!'),
-                        ('name_uniq', 'UNIQUE(name)', 'Duplicate Name value is not allowed!')]
+    _sql_constraints = [('name_uniq', 'UNIQUE(name)', 'Duplicate Name value is not allowed!')]
 
-'''
-    @api.multi
-    def name_get(self, context=None):
-        if context is None:
-            context = {}
-        res = []
-        if context.get('display_code', False):
-            for record in self:
-                res.append(record.code)
-        else:
-            # Do a for and set here the standard display name, for example if the standard display name were name, you should do the next for
-            for record in self:
-                res.append(record.name)
-        return res
-'''
-'''
-    @api.multi
-    def name_get(self):
-        result = []
-        for record in self:
-            record_name = record.movie + ' - ' + record.seat_number
-            result.append((record.id, record_name))
-        return result
 
-    def name_get(self, cr, uid, ids, context=None):
-        if u'compute_name' in context:
-            # check value from frontend and call custom method
-            return getattr(self, context[u'compute_name'])(cr, uid, ids, context)
-        else:
-            # call base method
-            return super(TestProject, self).name_get(cr, uid, ids, context=context)
+class InvoiceResolution(models.Model):
+    _name = 'account.dian.resolution'
+    _description = 'Invoice Resolution'
 
-    def _get_my_name(self, cr, uid, ids, context):
-        res = []
-        for record in self.browse(cr, uid, ids, context=context):
-            res.append((record.id, record.prj_id.name))
-        return res
-'''
-'''
-class PersonType(models.Model):
-    _name = 'ln10_co_intello.persontype'
+    name = fields.Char(compute="_compute_name_resolution")
+    resolution = fields.Char('Resolution Number', required=True, )
 
-    key_dian = fields.Integer(required=True, string="DIAN Key")
-    name = fields.Char(required=True, index=True, string="Name")
+    date = fields.Date(string="Resolution Date")
+    ini_date = fields.Date('Initial Date')
+    fin_date = fields.Date('Final Date')
+    prefix = fields.Char('Prefix')
+    ini_number = fields.Integer('Init Number', default=1)
+    fin_number = fields.Integer('Final Number', default=1)
+    type = fields.Selection([('normal', 'Normal'), ('electronic', 'Electronic'), ], default="normal")
 
-    _sql_constraints = [('keyDian_uniq', 'UNIQUE(key_dian)', 'Duplicate Key DIAN value is not allowed!'),
-                        ('name_uniq', 'UNIQUE(name)', 'Duplicate Name is not allowed!')]
+    @api.onchange('fin_date', 'ini_date')
+    def _verify_date(self):
 
-class FiscalRegime(models.Model):
-    _name = 'ln10_co_intello.fiscalregime'
+        if self.fin_date and self.ini_date:
+            if self.ini_date > self.fin_date:
+                raise exceptions.Warning(_("The start date cannot be greater than the end date"))
 
-    key_dian = fields.Char(required=True, string="DIAN Key")
-    name = fields.Char(required=True, index=True, string="Name")
+    @api.onchange('fin_number', 'ini_number')
+    def _verify_number(self):
 
-    _sql_constraints = [('keyDian_uniq', 'UNIQUE(key_dian)', 'Duplicate Key DIAN value is not allowed!'),
-                        ('name_uniq', 'UNIQUE(name)', 'Duplicate Name is not allowed!')]
+        if self.ini_number == 0:
+            raise exceptions.Warning(_("The initial number cannot be equal to zero"))
 
-class FiscalResponsibility(models.Model):
-    _name = 'ln10_co_intello.fiscalresponsibility'
+        if self.ini_number > self.fin_number:
+            raise exceptions.Warning(_("The initial number cannot be greater than the final number"))
 
-    key_dian = fields.Char(required=True, string="DIAN Key")
-    name = fields.Char(required=True, index=True, string="Name")
-    active = fields.Boolean(default=True)
-
-    _sql_constraints = [('keyDian_uniq', 'UNIQUE(key_dian)', 'Duplicate Key DIAN value is not allowed!'),
-                        ('name_uniq', 'UNIQUE(name)', 'Duplicate Name is not allowed!')]
-'''
+    @api.model
+    def _compute_name_resolution(self):
+        for name in self:
+            if name.prefix:
+                name.name = name.prefix + " del " + str(name.ini_number) + " hasta " + str(
+                    name.fin_number) + " - " + str(name.date)
+            else:
+                name.name = "Del " + str(name.ini_number) + " hasta " + str(name.fin_number) + " - " + str(name.date)

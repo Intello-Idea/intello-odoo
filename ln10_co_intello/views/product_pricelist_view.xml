@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="product_pricelist_inherit_form" model="ir.ui.view">
+            <field name="name">product.pricelist.form.inherit</field>
+            <field name="model">product.pricelist</field>
+            <field name="inherit_id" ref="product.product_pricelist_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='item_ids']//tree//field[@name='date_end']" position="after">
+                    <!--<field name="price_unit" readonly="1"
+                           attrs="{'invisible':['|',('base', '=', 'pricelist'),('applied_on','!=','1_product')]}"></field>
+                    <field name="base_price" readonly="1"
+                           attrs="{'invisible':['|',('base', '=', 'pricelist'),('applied_on','!=','1_product')]}"></field>
+                    <field name="price_discount" readonly="1"></field> -->
+                </xpath>
+            </field>
+        </record>
+
+        <record id="product_pricelist_item_inherit_view" model="ir.ui.view">
+            <field name="name">product.pricelist.item.form</field>
+            <field name="model">product.pricelist.item</field>
+            <field name="inherit_id" ref="product.product_pricelist_item_form_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='base']" position="after">
+                    <field name="gpm_check" widget="boolean_toggle"
+                           attrs="{'invisible':['|',('compute_price','!=','formula'),('base','!=','standard_price')]}"/>
+                </xpath>
+
+                <xpath expr="//group[@name='pricelist_rule_advanced']" position="replace">
+
+                    <group name="pricelist_rule_advanced" col="6"
+                           attrs="{'invisible':['|',('compute_price', '!=', 'formula'),('gpm_check','=',True)]}"
+                           groups="product.group_sale_pricelist">
+                        <label for="" string="New Price ="/>
+                        <div>
+                            <span attrs="{'invisible':[('base', '!=', 'list_price')]}">Sales Price - </span>
+                            <span attrs="{'invisible':[('base', '!=', 'standard_price')]}">Cost - </span>
+                            <span attrs="{'invisible':[('base', '!=', 'pricelist')]}">Other Pricelist - </span>
+                        </div>
+                        <label for="price_discount"/>
+                        <div class="o_row">
+                            <field name="price_discount"/>
+                            <span>%%</span>
+                        </div>
+                        <label string=" + " for="price_surcharge"/>
+                        <field name="price_surcharge" nolabel="1"/>
+
+                        <field name="price_round" string="Rounding Method"/>
+                        <field name="price_min_margin" string="Min. Margin"/>
+                        <field name="price_max_margin" string="Max. Margin"/>
+                    </group>
+
+
+                    <group name="pricelist_rule_advanced_gpm" col="8"
+                           attrs="{'invisible':['|',('compute_price', '!=', 'formula'),('gpm_check','=',False)]}">
+                        <label for="" string="New Price ="/>
+                        <div>
+                            <span attrs="{'invisible':[('base', '!=', 'list_price')]}">Sales Price / (1 - (</span>
+                            <span attrs="{'invisible':[('base', '!=', 'standard_price')]}">( Cost + </span>
+                            <span attrs="{'invisible':[('base', '!=', 'pricelist')]}">Other Pricelist / (1 - (</span>
+                        </div>
+
+                        <label for="risk_factor"/>
+                        <field name="risk_factor" nolabel="1"/> <span>%) / (1 - (</span>
+
+                        <label for="gpm"/>
+                        <div class="o_row">
+                            <field name="gpm"/>
+                            <span>%)</span>
+                        </div>
+
+                        <field name="price_round" string="Rounding Method"/>
+                        <field name="price_min_margin" string="Min. Margin"/>
+                        <field name="price_max_margin" string="Max. Margin"/>
+                    </group>
+                </xpath>
+
+            </field>
+        </record>
+
+    </data>
+</odoo>

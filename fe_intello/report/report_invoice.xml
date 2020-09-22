@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_invoices_intello" inherit_id="account.report_invoice_document">
+        <xpath expr="//p[@name='note']" position="after">
+            <div id="cufe" name="cufe">
+                <table class="table" style="width:100%">
+                    <tr>
+                        <td style="width:80%">
+                            <p style="font-size: 7pt;">
+                                Este documento corresponde a la representación gráfica de una factura electrónica. <br/>
+                                Confirme el CUFE mediante lectura de este código bidimensional:<br/><br/>
+                                CUFE: <span t-field="o.send_registry.cufe"/><br/><br/>
+                                <span style="font-size: 6pt;">Impreso por Intello Idea S.A.S.</span>
+                            </p>
+                        </td>
+                        <td style="width:20%">
+                            <img width="90" height="90" t-att-src="o.build_fe_qr_code()"/>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </xpath>
+    </template>
+</odoo>

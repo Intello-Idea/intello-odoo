@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="thi_app_mobile" model="ir.ui.view">
+            <field name="name">App Mobile</field>
+            <field name="type">qweb</field>
+            <field name="key">theme_intello.thi_app_mobile</field>
+            <field name="arch" type="xml">
+                <t name="App Mobile" priority="30" t-name="theme_intello.thi_app_mobile">
+                    <t t-call="website.layout">
+                        <t t-set="pageName" t-value="'web_develop'"/>
+                        <div id="wrap" class="oe_structure">
+                            <section id="page_mobile_banner_id" name="page_mobile_banner"
+                                     class="banner banner_app_mobile">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-7 offset-md-1 banner-app-padding">
+                                            <div class="banner-title-text">
+                                                <h1>
+                                                    <span class="banner-title-top text-spacing">CREAMOS</span>
+                                                    <span class="banner-title-middle">APLICACIONES</span>
+                                                    <span class="banner-title-bottom">inteligentes</span>
+                                                </h1>
+                                            </div>
+                                            <div style="banner-title-line">
+                                                <hr class="bottom-line"/>
+                                            </div>
+                                            <div class="banner-subtitle-text">
+                                                <h4 class="banner-subtitle">
+                                                    ¡Soluciones seguras en plataformas
+                                                    <span class="banner-subtitle-bold">iOS </span>
+                                                    y
+                                                    <span class="banner-subtitle-bold">Android!</span>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4"/>
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="page_app_mobile_our_work_id" name="page_app_mobile_our_work"
+                                     class="margin-section-middle">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-11 offset-md-1 background-app-mobile-section-middle">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <div class="title-mobile-section-middle">
+                                                        <div class="b-left-white">
+                                                            <h1 class="title_our">
+                                                                Nuestro
+                                                            </h1>
+                                                        </div>
+                                                        <div class="subtitle-mobile-bottom">
+                                                            <h2 class="subtitle_our">
+                                                                trabajo
+                                                            </h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-1"/>
+                                                <div class="col-md-5">
+                                                    <div class="align-items-center justify-content-center">
+                                                        <p class="text-justify paragraph">
+                                                            Las aplicaciones móviles permitirán a tus usuarios estar
+                                                            siempre conectados desde cualquier lugar y dispositivo,
+                                                            es sin lugar a dudas una excelente manera de potenciar
+                                                            tu
+                                                            marca, fidelizar a tus clientes y multiplicar tus
+                                                            ventas.
+                                                        </p>
+                                                        <p class="text-justify paragraph-bold">
+                                                            ¿Ya estás aprovechando los beneficios de una app móvil en tu
+                                                            empresa?
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-1"/>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="page_mobile_bullet_id" name="page_app_mobile_bullet ">
+                                <div class="container-fluid ">
+                                    <div class="row">
+                                        <div class="col-md-5 offset-md-1 margin-column-mobile">
+                                            <img src="/theme_intello/static/src/img/app-mobile/Grafico.png"
+                                                 class="img-fluid">
+
+                                            </img>
+                                        </div>
+                                        <div class="col-md-5  background-bottom">
+                                            <div class="section-bottom-mobile align-items-center justify-content-center">
+                                                <div class="text-justify text-paragraph-top">
+                                                    <p>
+                                                        Tu aplicación móvil podrá ser personalizada, con un diseño
+                                                        orientado a tener una gran experiencia de usuario y obtener los
+                                                        máximos resultados de venta para tu negocio teniendo en cuenta:
+
+                                                    </p>
+                                                </div>
+                                                <div class="align-items-center justify-content-center text-paragraph-bot">
+                                                    <ul>
+                                                        <li> Usabilidad</li>
+                                                        <li> Visibilidad</li>
+                                                        <li> Velocidad</li>
+                                                        <li> Simplicidad </li>
+                                                        <li> Estabilidad</li>
+                                                        <li> Navegación intuitiva</li>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+    </data>
+
+    <data noupdate="1">
+        <!-- Manage Page odoo -->
+        <record id="thi_app_mobile_page" model="website.page">
+            <field name="is_published">True</field>
+            <field name="url">/app-mobile</field>
+            <field name="view_id" ref="theme_intello.thi_app_mobile"/>
+            <field name="track">True</field>
+        </record>
+
+    </data>
+</odoo>
+

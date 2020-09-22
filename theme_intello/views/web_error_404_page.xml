@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="theme_epithelium_404" inherit_id="http_routing.404">
+        <xpath expr="//*[@id='wrap']" position="replace">
+            <t t-set="no_footer">1</t>
+            <div id="wrap" class="oe_structure background-404">
+                <div class="container-fluid h-100">
+                    <div class="d-flex align-items-end justify-content-center h-100">
+                        <div class="d-flex h-25 align-items-start">
+                            <div class="text-404">
+                                <h1 class="text-center">
+                                    !PÁGINA NO ENCONTRADA¡
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

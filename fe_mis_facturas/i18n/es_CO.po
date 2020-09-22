@@ -1,0 +1,153 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fe_mis_facturas
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0-20200403\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-17 20:58+0000\n"
+"PO-Revision-Date: 2020-07-17 16:14-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_CO\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#. module: fe_mis_facturas
+#: model:ir.actions.act_window,name:fe_mis_facturas.action_fe_mf_config_view
+#: model:ir.ui.menu,name:fe_mis_facturas.menu_fe_mf_config_view
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: fe_mis_facturas
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_config__create_uid
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_login_token__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: fe_mis_facturas
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_config__create_date
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_login_token__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: fe_mis_facturas
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_login_token__date
+msgid "Date"
+msgstr "Fecha"
+
+#. module: fe_mis_facturas
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_config__display_name
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_login_token__display_name
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_methods__display_name
+msgid "Display Name"
+msgstr "Mostrar Nombre"
+
+#. module: fe_mis_facturas
+#: model:ir.model,name:fe_mis_facturas.model_fe_mf_config
+msgid "Fe with Mis Facturas"
+msgstr "Facturación Electrónica con Mis Facturas"
+
+#. module: fe_mis_facturas
+#: model:ir.model,name:fe_mis_facturas.model_fe_mf_login_token
+msgid "Get token"
+msgstr "Obtener token"
+
+#. module: fe_mis_facturas
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_config__id
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_login_token__id
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_methods__id
+msgid "ID"
+msgstr ""
+
+#. module: fe_mis_facturas
+#: model:ir.model,name:fe_mis_facturas.model_account_move
+msgid "Journal Entries"
+msgstr "Asientos contables"
+
+#. module: fe_mis_facturas
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_config____last_update
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_login_token____last_update
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_methods____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: fe_mis_facturas
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_config__write_uid
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_login_token__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: fe_mis_facturas
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_config__write_date
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_login_token__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: fe_mis_facturas
+#: model:ir.model,name:fe_mis_facturas.model_fe_mf_methods
+msgid "Metodos para la interfaz del cliente API"
+msgstr ""
+
+#. module: fe_mis_facturas
+#: model_terms:ir.ui.view,arch_db:fe_mis_facturas.view_fe_mf_config_form
+#: model_terms:ir.ui.view,arch_db:fe_mis_facturas.view_fe_mf_config_tree
+msgid "Mis Facturas Electronic Invoice"
+msgstr "Mis Facturas Factura Electrónica"
+
+#. module: fe_mis_facturas
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_config__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: fe_mis_facturas
+#: model_terms:ir.ui.view,arch_db:fe_mis_facturas.view_fe_mf_config_form
+msgid "Parameters"
+msgstr "Parámetros"
+
+#. module: fe_mis_facturas
+#: model_terms:ir.ui.view,arch_db:fe_mis_facturas.view_fe_mf_config_form
+msgid "Parameters Test"
+msgstr "Parámetros de prueba"
+
+#. module: fe_mis_facturas
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_config__password
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_config__test_password
+msgid "Password"
+msgstr "Contraseña"
+
+#. module: fe_mis_facturas
+#: model_terms:ir.actions.act_window,help:fe_mis_facturas.action_fe_mf_config_view
+msgid "Please, a configuration record"
+msgstr "Por favor, agregue una configuración"
+
+#. module: fe_mis_facturas
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_config__test_url_web_service
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_config__url_web_service
+msgid "Route"
+msgstr "Url"
+
+#. module: fe_mis_facturas
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_config__test
+msgid "Test"
+msgstr "Prueba"
+
+#. module: fe_mis_facturas
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_config__test_mode
+msgid "Test Mode"
+msgstr "Modo Prueba"
+
+#. module: fe_mis_facturas
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_login_token__token
+msgid "Token"
+msgstr "Token"
+
+#. module: fe_mis_facturas
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_config__test_user
+#: model:ir.model.fields,field_description:fe_mis_facturas.field_fe_mf_config__user
+msgid "User"
+msgstr "Usuario"
