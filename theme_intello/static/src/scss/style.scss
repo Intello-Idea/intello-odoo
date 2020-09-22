@@ -1,0 +1,2425 @@
+/* Copyright 2020 Intello Idea.
+ * License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
+
+// General SCSS
+$intello-orange: #ff5b00;
+$intello-orange_dark: #bf4200;
+$intello-orange_disable: #ffab85;
+$intello_transparent: #ffffff00;
+$intello_black: #1a1a1a;
+$intello_white: #FFF;
+$intello_gray: #ccc;
+$intello_dark_gray: #333333;
+$intello_odoo_violet: #AA4D77;
+$intello-primary-gray: #808080;
+
+// fonts
+@font-face {
+  font-family: "Open Sans" ;
+  src: url(/theme_intello/static/src/font/OPENSANS-SEMIBOLD.TTF) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Montserrat Alternates Black" ;
+  src: url(/theme_intello/static/src/font/MontserratAlternates-Bold_0.otf) format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Alternates Black" ;
+  src: url(/theme_intello/static/src/font/MontserratAlternates-Light_0.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Bold" ;
+  src: url(/theme_intello/static/src/font/MONTSERRAT-BOLD.OTF) format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Light" ;
+  src: url(/theme_intello/static/src/font/MONTSERRAT-LIGHT.OTF) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Extra Bold" ;
+  src: url(/theme_intello/static/src/font/MONTSERRAT-EXTRABOLD_0.OTF) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Century Gothic Regular" ;
+  src: url(/theme_intello/static/src/font/GOTHIC.TTF) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Century Gothic Regular" ;
+  src: url(/theme_intello/static/src/font/GOTHICB.TTF) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aller" ;
+  src: url(/theme_intello/static/src/font/aller-bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aller" ;
+  src: url(/theme_intello/static/src/font/aller-regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quicksand" ;
+  src: url(/theme_intello/static/src/font/QUICKSAND-BOLD.OTF) format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.o_affix_enabled {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.o_header_affix {
+  nav {
+    background: #1A1A1A !important;
+  }
+}
+
+// Start Nabvar
+.navbar-transparent {
+  .navbar-brand {
+    color: white;
+
+    &:hover, &:focus {
+      color: $intello-orange;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $intello_white !important;
+
+      &:hover, &:focus {
+        color: $intello-orange !important;
+      }
+
+      &.disabled {
+        color: rgba(255, 255, 255, 0.25) !important;
+      }
+    }
+
+    .show > .nav-link, .active > .nav-link {
+      color: #fff !important;
+    }
+
+    .nav-link {
+      &.show, &.active {
+        color: $intello-orange !important;
+      }
+    }
+  }
+
+  .navbar-toggler {
+    color: rgba(255, 255, 255, 0.5) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+  }
+
+  .navbar-text {
+    color: rgba(255, 255, 255, 0.5) !important;
+
+    a {
+      color: #fff;
+
+      &:hover, &:focus {
+        color: #fff;
+      }
+
+    }
+  }
+
+  li {
+    .dropdown-menu {
+      border-radius: 0;
+      background: $intello-orange;
+
+      .dropdown-item.active {
+        background: $intello_white;
+        color: $intello-orange !important;
+      }
+
+      .dropdown-item {
+        color: $intello-white !important;
+
+        i {
+          padding-right: 0.7em;
+          font-size: 2em;
+        }
+
+        &:hover, &:focus {
+          color: $intello-orange !important;
+        }
+
+        &:active {
+          color: $intello_white !important;
+          background: $intello-orange_dark;
+        }
+      }
+    }
+  }
+}
+
+// End Nabvar
+.bg-transparent {
+  background-color: $intello_transparent !important;
+}
+
+a.bg-transparent {
+  &:hover, &:focus {
+    background-color: #1d2124 !important;
+  }
+}
+
+button.bg-transparent {
+  &:hover, &:focus {
+    background-color: #1d2124 !important;
+  }
+}
+
+.banner {
+  width: 100%;
+  height: 700px; //648px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.banner-title-text {
+  padding-top: 7em;
+  padding-right: 6em;
+}
+
+.banner-title-line {
+  padding-top: 1em;
+}
+
+.banner-subtitle-text {
+  padding-top: 2em;
+  padding-right: 12em;
+}
+
+.btn-orange {
+  color: #fff !important;
+  background-color: $intello-orange !important;
+  border-color: $intello-orange_dark !important;
+
+  &:hover {
+    color: #fff !important;;
+    background-color: $intello-orange_dark !important;;
+    border-color: $intello-orange !important;;
+  }
+}
+
+.bg-orange {
+  background: $intello-orange;
+}
+
+.b-left-orange {
+  border-left: 6px solid $intello-orange;
+}
+
+.b-left-orange-4 {
+  border-left: 4px solid $intello-orange;
+}
+
+.b-left-white {
+  border-left: 6px solid $intello_white;
+}
+
+.b-left-black {
+  border-left: 6px solid $intello_black;
+}
+
+.b-top-orange {
+  border-top: 6px solid $intello-orange;
+}
+
+.b-bottom-orange {
+  border-top: 6px solid $intello-orange;
+}
+
+.bottom-line {
+  width: 4em;
+  height: 0.3em;
+  margin: 0;
+  background-color: $intello-orange;
+}
+
+.title_our {
+  padding-left: 10px;
+  font-family: "Montserrat Alternates Black";
+  font-weight: bold;
+  font-size: 75pt;
+}
+
+.subtitle_our {
+  font-family: "Montserrat Alternates Black";
+  font-weight: lighter;
+  font-size: 50pt;
+}
+
+.title-section {
+  h3 {
+    font-family: "Montserrat Alternates Black";
+    font-weight: bold;
+    font-size: 71pt;
+  }
+
+  h4 {
+    font-family: "Montserrat Alternates Black";
+    font-weight: lighter;
+    font-size: 45pt;
+  }
+}
+
+.content-section {
+  font-family: "Century Gothic Regular";
+  font-size: 14pt;
+}
+
+.text-spacing {
+  letter-spacing: 28px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .banner {
+    width: 100%;
+    height: 400px; //648px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+  .banner-title-text {
+    padding-top: 4em;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+
+  .banner {
+    width: 100%;
+    height: 400px; //648px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+  .banner-title-text {
+    padding-top: 4em;
+    padding-right: 0;
+  }
+}
+
+// End General SCSS
+
+
+// start layout_footer
+#footer {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/theme_intello/static/src/img/footer/Fondo-footer-08.png);
+  color: white !important;
+
+  .footer_body {
+
+    padding-bottom: 4em;
+    padding-top: 2em;
+
+    h5 {
+      font-family: "Aller";
+      font-weight: normal;
+      font-size: 14.25pt;
+    }
+
+    .section_one {
+      padding-left: 2em;
+
+      .description {
+        padding-right: 1.5em;
+
+        h5 {
+          padding-bottom: 1em;
+        }
+      }
+
+      .pages {
+
+        padding-left: 1.5em;
+
+        h5 {
+          padding: 0.4em 0;
+        }
+
+        .list-unstyled {
+
+          font-family: "Aller";
+          font-weight: bold;
+          font-style: normal;
+          font-size: 10.21pt;
+          text-decoration: underline;
+
+          a {
+            color: $intello_white;
+          }
+
+          li {
+            padding: 0.7em 0;
+          }
+        }
+      }
+
+
+      p {
+        font-family: "Century Gothic Regular";
+        font-weight: normal;
+        font-style: normal;
+        font-size: 12pt;
+        text-align: justify;
+      }
+
+      .logo {
+        padding-bottom: 2em;
+
+        img {
+          width: 15em;
+        }
+      }
+    }
+
+    .section_two {
+
+      padding-right: 2em;
+      padding-top: 2em;
+
+      .add {
+        font-family: "Aller";
+        font-weight: bold;
+        font-size: 31.18pt;
+
+        span {
+          font-size: 82pt;
+        }
+      }
+
+      .btn-orange {
+        border-radius: 0 !important;
+      }
+
+      .title {
+        padding-top: 2em;
+        padding-left: 2em;
+      }
+
+      .info {
+        padding-top: 3em;
+
+        .list-unstyled {
+          color: $intello_black;
+          text-align: left;
+
+          li {
+            padding-top: 2em;
+          }
+
+          .circle-icon {
+            background: $intello_white;
+            padding: 5px;
+            border-radius: 50%;
+            width: 26px;
+            text-align: center;
+          }
+
+          span {
+            padding-left: 1em;
+            color: $intello_white;
+            font-family: "Century Gothic Regular";
+            font-weight: normal;
+            font-style: normal;
+            font-size: 10pt;
+            text-align: right;
+          }
+        }
+      }
+    }
+
+    .section_three {
+      a {
+        i {
+          color: $intello-orange;
+        }
+      }
+
+      .row {
+        height: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.o_footer_copyright {
+  background: $intello_orange;
+  background-image: url(/theme_intello/static/src/img/footer/Ima-footer1-09.png), url(/theme_intello/static/src/img/footer/Ima-footer2-08.png);
+  background-position: left top, right;
+  background-size: 200px, 400px;
+  background-repeat: no-repeat, no-repeat;
+  color: $intello_black;
+
+  span {
+    color: $intello-black;
+  }
+
+  .btn-light {
+    span {
+      color: $intello_black !important;
+    }
+  }
+
+  ul > li:nth-child(2) > a {
+    color: $intello-white;
+  }
+
+  .o_brand_promotion {
+    color: $intello_white;
+
+    a {
+      color: $intello_white;
+      text-decoration: underline;
+    }
+  }
+
+}
+
+// layout_footer end
+
+
+// Start web_home_page
+#wrap.page_home {
+  .banner_home {
+    background-image: url(/theme_intello/static/src/img/home/Banner-01.png);
+  }
+
+  .banner-title-text {
+    color: $intello_white;
+    padding-top: 5em;
+    padding-right: 6em;
+
+    .banner-title-top {
+      font-family: "Montserrat Alternates Black";
+      font-weight: lighter;
+      font-size: 56.4pt;
+    }
+
+    .banner-title-middle {
+      font-family: "Montserrat Alternates Black";
+      font-weight: bold;
+      font-size: 46.42pt;
+    }
+
+    .banner-title-bottom {
+      font-family: "Montserrat Alternates Black";
+      font-weight: lighter;
+      font-size: 46.42pt;
+
+      span {
+        font-family: "Montserrat Alternates Black";
+        font-weight: bold;
+      }
+    }
+  }
+
+  .banner-subtitle-text {
+    color: $intello_white;
+
+    .banner-subtitle {
+      font-family: "Century Gothic Regular";
+      font-weight: normal;
+      font-size: 21pt;
+    }
+  }
+
+  #official_partner_id.margin-section-middle {
+    margin-top: -6em;
+
+    .background {
+      width: 100%;
+      height: 800px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url(/theme_intello/static/src/img/home/Partner-oficial.png);
+
+      .title-section-middle {
+        padding-top: 5em;
+        padding-left: 10em;
+      }
+
+      .subtitle-bottom {
+        padding-left: 11em;
+      }
+
+      .paragraph {
+        padding: 2em 6em 1em 2em;
+        font-family: "Century Gothic Regular";
+        font-weight: normal;
+        font-size: 21pt;
+        color: $intello_white;
+      }
+
+      .button_erp {
+        img {
+          height: 11em;
+          padding-left: 2em;
+        }
+      }
+    }
+  }
+
+  #scrum_methodology_id {
+    padding-top: 3em;
+    width: 100%;
+    background-size: 1600px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-image: url(/theme_intello/static/src/img/home/Metodologia-scrum.png);
+
+    .title_pre {
+      text-align: center;
+      font-family: "Montserrat Alternates Black";
+      font-weight: lighter;
+      font-size: 44.07pt;
+      color: $intello-primary-gray;
+    }
+
+    .title {
+      text-align: left;
+      font-family: "Montserrat Alternates Black";
+      font-weight: bold;
+      font-size: 54.7pt;
+      color: $intello-black;
+
+      span {
+        font-family: "Aller";
+        font-weight: bold;
+        font-size: 88.48pt;
+      }
+    }
+
+    .body {
+      padding-top: 16em;
+      padding-bottom: 6em;
+    }
+
+    .paragraph {
+      text-align: left;
+      font-family: "Century Gothic Regular";
+      font-weight: normal;
+      font-size: 21pt;
+      color: $intello-black;
+    }
+  }
+
+  #scrum_cycle_id {
+    padding-top: 3em;
+    margin-top: 6em;
+
+    .card {
+      border: 3px solid $intello-orange;
+      border-radius: 20px;
+
+
+      .card-body {
+        background: transparent !important;
+        padding: 0 0 3em 0;
+
+        .card-title {
+          text-align: center;
+          font-family: "Quicksand";
+          font-weight: bold;
+          font-size: 16.41pt;
+          color: $intello_black;
+        }
+      }
+
+      &.orange {
+        background: $intello-orange;
+
+        .card-title {
+          color: $intello_white;
+        }
+      }
+    }
+
+    .paragraph {
+      padding: 3em 1em;
+      text-align: center;
+      font-family: "Century Gothic Regular";
+      font-weight: normal;
+      font-size: 16pt;
+      color: $intello_dark_gray;
+    }
+  }
+
+  #our_experience_id {
+    .banner {
+      width: 100%;
+      //height: 700px; //648px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center right;
+    }
+
+    .banner-left {
+      background-image: url(/theme_intello/static/src/img/home/Fondo-experiencia.png);
+
+      .title {
+        font-family: "Century Gothic Regular";
+        font-weight: normal;
+        font-size: 26pt;
+        color: $intello-black;
+      }
+    }
+
+    .banner-right {
+      background-image: url(/theme_intello/static/src/img/home/Fondo-trayectoria.png);
+
+      .title {
+        text-align: right;
+        font-family: "Aller";
+        font-weight: bold;
+        font-size: 30.77pt;
+        color: $intello-white;
+
+        span {
+          font-size: 55.13pt;
+        }
+
+      }
+
+      .paragraph {
+        text-align: justify;
+        font-family: "Century Gothic Regular";
+        font-weight: normal;
+        font-size: 14pt;
+        color: $intello-white;
+      }
+
+      .subtitle {
+        text-align: left;
+        font-family: "Aller";
+        font-weight: bold;
+        font-size: 55.13pt;
+        color: $intello-primary-gray;
+      }
+    }
+
+    .card {
+      background: $intello-transparent;
+      border: 0;
+
+      .card-body {
+        background: $intello-transparent !important;
+        padding-top: 0;
+
+        .card-title {
+          text-align: center;
+          font-family: "Aller";
+          font-weight: bold;
+          font-size: 16pt;
+          color: $intello-black;
+        }
+      }
+    }
+  }
+
+  #our_clients_id {
+    margin: 4em 0;
+
+    .client {
+      img {
+        max-width: 90%;
+      }
+    }
+  }
+}
+
+// End web_home_page
+
+
+// Start web Our Work
+.banner-our-work {
+  background-image: url(/theme_intello/static/src/img/our-work/Banner-01.png);
+
+  .padding-title-banner {
+    padding-top: 4em;
+  }
+}
+
+.section-logo-our-work {
+  padding-top: 5em;
+
+  .img-logo-intello {
+    width: 700px;
+    height: 200px;
+  }
+
+  .logo-simbolo {
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+
+    .img-logo-simbolo {
+      width: 350px;
+      height: 200px;
+    }
+  }
+
+  .height-col-our-work {
+    height: 10em;
+  }
+
+  .text-our-work {
+    p {
+      font-family: "Century Gothic Regular";
+      font-weight: lighter;
+      font-size: 16pt;
+    }
+
+    h3 {
+      padding-top: 2em;
+      font-family: "Century Gothic Regular";
+      font-weight: bold;
+      color: $intello-orange;
+    }
+
+    img {
+      padding-top: 1em;
+      width: 200px;
+      height: 94px;
+    }
+
+    .border-color-padding {
+      padding-left: 1em;
+      padding-right: 2em;
+    }
+  }
+}
+
+.section-bottom-our {
+  padding-top: 6em;
+
+  .our_work_title {
+    padding-top: 4em;
+
+    .subtitle-our-position {
+      padding-left: 11em;
+    }
+  }
+
+  .position-img-bottom {
+    padding-top: 8em;
+  }
+
+  .text-our-bottom-section {
+    padding-top: 2em;
+
+    font-family: "Century Gothic Regular";
+    font-weight: lighter;
+    font-size: 21pt;
+    color: $intello_white;
+
+    ul {
+      list-style-type: none;
+    }
+
+    ul li::before {
+      content: "■";
+      color: $intello_white;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+
+    li {
+      padding-top: 2em;
+    }
+  }
+
+  .background-column {
+    width: 600px;
+    height: 1300px;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-image: url(/theme_intello/static/src/img/our-work/Fondo1.png);
+  }
+
+}
+
+.section-work-team {
+  padding-top: 4em;
+  padding-bottom: 4em;
+
+  .subtitle_team_work {
+    padding-left: 3em;
+  }
+
+}
+
+// End Our Work
+
+
+//Start - Odoo Home Page
+.banner_odoo_home {
+  background-image: url(/theme_intello/static/src/img/odoo_home/Banner-odoo-home.png);
+}
+
+.banner-top-space {
+  padding-top: 6em;
+}
+
+#odoo_benefits_id {
+  margin-top: -80px;
+}
+
+.benefits {
+  padding-left: 0 !important;
+
+  .image {
+    height: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url(/theme_intello/static/src/img/odoo_home/Beneficios.png);
+    background-repeat: no-repeat;
+  }
+
+  .box {
+    padding-top: 8em;
+
+    .items-box {
+      padding-top: 5em;
+
+      .i-box {
+        div {
+          padding-top: 2em;
+        }
+
+        .icon {
+          font-size: 60px;
+          color: $intello_black;
+        }
+
+        p {
+          margin-top: 7px;
+        }
+      }
+    }
+
+    .title-top {
+      font-family: "Montserrat Bold";
+      letter-spacing: 10px;
+      font-weight: bold;
+      font-size: 65pt;
+      color: $intello_white;
+    }
+
+    .item {
+      padding-left: 0.5em;
+      font-family: "Century Gothic Regular";
+      font-weight: normal;
+      font-size: 24pt;
+      color: $intello_white;
+    }
+  }
+}
+
+#what_is_odoo_id {
+  min-height: 600px;
+  padding-top: 3em;
+
+  .h-600 {
+    height: 600px;
+  }
+
+  .top-space {
+    padding-top: 4em;
+  }
+
+  h2 {
+    font-family: "Montserrat Alternates Black";
+    font-weight: bold;
+    font-size: 50pt;
+  }
+
+  span {
+    font-family: "Montserrat Alternates Black";
+    font-weight: bold;
+    font-size: 76pt;
+  }
+
+  p {
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+    font-family: "Century Gothic Regular";
+    font-weight: normal;
+    font-size: 16pt;
+  }
+
+  .btn-orange {
+    border-radius: 0;
+  }
+
+  .pr-5e {
+    padding-right: 5em;
+  }
+}
+
+.content-odoo {
+  font-family: "Montserrat Alternates Black";
+  font-weight: bold;
+  font-size: 29pt;
+}
+
+.button-odoo {
+  font-family: "Montserrat Alternates Black" !important;
+  font-weight: bold !important;
+  font-size: 26pt !important;
+  color: $intello-white !important
+}
+
+.odoo_home_bottom.background {
+
+
+  width: 100%;
+  height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/theme_intello/static/src/img/odoo_home/OurWork.png);
+
+  .list_our {
+    .list-group-item {
+      border: none;
+      background: transparent;
+      color: $intello-white;
+      font-family: "Aller";
+      font-weight: bold;
+      font-size: 24pt;
+
+      i {
+        color: $intello-orange;
+      }
+    }
+
+  }
+
+  .title-section-bottom {
+    padding-top: 8em;
+  }
+
+  .subtitle-section-bottom {
+    padding-left: 11em;
+  }
+
+  .title {
+    padding-left: 10px;
+    font-family: "Montserrat Alternates Black";
+    font-weight: bold;
+    font-size: 75pt;
+    color: $intello_white;
+    alignment: right;
+  }
+
+  .subtitle {
+    font-family: "Montserrat Alternates Black";
+    font-weight: lighter;
+    font-size: 50pt;
+    color: $intello_white;
+  }
+
+  .paragraph {
+    font-family: "Century Gothic Regular";
+    font-weight: lighter;
+    font-size: 21pt;
+    color: $intello_white;
+  }
+
+  .h-15 {
+    height: 15%;
+  }
+}
+
+.graphic_odoo_home {
+  width: 100%;
+}
+
+.infography_odoo_home {
+  height: 1200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-image: url(/theme_intello/static/src/img/odoo_home/Infogragia-odoo.svg);
+}
+
+.chart-01 {
+  height: 360px;
+  background-color: $intello_gray;
+  opacity: 80%;
+
+  .letters-chart {
+    padding-left: 10em !important;
+    padding-right: 4em !important;
+
+    p {
+      font-family: "Montserrat Alternates Black";
+      font-weight: lighter;
+      font-size: 31pt;
+      color: $intello_black;
+    }
+
+    span {
+      font-family: "Montserrat Alternates Black";
+      font-weight: bold;
+      font-size: 83pt;
+      color: $intello_black;
+    }
+  }
+}
+
+.chart-02 {
+  height: 360px;
+  background-color: $intello_dark_gray;
+  opacity: 80%;
+
+  .letters-chart {
+    padding-left: 5em !important;
+    padding-right: 4em !important;
+
+    p {
+      font-family: "Montserrat Alternates Black";
+      font-weight: lighter;
+      font-size: 31pt;
+      color: $intello_white;
+    }
+
+    span {
+      font-family: "Montserrat Alternates Black";
+      font-weight: bold;
+      font-size: 73pt;
+      color: $intello_white;
+    }
+  }
+}
+
+.chart-03 {
+  height: 360px;
+  background-color: $intello_gray;
+  opacity: 80%;
+
+  .letters-chart {
+    padding-left: 5em !important;
+    padding-right: 4em !important;
+
+    p {
+      font-family: "Montserrat Alternates Black";
+      font-weight: lighter;
+      font-size: 31pt;
+      color: $intello_black;
+    }
+
+    span {
+      font-family: "Montserrat Alternates Black";
+      font-weight: bold;
+      font-size: 73pt;
+      color: $intello_black;
+    }
+  }
+}
+
+.chart-04 {
+  height: 840px;
+  background-color: $intello_orange;
+  opacity: 80%;
+
+  .letters-chart {
+    padding-left: 10em !important;
+    padding-right: 4em !important;
+    padding-top: 13em !important;
+
+    p {
+      font-family: "Montserrat Alternates Black";
+      font-weight: lighter;
+      font-size: 31pt;
+      color: $intello_black;
+    }
+
+    span {
+      font-family: "Montserrat Alternates Black";
+      font-weight: bold;
+      font-size: 100pt;
+      color: $intello_white;
+    }
+  }
+}
+
+.chart-05 {
+  height: 840px;
+
+  .letters-chart {
+    padding-left: 5em !important;
+    padding-right: 4em !important;
+    padding-top: 13em !important;
+
+    p {
+      font-family: "Montserrat Alternates Black";
+      font-weight: lighter;
+      font-size: 31pt;
+      color: $intello_black;
+    }
+
+    span {
+      font-family: "Montserrat Alternates Black";
+      font-weight: bold;
+      font-size: 100pt;
+      color: $intello_black;
+    }
+  }
+}
+
+#what_is_odoo_id {
+  min-height: 600px;
+}
+
+//End - Odoo Home Page
+
+// Start Odoo Our Work
+#odoo_our_banner_id {
+  background-image: url(/theme_intello/static/src/img/odoo-our/Banner-01.png);
+
+  .banner-odoo-our-padding {
+    padding-top: 8em;
+  }
+
+  .banner-title-odoo-our {
+    font-family: "Montserrat Light";
+    font-weight: lighter;
+    font-size: 45pt;
+    color: $intello_white;
+  }
+
+  .banner-tittle-odoo-our-bold {
+    font-family: "Montserrat Bold";
+    font-weight: bold;
+    font-size: 45pt;
+    color: $intello_white;
+  }
+}
+
+.odoo-our-section-implementation {
+  padding-top: 8em;
+
+  .img-implementation {
+    width: 700px;
+    height: 750px;
+  }
+
+  .text-implementation {
+    padding-top: 8em;
+  }
+
+  h1 {
+    font-family: "Montserrat Bold";
+    font-size: 55pt;
+    letter-spacing: 9px;
+    font-weight: bold;
+    color: $intello-orange;
+  }
+
+  p {
+    font-family: "Century Gothic Regular";
+    font-weight: lighter;
+    font-size: 21pt;
+  }
+}
+
+.odoo-our-section-develop {
+  padding-top: 6em;
+
+  h1 {
+    font-family: "Montserrat Bold";
+    font-size: 55pt;
+    letter-spacing: 9px;
+    font-weight: bold;
+    color: $intello-orange;
+  }
+
+  .paragraph-develop {
+    padding-top: 3em;
+
+    p {
+      font-family: "Century Gothic Regular";
+      font-weight: lighter;
+      font-size: 21pt;
+    }
+  }
+
+}
+
+.odoo-our-section-consulting {
+
+  padding-top: 3em;
+
+  .adjust-text-consulting {
+    padding-top: 1em;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: "Montserrat Bold";
+    font-size: 55pt;
+    letter-spacing: 9px;
+    font-weight: bold;
+    color: $intello-orange;
+  }
+
+  p {
+    padding-top: 2em;
+    padding-left: 5em;
+    padding-right: 3em;
+    font-family: "Century Gothic Regular";
+    font-weight: lighter;
+    font-size: 21pt;
+  }
+
+}
+
+.odoo-our-section-support {
+  padding-top: 8em;
+  padding-bottom: 1em;
+
+  .img-support {
+    width: 500px;
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #odoo_our_banner_id {
+
+    .banner-title-odoo-our {
+      font-family: "Montserrat Light";
+      font-weight: lighter;
+      font-size: 20pt;
+      color: $intello_white;
+    }
+
+    .banner-tittle-odoo-our-bold {
+      font-family: "Montserrat Bold";
+      font-weight: bold;
+      font-size: 20pt;
+      color: $intello_white;
+    }
+
+    .banner-subtitle-bold {
+      font-family: "Montserrat Bold";
+      font-weight: bold;
+      font-size: 18pt;
+      color: $intello_white;
+    }
+
+    .banner-odoo-our-padding {
+      padding-top: 4em;
+    }
+  }
+
+  #odoo_implementation_id {
+    &.odoo-our-section-implementation {
+      padding-top: 2em;
+    }
+
+    h1 {
+      font-size: 25pt;
+    }
+
+    .text-justify {
+      text-align: justify !important;
+    }
+
+    .img-implementation {
+      width: 260px;
+      height: auto;
+    }
+
+    .text-implementation {
+      padding-top: 1em;
+    }
+
+    p {
+      font-size: 12pt;
+    }
+  }
+
+  #odoo_our_develop_id {
+    &.odoo-our-section-develop {
+      padding-top: 1em;
+    }
+
+    h1 {
+      font-size: 25pt;
+    }
+
+    img {
+      width: 280px;
+      height: auto;
+    }
+
+    .paragraph-develop {
+      padding-top: 1em;
+
+      p {
+        font-size: 12pt;
+      }
+    }
+  }
+
+  #odoo_our_consulting_id {
+    &.odoo-our-section-consulting {
+      padding-top: 1em;
+    }
+
+    .adjust-text-consulting {
+      padding-top: 0em;
+    }
+
+    h1 {
+      font-size: 25pt;
+    }
+
+    p {
+      padding: 1em !important;
+      font-size: 15px;
+    }
+
+    img {
+      width: 280px;
+      height: auto;
+    }
+  }
+
+  #odoo_our_support_id {
+
+    &.odoo-our-section-support {
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+
+    h1 {
+      font-size: 25pt;
+    }
+
+    .paragraph-develop {
+      padding-top: 1em;
+
+      p {
+        font-size: 12pt;
+      }
+    }
+
+    .img-support {
+      width: 300px;
+      height: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #odoo_our_banner_id {
+    .banner-title-odoo-our {
+      font-family: "Montserrat Light";
+      font-weight: lighter;
+      font-size: 20pt;
+      color: $intello_white;
+    }
+
+    .banner-tittle-odoo-our-bold {
+      font-family: "Montserrat Bold";
+      font-weight: bold;
+      font-size: 20pt;
+      color: $intello_white;
+    }
+
+    .banner-subtitle-text {
+      padding-top: 1em;
+      padding-right: 12em;
+      padding-bottom: 1em;
+    }
+
+    .banner-subtitle-bold {
+      font-family: "Montserrat Bold";
+      font-weight: bold;
+      font-size: 18pt;
+      color: $intello_white;
+    }
+
+    .banner-odoo-our-padding {
+      padding-top: 0;
+    }
+  }
+
+  #odoo_implementation_id {
+    &.odoo-our-section-implementation {
+      padding-top: 2em;
+    }
+
+    h1 {
+      font-size: 14pt;
+    }
+
+    .text-right {
+      text-align: center !important;
+    }
+
+    .text-justify {
+      text-align: justify !important;
+    }
+
+    .img-implementation {
+      width: 260px;
+      height: auto;
+    }
+
+    .text-implementation {
+      padding-top: 1em;
+    }
+
+    p {
+      font-size: 9pt;
+    }
+  }
+
+  #odoo_our_develop_id {
+    &.odoo-our-section-develop {
+      padding-top: 1em;
+    }
+
+    h1 {
+      text-align: center !important;
+      font-size: 14pt;
+    }
+
+    img {
+      width: 280px;
+      height: auto;
+    }
+
+    .paragraph-develop {
+      padding-top: 1em;
+
+      p {
+        font-size: 9pt;
+      }
+    }
+  }
+
+  #odoo_our_consulting_id {
+    &.odoo-our-section-consulting {
+      padding-top: 1em;
+    }
+
+    .adjust-text-consulting {
+      padding-top: 0em;
+    }
+
+    h1 {
+      text-align: center !important;
+      font-size: 14pt;
+    }
+
+    p {
+      padding: 1em !important;
+      font-size: 11px;
+    }
+
+    img {
+      width: 280px;
+      height: auto;
+    }
+  }
+
+  #odoo_our_support_id {
+
+    &.odoo-our-section-support {
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+
+    h1 {
+      text-align: center !important;
+      font-size: 14pt;
+    }
+
+    .paragraph-develop {
+      padding-top: 1em;
+
+      p {
+        font-size: 9pt;
+      }
+    }
+
+    .img-support {
+      width: 300px;
+      height: auto;
+    }
+  }
+}
+
+// End Odoo our Work
+
+
+// Star Know More
+.banner-know-more {
+  background-image: url(/theme_intello/static/src/img/odoo-know-more/Banner-01.png);
+
+  .banner-img-know {
+    img {
+      width: 300px;
+      height: 100px;
+    }
+  }
+
+  .banner-title-text-know-more {
+    padding-top: 16em;
+
+    .banner-title-odoo-our {
+      font-family: "Montserrat Light";
+      font-weight: lighter;
+      font-size: 50pt;
+      color: $intello_white;
+    }
+
+    .banner-tittle-odoo-our-bold {
+      font-family: "Montserrat Bold";
+      font-weight: bold;
+      font-size: 50pt;
+      color: $intello_white;
+    }
+
+  }
+}
+
+.know-more-section-video {
+  padding-top: 3em;
+  padding-bottom: 6em;
+
+  .padding-row-video {
+    padding-top: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+
+    .container-video {
+      position: relative;
+      width: 100%;
+    }
+
+    .img-video-play {
+      width: 150px;
+      height: 150px;
+    }
+
+    .img-video {
+      width: 260px;
+      height: 260px;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .container-video:hover .middle {
+      opacity: 1;
+    }
+
+    h1 {
+      padding-top: 1em;
+      font-family: "Open Sans";
+      font-size: 23pt;
+      color: $intello_odoo_violet;
+    }
+  }
+}
+
+.modal-header-know-more {
+  background-color: $intello_black;
+}
+
+.modal-body-know-more {
+  background-color: $intello_black;
+}
+
+.modal-footer-know-more {
+  background-color: $intello_black;
+}
+
+.modal-header {
+  border-bottom: 1px solid $intello-orange !important;
+}
+
+.modal-title {
+  font-family: "Century Gothic Regular";
+  font-weight: lighter;
+  font-size: 14pt;
+  color: $intello-orange;
+}
+
+.modal-footer {
+  border-top: 1px solid $intello-orange !important;
+}
+
+// End Know More
+
+
+// Start odoo demo
+.odoo-demo-banner {
+  background-image: url(/theme_intello/static/src/img/odoo-demo/Banner-01.jpg);
+
+  h1 {
+    font-family: "Montserrat Alternates Black";
+    font-weight: bold;
+    font-size: 55pt;
+    color: $intello_white;
+  }
+
+  .banner-text {
+    padding-top: 11em;
+
+
+  }
+}
+
+.section-form {
+
+  padding-top: 3em;
+
+  .demo-position {
+    padding-top: 1em;
+  }
+
+  .background-demo {
+
+    width: 300px;
+    height: 180px;
+    background-color: $intello-orange;
+
+    p {
+      padding-top: 0.7em;
+      font-family: "Century Gothic Regular";
+      font-weight: bold;
+      font-size: 30pt;
+      color: $intello_white;
+    }
+
+  }
+
+  .o_website_form_required_custom {
+    font-family: "Open Sans";
+    font-weight: lighter;
+    font-size: 16pt;
+    color: $intello_odoo_violet;
+  }
+
+  .padding-row-form {
+    padding-top: 2em;
+
+  }
+
+  .text-selection {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+    label {
+      font-family: "Open Sans";
+      font-weight: lighter;
+      font-size: 23pt;
+      color: $intello_odoo_violet;
+    }
+  }
+
+  .btn-demo {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+}
+
+//End Demo Page
+
+
+// APP Mobile Page
+.banner_app_mobile {
+  background-image: url(/theme_intello/static/src/img/app-mobile/Banner-01.png);
+}
+
+.banner-app-padding {
+  padding-top: 4em;
+}
+
+.background-app-mobile-section-middle {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/theme_intello/static/src/img/app-mobile/Fondo-07.png);
+
+  .title-mobile-section-middle {
+    padding-top: 5em;
+    padding-left: 10em;
+  }
+
+  .subtitle-mobile-bottom {
+    padding-left: 11em;
+  }
+
+  .paragraph {
+    padding-top: 10em;
+    padding-bottom: 1em;
+    font-family: "Century Gothic Regular";
+    font-weight: lighter;
+    font-size: 16pt;
+    color: $intello_white;
+  }
+
+  .paragraph-bold {
+    font-family: "Century Gothic Regular";
+    font-weight: bold;
+    font-size: 16pt;
+    color: $intello_white;
+  }
+}
+
+.section-bottom-mobile {
+
+  .text-paragraph-top {
+    padding-top: 3em;
+    padding-bottom: 2em;
+    font-family: "Century Gothic Regular";
+    font-weight: lighter;
+    font-size: 16pt;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  ul li::before {
+    content: "■";
+    color: $intello-orange;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    margin-bottom: 0.5em;
+  }
+
+  .text-paragraph-bot {
+    padding-left: 5em;
+    padding-bottom: 5em;
+    font-family: "Century Gothic Regular";
+    font-weight: lighter;
+    font-size: 16pt;
+  }
+}
+
+.background-bottom {
+  background-position: right bottom;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-image: url(/theme_intello/static/src/img/app-mobile/Grafico-2.png);
+}
+
+.margin-column-mobile {
+  margin-top: -11em;
+}
+
+@media only screen and (max-width: 992px) {
+
+  #page_mobile_banner_id {
+    .banner-title-text {
+      padding-top: 0;
+    }
+
+    .banner-title-top {
+      font-size: 44pt;
+    }
+
+    .text-spacing {
+      letter-spacing: 22px;
+    }
+
+    .banner-title-middle {
+      font-size: 38pt;
+    }
+
+    .banner-title-bottom {
+      font-size: 29pt;
+    }
+
+    .banner-subtitle-text {
+      padding-top: 1em;
+      padding-bottom: 2em;
+      padding-right: 3em;
+    }
+
+    .banner-subtitle {
+      font-size: 15pt;
+    }
+
+    .banner-subtitle-bold {
+      font-size: 15pt;
+    }
+  }
+
+  #page_app_mobile_our_work_id {
+    &.margin-section-middle {
+      margin-top: -20px;
+    }
+
+    .title-mobile-section-middle {
+      padding-top: 2em;
+      padding-left: 1em;
+    }
+
+    .title_our {
+      font-size: 48pt;
+    }
+
+    .subtitle-mobile-bottom {
+      padding-left: 6em;
+    }
+
+    .subtitle_our {
+      font-size: 38pt;
+    }
+
+    .paragraph {
+      padding-top: 7em;
+      font-size: 13pt;
+    }
+    .background-app-mobile-section-middle{
+      height: 500px;
+    }
+
+    .paragraph-bold {
+      font-size: 13pt;
+    }
+  }
+
+  #page_mobile_bullet_id {
+    .background-bottom {
+      background-size: 333px auto;
+    }
+
+    .margin-column-mobile {
+      margin-top: -6em !important;
+    }
+
+    .text-paragraph-top {
+      padding-top: 1em;
+      padding-bottom: 1em;
+      font-size: 13pt;
+    }
+
+    .text-paragraph-bot {
+      padding-left: 2em;
+      padding-bottom: 1em;
+      font-size: 13pt;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  #page_mobile_banner_id {
+    .banner-title-text {
+      padding: 0;
+    }
+
+    .banner-title-top {
+      font-size: 25pt;
+    }
+
+    .text-spacing {
+      letter-spacing: 18px;
+    }
+
+    .banner-title-middle {
+      font-size: 24pt;
+    }
+
+    .banner-title-bottom {
+      font-size: 23pt;
+    }
+
+    .banner-subtitle-text {
+      padding-top: 1em;
+      padding-bottom: 2em;
+      padding-right: 3em;
+    }
+
+    .banner-subtitle {
+      font-size: 13pt;
+    }
+
+    .banner-subtitle-bold {
+      font-size: 13pt;
+    }
+  }
+
+  #page_app_mobile_our_work_id {
+    &.margin-section-middle {
+      margin-top: 0;
+    }
+
+    .title-mobile-section-middle {
+      padding-top: 1em;
+      padding-left: 8em;
+    }
+
+    .title_our {
+      font-size: 30pt;
+    }
+
+    .subtitle-mobile-bottom {
+      padding-left: 4em;
+    }
+
+    .subtitle_our {
+      font-size: 23pt;
+    }
+
+    .paragraph {
+      padding-top: 0;
+    }
+  }
+  #page_mobile_bullet_id {
+    .background-bottom {
+      background-size: 415px auto;
+    }
+
+    .margin-column-mobile {
+      margin-top: -6em !important;
+    }
+
+    .text-paragraph-top {
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+
+    .text-paragraph-bot {
+      padding-left: 2em;
+      padding-bottom: 1em;
+    }
+  }
+}
+
+// End App Mobile Page
+
+
+//Web Develop Page
+.banner_develop {
+  background-image: url(/theme_intello/static/src/img/develop/Banner-08.png);
+}
+
+.banner-title-develop {
+  padding-top: 5em;
+  padding-left: 10em;
+}
+
+.banner-subtitle-develop {
+  padding-right: 6em;
+}
+
+.banner-title-top {
+  font-family: "Montserrat Extra Bold";
+  font-weight: bold;
+  font-size: 65pt;
+  color: $intello_white;
+}
+
+.banner-title-middle {
+  font-family: "Montserrat Light";
+  font-weight: lighter;
+  font-size: 61pt;
+  color: $intello_white;
+}
+
+.banner-title-bottom {
+  font-family: "Montserrat Alternates Black";
+  font-weight: bold;
+  font-size: 55pt;
+  color: $intello_white;
+}
+
+.banner-subtitle {
+  font-family: "Century Gothic Regular";
+  font-weight: lighter;
+  font-size: 24pt;
+  color: $intello_white;
+}
+
+.banner-subtitle-bold {
+  font-family: "Montserrat Bold";
+  font-weight: bold;
+  font-size: 29pt;
+  color: $intello_white;
+}
+
+.padding-section-develop {
+  padding-top: 3em;
+
+  .padding-row-develop {
+    padding-left: 15px;
+  }
+
+  .background_develop_bottom {
+
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/theme_intello/static/src/img/develop/Fondo-07.png);
+
+    .title-develop-section-bottom {
+      padding-top: 5em;
+      padding-left: 7em;
+    }
+
+    .subtitle-develop-bottom {
+      padding-left: 11em;
+    }
+
+    .title {
+      padding-left: 10px;
+      font-family: "Montserrat Alternates Black";
+      font-weight: bold;
+      font-size: 75pt;
+    }
+
+    .subtitle {
+      font-family: "Montserrat Alternates Black";
+      font-weight: lighter;
+      font-size: 50pt;
+    }
+
+    .paragraph {
+      font-family: "Century Gothic Regular";
+      font-weight: lighter;
+      font-size: 21pt;
+      color: $intello_white;
+    }
+  }
+}
+
+.key_words_image_1 {
+  min-height: 22em;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/theme_intello/static/src/img/develop/Grafico-1-07.png);
+  background-repeat: no-repeat;
+
+  &:hover {
+    background-image: url(/theme_intello/static/src/img/develop/Grafico-1a-07.png);
+  }
+}
+
+.key_words_image_2 {
+  min-height: 22em;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/theme_intello/static/src/img/develop/Grafico-2-07.png);
+  background-repeat: no-repeat;
+
+  &:hover {
+    background-image: url(/theme_intello/static/src/img/develop/Grafico-2a-07.png);
+  }
+}
+
+.key_words_image_3 {
+  min-height: 22em;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/theme_intello/static/src/img/develop/Grafico-3-07.png);
+  background-repeat: no-repeat;
+
+  &:hover {
+    background-image: url(/theme_intello/static/src/img/develop/Grafico-3a-07.png);
+  }
+}
+
+.key_words_image_4 {
+  min-height: 22em;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/theme_intello/static/src/img/develop/Grafico-4-07.png);
+  background-repeat: no-repeat;
+
+  &:hover {
+    background-image: url(/theme_intello/static/src/img/develop/Grafico-4a-07.png);
+  }
+}
+
+.key_words_image_5 {
+  min-height: 22em;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/theme_intello/static/src/img/develop/Grafico-5-07.png);
+  background-repeat: no-repeat;
+
+  &:hover {
+    background-image: url(/theme_intello/static/src/img/develop/Grafico-5a-07.png);
+  }
+}
+
+.float-div-develop {
+  .col-left {
+    padding-left: 5em;
+    height: 22em;
+  }
+
+  .col-right {
+    height: 22em;
+  }
+}
+
+.title-develop {
+  margin-left: 7em;
+  padding-left: 1em;
+}
+
+// SAP Consulting Start
+.banner_sap {
+  background-image: url(/theme_intello/static/src/img/sap-consulting/Banner-01.png);
+}
+
+.banner-subtitle-sap {
+  padding-top: 1em;
+  padding-left: 6em;
+}
+
+.margin-section-middle {
+  margin-top: -30px;
+}
+
+.background_sap_section_middle {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/theme_intello/static/src/img/sap-consulting/Fondo-06.png);
+
+  .title-sap-section-middle {
+    padding-top: 5em;
+    padding-left: 10em;
+  }
+
+  .subtitle-sap-bottom {
+    padding-left: 11em;
+  }
+
+  .paragraph {
+    padding-top: 10em;
+    font-family: "Century Gothic Regular";
+    font-weight: lighter;
+    font-size: 21pt;
+    color: $intello_white;
+  }
+}
+
+.margin-section-bottom-sap {
+  padding-top: 7em;
+}
+
+.background-bottom-section {
+  width: 100%;
+  min-height: 600px;
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-image: url(/theme_intello/static/src/img/sap-consulting/Grafico-06.png);
+}
+
+.text-tittle-sap-bottom {
+  h1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: "Montserrat Bold";
+    font-weight: bold;
+    font-size: 40pt;
+  }
+
+}
+
+.text-paragraph-sap-bottom {
+  padding-top: 1em;
+  padding-left: 2em;
+  font-family: "Century Gothic Regular";
+  font-weight: lighter;
+  font-size: 16pt;
+}
+
+.text-paragraph-sap-bottom-bold {
+  font-family: "Century Gothic Regular";
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+@media only screen and (max-width: 600px) {
+  #sap_consulting_banner_id{
+
+  }
+
+
+}
+// SAP Consulting End
+
+
+// Start Contact Us Thanks
+.banner-title-contact {
+  padding-top: 8em;
+  padding-right: 6em;
+}
+
+.banner-thanks {
+  background-image: url(/theme_intello/static/src/img/contact-us/Agradecimiento-01.png);
+}
+
+// End Contact Us Thanks
+
+
+// Start error 404
+.background-404 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(/theme_intello/static/src/img/error/Error-01.jpg);
+}
+
+.text-404 {
+  padding: 1em;
+  border: 2px solid $intello-orange;
+
+  h1 {
+    font-family: "Century Gothic Regular";
+    font-weight: bold;
+    font-size: 25pt;
+    color: $intello_white;
+  }
+}
+
+// End error 404
+
+// Star Contact Us
+#contact_banner_id {
+  height: 500px; //648px;
+
+  &.banner_contact {
+    background-image: url(/theme_intello/static/src/img/contact-us/Contact_us_background.png);
+  }
+
+  .banner-title-text {
+    h1 {
+      font-family: "Montserrat Extra Bold";
+      font-size: 65.37pt;
+
+      span {
+        font-family: "Montserrat Light";
+        font-size: 40pt;
+      }
+    }
+  }
+
+  .banner-subtitle-text {
+    h4 {
+      font-family: "Century Gothic Regular";
+      font-size: 21pt;
+      font-weight: normal;
+
+      span {
+        font-family: "Montserrat Bold";
+        font-weight: 21pt;
+      }
+    }
+  }
+
+  .contact_form_id {
+    .map {
+      width: 100%;
+      height: 450px;
+    }
+  }
+
+
+}
+
+#contact_form_id {
+  padding: 4em 0;
+
+  .background {
+    background-image: url(/theme_intello/static/src/img/contact-us/Grafico.png);
+    background-size: 300px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+}
+
+#map_id {
+  height: 600px;
+  padding-bottom: 5em;
+}
+
+// End Contact Us
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Inherit Form View to Modify it -->
+        <record id="view_city_dian_tree" model="ir.ui.view">
+            <field name="name">view.city.dian.tree</field>
+            <field name="model">res.city</field>
+            <field name="inherit_id" ref="base_address_city.view_city_tree"/>
+            <field name="arch" type="xml">
+
+                <xpath expr="//field[@name='zipcode']" position="after">
+                    <!-- Add your fields or attributes here -->
+                    <field name="key_dian"/>
+                </xpath>
+
+            </field>
+        </record>
+
+    </data>
+</odoo>

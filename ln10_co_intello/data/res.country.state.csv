@@ -1,0 +1,34 @@
+id,name,code,key_dian,country_id
+base.state_co_29,Amazonas (CO),AMA,91,Colombia
+base.state_co_01,Antioquia,ANT,05,Colombia
+base.state_co_25,Arauca,ARA,81,Colombia
+base.state_co_02,Atlántico,ATL,08,Colombia
+base.state_co_04,Bolívar,BOL,13,Colombia
+base.state_co_05,Boyacá,BOY,15,Colombia
+base.state_co_06,Caldas,CAL,17,Colombia
+base.state_co_07,Caquetá,CAQ,18,Colombia
+base.state_co_26,Casanare,CAS,85,Colombia
+base.state_co_08,Cauca,CAU,19,Colombia
+base.state_co_09,Cesar,CES,20,Colombia
+base.state_co_12,Chocó,CHO,27,Colombia
+base.state_co_10,Córdoba,COR,23,Colombia
+base.state_co_11,Cundinamarca,CUN,25,Colombia
+base.state_co_03,"Bogotá, D.C",D.C,11,Colombia
+base.state_co_30,Guainía,GUA,94,Colombia
+base.state_co_31,Guaviare,GUV,95,Colombia
+base.state_co_13,Huila,HUI,41,Colombia
+base.state_co_14,La Guajira,LAG,44,Colombia
+base.state_co_15,Magdalena,MAG,47,Colombia
+base.state_co_16,Meta,MET,50,Colombia
+base.state_co_17,Nariño,NAR,52,Colombia
+base.state_co_18,Norte de Santander,NSA,54,Colombia
+base.state_co_27,Putumayo,PUT,86,Colombia
+base.state_co_19,Quindío,QUI,63,Colombia
+base.state_co_20,Risaralda,RIS,66,Colombia
+base.state_co_21,Santander,SAN,68,Colombia
+base.state_co_28,"Archipiélago de San Andrés, Providencia y Santa Catalina",SAP,88,Colombia
+base.state_co_22,Sucre,SUC,70,Colombia
+base.state_co_23,Tolima,TOL,73,Colombia
+base.state_co_24,Valle del Cauca,VAC,76,Colombia
+base.state_co_32,Vaupés,VAU,97,Colombia
+base.state_co_33,Vichada,VID,99,Colombia

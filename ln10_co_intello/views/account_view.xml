@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+
+        <!--
+        <record id="account_tax_view_tree" model="ir.ui.view">
+            <field name="name">account.invoice.line.tax.search</field>
+            <field name="model">account.tax</field>
+            <field name="arch" type="xml">
+                <tree string="Account Tax">
+                    <field name="display_name" string="name"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_tax_kanban" model="ir.ui.view">
+            <field name="name">account.tax.kanban</field>
+            <field name="model">account.tax</field>
+            <field name="arch" type="xml">
+                <kanban class="o_kanban_mobile">
+                    <field name="name"/>
+                    <field name="type_tax_use"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div t-attf-class="oe_kanban_card oe_kanban_global_click">
+                                <div class="row mb4">
+                                    <div class="col-6">
+                                        <strong><span><t t-esc="record.name.value"/></span></strong>
+                                    </div>
+                                    <div class="col-6 text-right">
+                                        <span class="badge badge-pill"><t t-esc="record.type_tax_use.value"/></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+        <record id="view_account_tax_search" model="ir.ui.view">
+
+            <field name="name">account.tax.search</field>
+            <field name="model">account.tax</field>
+            <field name="arch" type="xml">
+                <search string="Search Taxes">
+                    <field name="name" filter_domain="['|', ('name','ilike',self), ('description','ilike',self)]" string="Tax"/>
+                    <field name="company_id" groups="base.group_multi_company"/>
+                    <filter string="Sale" name="sale" domain="[('type_tax_use','=','sale')]" />
+                    <filter string="Purchase" name="purchase" domain="[('type_tax_use','=','purchase')]" />
+                    <separator/>
+                    <filter name="active" string="Active" domain="[('active','=',True)]" help="Show active taxes"/>
+                    <filter name="inactive" string="Inactive" domain="[('active','=',False)]" help="Show inactive taxes"/>
+                    <group string="Group By">
+                        <filter string="Company" name="company" domain="[]" context="{'group_by':'company_id'}" groups="base.group_multi_company"/>
+                        <filter string="Tax Application" name="taxapp" domain="[]" context="{'group_by':'type_tax_use'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <record id="account_tax_view_search" model="ir.ui.view">
+            <field name="name">account.tax.search.filters</field>
+            <field name="model">account.tax</field>
+            <field name="arch" type="xml">
+                <search string="Search Taxes">
+                    <field name="name" filter_domain="['|', ('name','ilike',self), ('description','ilike',self)]" string="Tax"/>
+                    <field name="company_id" groups="base.group_multi_company"/>
+                </search>
+            </field>
+        </record>
+        -->
+
+        <record id="view_tax_form_dian" model="ir.ui.view">
+            <field name="name">account.tax.form.dian</field>
+            <field name="model">account.tax</field>
+            <field name="inherit_id" ref="account.view_tax_form"/>
+            <field name="arch" type="xml">
+                <field name="type_tax_use" position="before">
+                    <field name="tax_type" attrs="{'required': [True]}"
+                           options="{'no_create_edit': True, 'no_create': True, 'no_open': True}"/>
+                </field>
+
+                <!--
+                <form string="Account Tax">
+                    <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="amount_type"/>
+                            <field name="active"/>
+                        </group>
+                        <group>
+                            <field name="type_tax_use"/>
+                            <label for="amount" attrs="{'invisible':[('amount_type','not in', ('fixed', 'percent', 'division'))]}"/>
+                            <div attrs="{'invisible':[('amount_type','not in', ('fixed', 'percent', 'division'))]}">
+                                <field name="amount" class="oe_inline"/>
+                                <span class="o_form_label oe_inline" attrs="{'invisible':[('amount_type','=','fixed')]}">%</span>
+                            </div>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Definition">
+                            <div attrs="{'invisible': [('amount_type', '=', 'group')]}">
+                                <field name="country_id" invisible="1"/>
+                                <group string="Repartition for Invoices">
+                                    <field name="invoice_repartition_line_ids" nolabel="1" context="{'default_company_id': company_id}"/>
+                                </group>
+                                <group string="Repartition for Credit Notes">
+                                    <field name="refund_repartition_line_ids" nolabel="1" context="{'default_company_id': company_id}"/>
+                                </group>
+                            </div>
+                            <field name="children_tax_ids" attrs="{'invisible':['|', ('amount_type','!=','group'), ('type_tax_use','=','none')]}" domain="[('type_tax_use','in',('none',type_tax_use)), ('amount_type','!=','group')]">
+                                <tree string="Children Taxes">
+                                    <field name="sequence" widget="handle"/>
+                                    <field name="name"/>
+                                    <field name="amount_type"/>
+                                    <field name="amount"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="Advanced Options">
+                            <group>
+                                <group>
+                                    <field name="description" attrs="{'invisible':[('amount_type','=', 'group')]}"/>
+                                    <field name="tax_group_id"/>
+                                    <field name="analytic" attrs="{'invisible':[('amount_type','=', 'group')]}" groups="analytic.group_analytic_accounting" />
+                                    <field name="company_id" options="{'no_create': True}" groups="base.group_multi_company"/>
+                                </group>
+                                <group name="advanced_booleans">
+                                    <field name="price_include" attrs="{'invisible':[('amount_type','=', 'group')]}" />
+                                    <field name="include_base_amount" attrs="{'invisible':[('amount_type','=', 'group')]}" />
+                                    <field name="hide_tax_exigibility" invisible="1"/>
+                                    <field name="tax_exigibility" widget="radio" attrs="{'invisible':['|', ('amount_type','=', 'group'), ('hide_tax_exigibility', '=', False)]}" groups="account.group_account_user"/>
+                                    <field name="cash_basis_base_account_id" options="{'no_create': True}" attrs="{'invisible': [('tax_exigibility', '=', 'on_invoice')]}" groups="account.group_account_user"/>
+                                    <field name="cash_basis_transition_account_id" options="{'no_create': True}" attrs="{'invisible': [('tax_exigibility', '=', 'on_invoice')], 'required': [('tax_exigibility', '=', 'on_payment')]}" groups="account.group_account_user"/>
+                                </group>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+                </form>
+                -->
+            </field>
+        </record>
+
+        <!-- Inherit Form View to Modify it account journal -->
+        <record id="view_inherit_account_journal_form" model="ir.ui.view">
+            <field name="name">view.inherit.form</field>
+            <field name="model">account.journal</field>
+            <field name="inherit_id" ref="account.view_account_journal_form"/>
+            <field name="arch" type="xml">
+
+                <!-- position: after|before|replace|attributes|inside -->
+                <xpath expr="//page[@name='journal_entries']" position="after">
+                    <page name="sequence_book" string="Sequence For Book">
+                        <group>
+                            <field name="handle_book"/>
+                            <field name="selection_book" attrs="{'invisible':[('handle_book','!=', True)]}">
+                                <tree editable="bot">
+                                    <field name="name" invisible="1"/>
+                                    <field name="book"/>
+                                    <field name="sequence"/>
+                                    <field name="next_number"/>
+                                </tree>
+                            </field>
+                        </group>
+                    </page>
+
+                    <page string="Invoice Resolution" name="invoice_resolution"
+                          attrs="{'invisible':[('type','!=', 'sale')]}">
+                        <group>
+                            <group colspan="1">
+                                <field name="invoice_resolution"
+                                       attrs="{'required':[('type','=', 'sale')]}"
+                                       options="{'no_create': True, 'no_create_edit':True}"/>
+                                <field name="note_resolution"
+                                       options="{'no_create': True, 'no_create_edit':True}"/>
+                            </group>
+                        </group>
+                    </page>
+
+                </xpath>
+                <!-- position values: after|before|replace|attributes|inside -->
+                <xpath expr="//field[@name='sequence_number_next']" position="replace">
+
+                </xpath>
+
+                <xpath expr="//label[@for='sequence_number_next']" position="replace">
+                </xpath>
+
+                <xpath expr="//field[@name='sequence_id']" position="replace">
+                </xpath>
+            </field>
+        </record>
+
+        <!-- Inherit Form View to Modify it account move -->
+        <record id="view_inherit_account_move_form" model="ir.ui.view">
+            <field name="name">view.inherit.account.move.form</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_move_form"/>
+            <field name="arch" type="xml">
+
+                <!-- position: after|before|replace|attributes|inside -->
+                <xpath expr="//field[@name='ref']" position="before">
+                    <!-- Field inivisible -->
+                    <field name="prefix" invisible="1"/>
+                    <field name="number" invisible="1"/>
+                    <field name="book"
+                           attrs="{'invisible': [('type', 'not in', 'entry')],'readonly':[True]}"
+                           options="{'no_quick_create':True,'no_create_edit':True,'no_open': True}"/>
+                    <field name="exchange_rate" invisible="1"/>
+                </xpath>
+
+                <xpath expr="//sheet/div[2]/div[1]" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </xpath>
+
+                <xpath expr="//sheet/div[2]/span[2]" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </xpath>
+
+            </field>
+        </record>
+
+
+        <!-- Inherit Form View to Modify it account move line -->
+        <record id="view_inherit_account_move_line_form" model="ir.ui.view">
+            <field name="name">view.inherit.account.move.line.form</field>
+            <field name="model">account.move.line</field>
+            <field name="inherit_id" ref="account.view_move_line_form"/>
+            <field name="arch" type="xml">
+                <!-- position: after|before|replace|attributes|inside -->
+                <xpath expr="//field[@name='partner_id']" position="after">
+                    <field name="book"/>
+                </xpath>
+
+            </field>
+        </record>
+
+        <!-- Menu Item Journal Entries -->
+        <menuitem id="menu_journal_entries"
+                  name="Journal Entries"
+                  parent="account.menu_finance_entries"
+                  sequence="1"/>
+
+        <!-- Menu Item Journal Item -->
+        <menuitem id="menu_journal_item"
+                  name="Journal Items"
+                  parent="account.menu_finance_entries"
+                  sequence="1"/>
+
+        <record id="make_invisible" model="res.groups">
+            <field name="name">Invisible</field>
+        </record>
+
+        <!-- Form for model account month block -->
+        <record id="view_account_month_block_form" model="ir.ui.view">
+            <field name="name">view.month.block.form</field>
+            <field name="model">account.month.block</field>
+            <field name="arch" type="xml">
+                <form string="Month Block">
+                    <sheet>
+                        <group>
+                            <separator string="Book"/>
+                            <field name="book"
+                                   options="{'no_quick_create':True,'no_create_edit':True,'no_open': True}"/>
+                            <separator string="Mont And Year"/>
+                            <field name="month"/>
+                            <field name="year"/>
+                            <field name="is_closed"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Tree for model account month block -->
+        <record id="view_mont_block_tree" model="ir.ui.view">
+            <field name="name">view.month.block.tree</field>
+            <field name="model">account.month.block</field>
+            <field name="arch" type="xml">
+                <tree string="Mont Block" editable="top" default_order="month desc">
+                    <field name="year"/>
+                    <field name="month"/>
+                    <field name="is_closed"/>
+                </tree>
+            </field>
+        </record>
+        <!-- Search for model account month block -->
+        <record id="view_month_block_search" model="ir.ui.view">
+            <field name="name">view.month_block.search</field>
+            <field name="model">account.month.block</field>
+            <field name="arch" type="xml">
+                <search string="Book">
+                    <group string="Group By">
+                        <filter name="book" string="Book"
+                                context="{'group_by': 'book'}"/>
+                    </group>
+                    <field name="year"/>
+                    <field name="month"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="action_month_block_view" model="ir.actions.act_window">
+            <field name="name">Month Block</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">account.month.block</field>
+            <field name="context">{'search_default_book': 1}</field>
+            <field name="view_mode">tree,form,search</field>
+        </record>
+
+        <menuitem id="menu_month_block_view" name="Account Month Block " parent="account.account_account_menu"
+                  action="action_month_block_view" sequence="1"/>
+
+
+        <record id="view_prueba_form" model="ir.ui.view">
+            <field name="name">view.prueba.form</field>
+            <field name="model">relation.account.move</field>
+            <field name="arch" type="xml">
+                <form string="">
+                    <sheet>
+                        <group>
+                            <field name="src_book"/>
+                            <field name="src_move_id"/>
+                            <field name="dst_book"/>
+                            <field name="dst_move_id"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Inherit Form View to Modify it  Account account-->
+        <record id="view_inherit_account_account_form" model="ir.ui.view">
+            <field name="name">view.inherit.account.account.form</field>
+            <field name="model">account.account</field>
+            <field name="inherit_id" ref="account.view_account_form"/>
+            <field name="arch" type="xml">
+                <!-- position: after|before|replace|attributes|inside -->
+                <xpath expr="//sheet/group" position="after">
+                    <notebook>
+                        <page string="Book Account Name" invisible='0'>
+                            <field name="book_account_name">
+                                <tree editable="top">
+                                    <field name="book" domain="[('book_principal', '=', False)]"
+                                           options="{'no_quick_create':True,'no_create_edit':True,'no_open': True}"/>
+                                    <field name="name"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="view_account_position_dian_form" model="ir.ui.view">
+            <field name="name">account.fiscal.position.dian.form</field>
+            <field name="model">account.fiscal.position</field>
+            <field name="inherit_id" ref="account.view_account_position_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='name']" position="after">
+                    <field name="key_dian" options="{'no_create_edit': True, 'no_create': True, 'no_open': True}"/>
+                </xpath>
+
+                <xpath expr="//page[@name='tax_mapping']" position="replace">
+
+                </xpath>
+            </field>
+        </record>
+
+        <function model="account.move" name="update_resolution_id"/>
+
+    </data>
+</odoo>
+

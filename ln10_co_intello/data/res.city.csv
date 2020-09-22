@@ -1,0 +1,1122 @@
+id,name,zipcode,key_dian,country_id,state_id
+res_city_co_1,Medellín,05001,05001,Colombia,Antioquia
+res_city_co_2,Abejorral,05002,05002,Colombia,Antioquia
+res_city_co_3,Abriaquí,05004,05004,Colombia,Antioquia
+res_city_co_4,Alejandría,05021,05021,Colombia,Antioquia
+res_city_co_5,Amagá,05030,05030,Colombia,Antioquia
+res_city_co_6,Amalfi,05031,05031,Colombia,Antioquia
+res_city_co_7,Andes,05034,05034,Colombia,Antioquia
+res_city_co_8,Angelópolis,05036,05036,Colombia,Antioquia
+res_city_co_9,Angostura,05038,05038,Colombia,Antioquia
+res_city_co_10,Anorí,05040,05040,Colombia,Antioquia
+res_city_co_11,Santa Fé de Antioquia,05042,05042,Colombia,Antioquia
+res_city_co_12,Anzá,05044,05044,Colombia,Antioquia
+res_city_co_13,Apartadó,05045,05045,Colombia,Antioquia
+res_city_co_14,Arboletes,05051,05051,Colombia,Antioquia
+res_city_co_15,Argelia,05055,05055,Colombia,Antioquia
+res_city_co_16,Armenia,05059,05059,Colombia,Antioquia
+res_city_co_17,Barbosa,05079,05079,Colombia,Antioquia
+res_city_co_18,Belmira,05086,05086,Colombia,Antioquia
+res_city_co_19,Bello,05088,05088,Colombia,Antioquia
+res_city_co_20,Betania,05091,05091,Colombia,Antioquia
+res_city_co_21,Betulia,05093,05093,Colombia,Antioquia
+res_city_co_22,Ciudad Bolívar,05101,05101,Colombia,Antioquia
+res_city_co_23,Briceño,05107,05107,Colombia,Antioquia
+res_city_co_24,Buriticá,05113,05113,Colombia,Antioquia
+res_city_co_25,Cáceres,05120,05120,Colombia,Antioquia
+res_city_co_26,Caicedo,05125,05125,Colombia,Antioquia
+res_city_co_27,Caldas,05129,05129,Colombia,Antioquia
+res_city_co_28,Campamento,05134,05134,Colombia,Antioquia
+res_city_co_29,Cañasgordas,05138,05138,Colombia,Antioquia
+res_city_co_30,Caracolí,05142,05142,Colombia,Antioquia
+res_city_co_31,Caramanta,05145,05145,Colombia,Antioquia
+res_city_co_32,Carepa,05147,05147,Colombia,Antioquia
+res_city_co_33,El Carmen de Viboral,05148,05148,Colombia,Antioquia
+res_city_co_34,Carolina,05150,05150,Colombia,Antioquia
+res_city_co_35,Caucasia,05154,05154,Colombia,Antioquia
+res_city_co_36,Chigorodó,05172,05172,Colombia,Antioquia
+res_city_co_37,Cisneros,05190,05190,Colombia,Antioquia
+res_city_co_38,Cocorná,05197,05197,Colombia,Antioquia
+res_city_co_39,Concepción,05206,05206,Colombia,Antioquia
+res_city_co_40,Concordia,05209,05209,Colombia,Antioquia
+res_city_co_41,Copacabana,05212,05212,Colombia,Antioquia
+res_city_co_42,Dabeiba,05234,05234,Colombia,Antioquia
+res_city_co_43,Donmatías,05237,05237,Colombia,Antioquia
+res_city_co_44,Ebéjico,05240,05240,Colombia,Antioquia
+res_city_co_45,El Bagre,05250,05250,Colombia,Antioquia
+res_city_co_46,Entrerríos,05264,05264,Colombia,Antioquia
+res_city_co_47,Envigado,05266,05266,Colombia,Antioquia
+res_city_co_48,Fredonia,05282,05282,Colombia,Antioquia
+res_city_co_49,Frontino,05284,05284,Colombia,Antioquia
+res_city_co_50,Giraldo,05306,05306,Colombia,Antioquia
+res_city_co_51,Girardota,05308,05308,Colombia,Antioquia
+res_city_co_52,Gómez Plata,05310,05310,Colombia,Antioquia
+res_city_co_53,Granada,05313,05313,Colombia,Antioquia
+res_city_co_54,Guadalupe,05315,05315,Colombia,Antioquia
+res_city_co_55,Guarne,05318,05318,Colombia,Antioquia
+res_city_co_56,Guatapé,05321,05321,Colombia,Antioquia
+res_city_co_57,Heliconia,05347,05347,Colombia,Antioquia
+res_city_co_58,Hispania,05353,05353,Colombia,Antioquia
+res_city_co_59,Itagüí,05360,05360,Colombia,Antioquia
+res_city_co_60,Ituango,05361,05361,Colombia,Antioquia
+res_city_co_61,Jardín,05364,05364,Colombia,Antioquia
+res_city_co_62,Jericó,05368,05368,Colombia,Antioquia
+res_city_co_63,La Ceja,05376,05376,Colombia,Antioquia
+res_city_co_64,La Estrella,05380,05380,Colombia,Antioquia
+res_city_co_65,La Pintada,05390,05390,Colombia,Antioquia
+res_city_co_66,La Unión,05400,05400,Colombia,Antioquia
+res_city_co_67,Liborina,05411,05411,Colombia,Antioquia
+res_city_co_68,Maceo,05425,05425,Colombia,Antioquia
+res_city_co_69,Marinilla,05440,05440,Colombia,Antioquia
+res_city_co_70,Montebello,05467,05467,Colombia,Antioquia
+res_city_co_71,Murindó,05475,05475,Colombia,Antioquia
+res_city_co_72,Mutatá,05480,05480,Colombia,Antioquia
+res_city_co_73,Nariño,05483,05483,Colombia,Antioquia
+res_city_co_74,Necoclí,05490,05490,Colombia,Antioquia
+res_city_co_75,Nechí,05495,05495,Colombia,Antioquia
+res_city_co_76,Olaya,05501,05501,Colombia,Antioquia
+res_city_co_77,Peñol,05541,05541,Colombia,Antioquia
+res_city_co_78,Peque,05543,05543,Colombia,Antioquia
+res_city_co_79,Pueblorrico,05576,05576,Colombia,Antioquia
+res_city_co_80,Puerto Berrío,05579,05579,Colombia,Antioquia
+res_city_co_81,Puerto Nare,05585,05585,Colombia,Antioquia
+res_city_co_82,Puerto Triunfo,05591,05591,Colombia,Antioquia
+res_city_co_83,Remedios,05604,05604,Colombia,Antioquia
+res_city_co_84,Retiro,05607,05607,Colombia,Antioquia
+res_city_co_85,Rionegro,05615,05615,Colombia,Antioquia
+res_city_co_86,Sabanalarga,05628,05628,Colombia,Antioquia
+res_city_co_87,Sabaneta,05631,05631,Colombia,Antioquia
+res_city_co_88,Salgar,05642,05642,Colombia,Antioquia
+res_city_co_89,San Andrés de Cuerquía,05647,05647,Colombia,Antioquia
+res_city_co_90,San Carlos,05649,05649,Colombia,Antioquia
+res_city_co_91,San Francisco,05652,05652,Colombia,Antioquia
+res_city_co_92,San Jerónimo,05656,05656,Colombia,Antioquia
+res_city_co_93,San José de la Montaña,05658,05658,Colombia,Antioquia
+res_city_co_94,San Juan de Urabá,05659,05659,Colombia,Antioquia
+res_city_co_95,San Luis,05660,05660,Colombia,Antioquia
+res_city_co_96,San Pedro de los Milagros,05664,05664,Colombia,Antioquia
+res_city_co_97,San Pedro de Urabá,05665,05665,Colombia,Antioquia
+res_city_co_98,San Rafael,05667,05667,Colombia,Antioquia
+res_city_co_99,San Roque,05670,05670,Colombia,Antioquia
+res_city_co_100,San Vicente Ferrer,05674,05674,Colombia,Antioquia
+res_city_co_101,Santa Bárbara,05679,05679,Colombia,Antioquia
+res_city_co_102,Santa Rosa de Osos,05686,05686,Colombia,Antioquia
+res_city_co_103,Santo Domingo,05690,05690,Colombia,Antioquia
+res_city_co_104,El Santuario,05697,05697,Colombia,Antioquia
+res_city_co_105,Segovia,05736,05736,Colombia,Antioquia
+res_city_co_106,Sonsón,05756,05756,Colombia,Antioquia
+res_city_co_107,Sopetrán,05761,05761,Colombia,Antioquia
+res_city_co_108,Támesis,05789,05789,Colombia,Antioquia
+res_city_co_109,Tarazá,05790,05790,Colombia,Antioquia
+res_city_co_110,Tarso,05792,05792,Colombia,Antioquia
+res_city_co_111,Titiribí,05809,05809,Colombia,Antioquia
+res_city_co_112,Toledo,05819,05819,Colombia,Antioquia
+res_city_co_113,Turbo,05837,05837,Colombia,Antioquia
+res_city_co_114,Uramita,05842,05842,Colombia,Antioquia
+res_city_co_115,Urrao,05847,05847,Colombia,Antioquia
+res_city_co_116,Valdivia,05854,05854,Colombia,Antioquia
+res_city_co_117,Valparaíso,05856,05856,Colombia,Antioquia
+res_city_co_118,Vegachí,05858,05858,Colombia,Antioquia
+res_city_co_119,Venecia,05861,05861,Colombia,Antioquia
+res_city_co_120,Vigía del Fuerte,05873,05873,Colombia,Antioquia
+res_city_co_121,Yalí,05885,05885,Colombia,Antioquia
+res_city_co_122,Yarumal,05887,05887,Colombia,Antioquia
+res_city_co_123,Yolombó,05890,05890,Colombia,Antioquia
+res_city_co_124,Yondó,05893,05893,Colombia,Antioquia
+res_city_co_125,Zaragoza,05895,05895,Colombia,Antioquia
+res_city_co_126,Barranquilla,08001,08001,Colombia,Atlántico
+res_city_co_127,Baranoa,08078,08078,Colombia,Atlántico
+res_city_co_128,Campo de la Cruz,08137,08137,Colombia,Atlántico
+res_city_co_129,Candelaria,08141,08141,Colombia,Atlántico
+res_city_co_130,Galapa,08296,08296,Colombia,Atlántico
+res_city_co_131,Juan de Acosta,08372,08372,Colombia,Atlántico
+res_city_co_132,Luruaco,08421,08421,Colombia,Atlántico
+res_city_co_133,Malambo,08433,08433,Colombia,Atlántico
+res_city_co_134,Manatí,08436,08436,Colombia,Atlántico
+res_city_co_135,Palmar de Varela,08520,08520,Colombia,Atlántico
+res_city_co_136,Piojó,08549,08549,Colombia,Atlántico
+res_city_co_137,Polonuevo,08558,08558,Colombia,Atlántico
+res_city_co_138,Ponedera,08560,08560,Colombia,Atlántico
+res_city_co_139,Puerto Colombia,08573,08573,Colombia,Atlántico
+res_city_co_140,Repelón,08606,08606,Colombia,Atlántico
+res_city_co_141,Sabanagrande,08634,08634,Colombia,Atlántico
+res_city_co_142,Sabanalarga,08638,08638,Colombia,Atlántico
+res_city_co_143,Santa Lucía,08675,08675,Colombia,Atlántico
+res_city_co_144,Santo Tomás,08685,08685,Colombia,Atlántico
+res_city_co_145,Soledad,08758,08758,Colombia,Atlántico
+res_city_co_146,Suan,08770,08770,Colombia,Atlántico
+res_city_co_147,Tubará,08832,08832,Colombia,Atlántico
+res_city_co_148,Usiacurí,08849,08849,Colombia,Atlántico
+res_city_co_149,"Bogotá, D.C",11001,11001,Colombia,"Bogotá, D.C"
+res_city_co_150,Cartagena de Indias,13001,13001,Colombia,Bolívar
+res_city_co_151,Achí,13006,13006,Colombia,Bolívar
+res_city_co_152,Altos del Rosario,13030,13030,Colombia,Bolívar
+res_city_co_153,Arenal,13042,13042,Colombia,Bolívar
+res_city_co_154,Arjona,13052,13052,Colombia,Bolívar
+res_city_co_155,Arroyohondo,13062,13062,Colombia,Bolívar
+res_city_co_156,Barranco de Loba,13074,13074,Colombia,Bolívar
+res_city_co_157,Calamar,13140,13140,Colombia,Bolívar
+res_city_co_158,Cantagallo,13160,13160,Colombia,Bolívar
+res_city_co_159,Cicuco,13188,13188,Colombia,Bolívar
+res_city_co_160,Córdoba,13212,13212,Colombia,Bolívar
+res_city_co_161,Clemencia,13222,13222,Colombia,Bolívar
+res_city_co_162,El Carmen de Bolívar,13244,13244,Colombia,Bolívar
+res_city_co_163,El Guamo,13248,13248,Colombia,Bolívar
+res_city_co_164,El Peñón,13268,13268,Colombia,Bolívar
+res_city_co_165,Hatillo de Loba,13300,13300,Colombia,Bolívar
+res_city_co_166,Magangué,13430,13430,Colombia,Bolívar
+res_city_co_167,Mahates,13433,13433,Colombia,Bolívar
+res_city_co_168,Margarita,13440,13440,Colombia,Bolívar
+res_city_co_169,María La Baja,13442,13442,Colombia,Bolívar
+res_city_co_170,Montecristo,13458,13458,Colombia,Bolívar
+res_city_co_171,Santa Cruz de Mompox,13468,13468,Colombia,Bolívar
+res_city_co_172,Morales,13473,13473,Colombia,Bolívar
+res_city_co_173,Norosí,13490,13490,Colombia,Bolívar
+res_city_co_174,Pinillos,13549,13549,Colombia,Bolívar
+res_city_co_175,Regidor,13580,13580,Colombia,Bolívar
+res_city_co_176,Río viejo,13600,13600,Colombia,Bolívar
+res_city_co_177,San Cristóbal,13620,13620,Colombia,Bolívar
+res_city_co_178,San Estanislao,13647,13647,Colombia,Bolívar
+res_city_co_179,San Fernando,13650,13650,Colombia,Bolívar
+res_city_co_180,San Jacinto,13654,13654,Colombia,Bolívar
+res_city_co_181,San Jacinto del Cauca,13655,13655,Colombia,Bolívar
+res_city_co_182,San Juan Nepomuceno,13657,13657,Colombia,Bolívar
+res_city_co_183,San Martín de Loba,13667,13667,Colombia,Bolívar
+res_city_co_184,San Pablo,13670,13670,Colombia,Bolívar
+res_city_co_185,Santa Catalina,13673,13673,Colombia,Bolívar
+res_city_co_186,Santa Rosa,13683,13683,Colombia,Bolívar
+res_city_co_187,Santa Rosa del Sur,13688,13688,Colombia,Bolívar
+res_city_co_188,Simití,13744,13744,Colombia,Bolívar
+res_city_co_189,Soplaviento,13760,13760,Colombia,Bolívar
+res_city_co_190,Talaigua Nuevo,13780,13780,Colombia,Bolívar
+res_city_co_191,Tiquisio,13810,13810,Colombia,Bolívar
+res_city_co_192,Turbaco,13836,13836,Colombia,Bolívar
+res_city_co_193,Turbaná,13838,13838,Colombia,Bolívar
+res_city_co_194,Villanueva,13873,13873,Colombia,Bolívar
+res_city_co_195,Zambrano,13894,13894,Colombia,Bolívar
+res_city_co_196,Tunja,15001,15001,Colombia,Boyacá
+res_city_co_197,Almeida,15022,15022,Colombia,Boyacá
+res_city_co_198,Aquitania,15047,15047,Colombia,Boyacá
+res_city_co_199,Arcabuco,15051,15051,Colombia,Boyacá
+res_city_co_200,Belén,15087,15087,Colombia,Boyacá
+res_city_co_201,Berbeo,15090,15090,Colombia,Boyacá
+res_city_co_202,Betéitiva,15092,15092,Colombia,Boyacá
+res_city_co_203,Boavita,15097,15097,Colombia,Boyacá
+res_city_co_204,Boyacá,15104,15104,Colombia,Boyacá
+res_city_co_205,Briceño,15106,15106,Colombia,Boyacá
+res_city_co_206,Buenavista,15109,15109,Colombia,Boyacá
+res_city_co_207,Busbanzá,15114,15114,Colombia,Boyacá
+res_city_co_208,Caldas,15131,15131,Colombia,Boyacá
+res_city_co_209,Campohermoso,15135,15135,Colombia,Boyacá
+res_city_co_210,Cerinza,15162,15162,Colombia,Boyacá
+res_city_co_211,Chinavita,15172,15172,Colombia,Boyacá
+res_city_co_212,Chiquinquirá,15176,15176,Colombia,Boyacá
+res_city_co_213,Chiscas,15180,15180,Colombia,Boyacá
+res_city_co_214,Chita,15183,15183,Colombia,Boyacá
+res_city_co_215,Chitaraque,15185,15185,Colombia,Boyacá
+res_city_co_216,Chivatá,15187,15187,Colombia,Boyacá
+res_city_co_217,Ciénega,15189,15189,Colombia,Boyacá
+res_city_co_218,Cómbita,15204,15204,Colombia,Boyacá
+res_city_co_219,Coper,15212,15212,Colombia,Boyacá
+res_city_co_220,Corrales,15215,15215,Colombia,Boyacá
+res_city_co_221,Covarachía,15218,15218,Colombia,Boyacá
+res_city_co_222,Cubará,15223,15223,Colombia,Boyacá
+res_city_co_223,Cucaita,15224,15224,Colombia,Boyacá
+res_city_co_224,Cuítiva,15226,15226,Colombia,Boyacá
+res_city_co_225,Chíquiza,15232,15232,Colombia,Boyacá
+res_city_co_226,Chivor,15236,15236,Colombia,Boyacá
+res_city_co_227,Duitama,15238,15238,Colombia,Boyacá
+res_city_co_228,El cocuy,15244,15244,Colombia,Boyacá
+res_city_co_229,El espino,15248,15248,Colombia,Boyacá
+res_city_co_230,Firavitoba,15272,15272,Colombia,Boyacá
+res_city_co_231,Floresta,15276,15276,Colombia,Boyacá
+res_city_co_232,Gachantivá,15293,15293,Colombia,Boyacá
+res_city_co_233,Gámeza,15296,15296,Colombia,Boyacá
+res_city_co_234,Garagoa,15299,15299,Colombia,Boyacá
+res_city_co_235,Guacamayas,15317,15317,Colombia,Boyacá
+res_city_co_236,Guateque,15322,15322,Colombia,Boyacá
+res_city_co_237,Guayatá,15325,15325,Colombia,Boyacá
+res_city_co_238,Güicán de La Sierra,15332,15332,Colombia,Boyacá
+res_city_co_239,Iza,15362,15362,Colombia,Boyacá
+res_city_co_240,Jenesano,15367,15367,Colombia,Boyacá
+res_city_co_241,Jericó,15368,15368,Colombia,Boyacá
+res_city_co_242,Labranzagrande,15377,15377,Colombia,Boyacá
+res_city_co_243,La Capilla,15380,15380,Colombia,Boyacá
+res_city_co_244,La Victoria,15401,15401,Colombia,Boyacá
+res_city_co_245,La Uvita,15403,15403,Colombia,Boyacá
+res_city_co_246,Villa de Leyva,15407,15407,Colombia,Boyacá
+res_city_co_247,Macanal,15425,15425,Colombia,Boyacá
+res_city_co_248,Maripí,15442,15442,Colombia,Boyacá
+res_city_co_249,Miraflores,15455,15455,Colombia,Boyacá
+res_city_co_250,Mongua,15464,15464,Colombia,Boyacá
+res_city_co_251,Monguí,15466,15466,Colombia,Boyacá
+res_city_co_252,Moniquirá,15469,15469,Colombia,Boyacá
+res_city_co_253,Motavita,15476,15476,Colombia,Boyacá
+res_city_co_254,Muzo,15480,15480,Colombia,Boyacá
+res_city_co_255,Nobsa,15491,15491,Colombia,Boyacá
+res_city_co_256,Nuevo Colón,15494,15494,Colombia,Boyacá
+res_city_co_257,Oicatá,15500,15500,Colombia,Boyacá
+res_city_co_258,Otanche,15507,15507,Colombia,Boyacá
+res_city_co_259,Pachavita,15511,15511,Colombia,Boyacá
+res_city_co_260,Páez,15514,15514,Colombia,Boyacá
+res_city_co_261,Paipa,15516,15516,Colombia,Boyacá
+res_city_co_262,Pajarito,15518,15518,Colombia,Boyacá
+res_city_co_263,Panqueba,15522,15522,Colombia,Boyacá
+res_city_co_264,Pauna,15531,15531,Colombia,Boyacá
+res_city_co_265,Paya,15533,15533,Colombia,Boyacá
+res_city_co_266,Paz de Río,15537,15537,Colombia,Boyacá
+res_city_co_267,Pesca,15542,15542,Colombia,Boyacá
+res_city_co_268,Pisba,15550,15550,Colombia,Boyacá
+res_city_co_269,Puerto Boyacá,15572,15572,Colombia,Boyacá
+res_city_co_270,Quípama,15580,15580,Colombia,Boyacá
+res_city_co_271,Ramiriquí,15599,15599,Colombia,Boyacá
+res_city_co_272,Ráquira,15600,15600,Colombia,Boyacá
+res_city_co_273,Rondón,15621,15621,Colombia,Boyacá
+res_city_co_274,Saboyá,15632,15632,Colombia,Boyacá
+res_city_co_275,Sáchica,15638,15638,Colombia,Boyacá
+res_city_co_276,Samacá,15646,15646,Colombia,Boyacá
+res_city_co_277,San Eduardo,15660,15660,Colombia,Boyacá
+res_city_co_278,San José de Pare,15664,15664,Colombia,Boyacá
+res_city_co_279,San Luis de Gaceno,15667,15667,Colombia,Boyacá
+res_city_co_280,San Mateo,15673,15673,Colombia,Boyacá
+res_city_co_281,San Miguel de Sema,15676,15676,Colombia,Boyacá
+res_city_co_282,San Pablo de Borbur,15681,15681,Colombia,Boyacá
+res_city_co_283,Santana,15686,15686,Colombia,Boyacá
+res_city_co_284,Santa María,15690,15690,Colombia,Boyacá
+res_city_co_285,Santa Rosa de Viterbo,15693,15693,Colombia,Boyacá
+res_city_co_286,Santa Sofía,15696,15696,Colombia,Boyacá
+res_city_co_287,Sativanorte,15720,15720,Colombia,Boyacá
+res_city_co_288,Sativasur,15723,15723,Colombia,Boyacá
+res_city_co_289,Siachoque,15740,15740,Colombia,Boyacá
+res_city_co_290,Soatá,15753,15753,Colombia,Boyacá
+res_city_co_291,Socotá,15755,15755,Colombia,Boyacá
+res_city_co_292,Socha,15757,15757,Colombia,Boyacá
+res_city_co_293,Sogamoso,15759,15759,Colombia,Boyacá
+res_city_co_294,Somondoco,15761,15761,Colombia,Boyacá
+res_city_co_295,Sora,15762,15762,Colombia,Boyacá
+res_city_co_296,Sotaquirá,15763,15763,Colombia,Boyacá
+res_city_co_297,Soracá,15764,15764,Colombia,Boyacá
+res_city_co_298,Susacón,15774,15774,Colombia,Boyacá
+res_city_co_299,Sutamarchán,15776,15776,Colombia,Boyacá
+res_city_co_300,Sutatenza,15778,15778,Colombia,Boyacá
+res_city_co_301,Tasco,15790,15790,Colombia,Boyacá
+res_city_co_302,Tenza,15798,15798,Colombia,Boyacá
+res_city_co_303,Tibaná,15804,15804,Colombia,Boyacá
+res_city_co_304,Tibasosa,15806,15806,Colombia,Boyacá
+res_city_co_305,Tinjacá,15808,15808,Colombia,Boyacá
+res_city_co_306,Tipacoque,15810,15810,Colombia,Boyacá
+res_city_co_307,Toca,15814,15814,Colombia,Boyacá
+res_city_co_308,Togüí,15816,15816,Colombia,Boyacá
+res_city_co_309,Tópaga,15820,15820,Colombia,Boyacá
+res_city_co_310,Tota,15822,15822,Colombia,Boyacá
+res_city_co_311,Tununguá,15832,15832,Colombia,Boyacá
+res_city_co_312,Turmequé,15835,15835,Colombia,Boyacá
+res_city_co_313,Tuta,15837,15837,Colombia,Boyacá
+res_city_co_314,Tutazá,15839,15839,Colombia,Boyacá
+res_city_co_315,Úmbita,15842,15842,Colombia,Boyacá
+res_city_co_316,Ventaquemada,15861,15861,Colombia,Boyacá
+res_city_co_317,Viracachá,15879,15879,Colombia,Boyacá
+res_city_co_318,Zetaquira,15897,15897,Colombia,Boyacá
+res_city_co_319,Manizales,17001,17001,Colombia,Caldas
+res_city_co_320,Aguadas,17013,17013,Colombia,Caldas
+res_city_co_321,Anserma,17042,17042,Colombia,Caldas
+res_city_co_322,Aranzazu,17050,17050,Colombia,Caldas
+res_city_co_323,Belalcázar,17088,17088,Colombia,Caldas
+res_city_co_324,Chinchiná,17174,17174,Colombia,Caldas
+res_city_co_325,Filadelfia,17272,17272,Colombia,Caldas
+res_city_co_326,La Dorada,17380,17380,Colombia,Caldas
+res_city_co_327,La Merced,17388,17388,Colombia,Caldas
+res_city_co_328,Manzanares,17433,17433,Colombia,Caldas
+res_city_co_329,Marmato,17442,17442,Colombia,Caldas
+res_city_co_330,Marquetalia,17444,17444,Colombia,Caldas
+res_city_co_331,Marulanda,17446,17446,Colombia,Caldas
+res_city_co_332,Neira,17486,17486,Colombia,Caldas
+res_city_co_333,Norcasia,17495,17495,Colombia,Caldas
+res_city_co_334,Pácora,17513,17513,Colombia,Caldas
+res_city_co_335,Palestina,17524,17524,Colombia,Caldas
+res_city_co_336,Pensilvania,17541,17541,Colombia,Caldas
+res_city_co_337,Riosucio,17614,17614,Colombia,Caldas
+res_city_co_338,Risaralda,17616,17616,Colombia,Caldas
+res_city_co_339,Salamina,17653,17653,Colombia,Caldas
+res_city_co_340,Samaná,17662,17662,Colombia,Caldas
+res_city_co_341,San José,17665,17665,Colombia,Caldas
+res_city_co_342,Supía,17777,17777,Colombia,Caldas
+res_city_co_343,Victoria,17867,17867,Colombia,Caldas
+res_city_co_344,Villamaría,17873,17873,Colombia,Caldas
+res_city_co_345,Viterbo,17877,17877,Colombia,Caldas
+res_city_co_346,Florencia,18001,18001,Colombia,Caquetá
+res_city_co_347,Albania,18029,18029,Colombia,Caquetá
+res_city_co_348,Belén de los Andaquíes,18094,18094,Colombia,Caquetá
+res_city_co_349,Cartagena del Chairá,18150,18150,Colombia,Caquetá
+res_city_co_350,Curillo,18205,18205,Colombia,Caquetá
+res_city_co_351,El Doncello,18247,18247,Colombia,Caquetá
+res_city_co_352,El Paujíl,18256,18256,Colombia,Caquetá
+res_city_co_353,La Montañita,18410,18410,Colombia,Caquetá
+res_city_co_354,Milán,18460,18460,Colombia,Caquetá
+res_city_co_355,Morelia,18479,18479,Colombia,Caquetá
+res_city_co_356,Puerto Rico,18592,18592,Colombia,Caquetá
+res_city_co_357,San José del Fragua,18610,18610,Colombia,Caquetá
+res_city_co_358,San Vicente del Caguán,18753,18753,Colombia,Caquetá
+res_city_co_359,Solano,18756,18756,Colombia,Caquetá
+res_city_co_360,Solita,18785,18785,Colombia,Caquetá
+res_city_co_361,Valparaíso,18860,18860,Colombia,Caquetá
+res_city_co_362,Popayán,19001,19001,Colombia,Cauca
+res_city_co_363,Almaguer,19022,19022,Colombia,Cauca
+res_city_co_364,Argelia,19050,19050,Colombia,Cauca
+res_city_co_365,Balboa,19075,19075,Colombia,Cauca
+res_city_co_366,Bolívar,19100,19100,Colombia,Cauca
+res_city_co_367,Buenos Aires,19110,19110,Colombia,Cauca
+res_city_co_368,Cajibío,19130,19130,Colombia,Cauca
+res_city_co_369,Caldono,19137,19137,Colombia,Cauca
+res_city_co_370,Caloto,19142,19142,Colombia,Cauca
+res_city_co_371,Corinto,19212,19212,Colombia,Cauca
+res_city_co_372,El Tambo,19256,19256,Colombia,Cauca
+res_city_co_373,Florencia,19290,19290,Colombia,Cauca
+res_city_co_374,Guachené,19300,19300,Colombia,Cauca
+res_city_co_375,Guapi,19318,19318,Colombia,Cauca
+res_city_co_376,Inzá,19355,19355,Colombia,Cauca
+res_city_co_377,Jambaló,19364,19364,Colombia,Cauca
+res_city_co_378,La Sierra,19392,19392,Colombia,Cauca
+res_city_co_379,La Vega,19397,19397,Colombia,Cauca
+res_city_co_380,López de Micay,19418,19418,Colombia,Cauca
+res_city_co_381,Mercaderes,19450,19450,Colombia,Cauca
+res_city_co_382,Miranda,19455,19455,Colombia,Cauca
+res_city_co_383,Morales,19473,19473,Colombia,Cauca
+res_city_co_384,Padilla,19513,19513,Colombia,Cauca
+res_city_co_385,Páez,19517,19517,Colombia,Cauca
+res_city_co_386,Patía,19532,19532,Colombia,Cauca
+res_city_co_387,Piamonte,19533,19533,Colombia,Cauca
+res_city_co_388,Piendamó – Tunía,19548,19548,Colombia,Cauca
+res_city_co_389,Puerto Tejada,19573,19573,Colombia,Cauca
+res_city_co_390,Puracé,19585,19585,Colombia,Cauca
+res_city_co_391,Rosas,19622,19622,Colombia,Cauca
+res_city_co_392,San Sebastián,19693,19693,Colombia,Cauca
+res_city_co_393,Santander de Quilichao,19698,19698,Colombia,Cauca
+res_city_co_394,Santa Rosa,19701,19701,Colombia,Cauca
+res_city_co_395,Silvia,19743,19743,Colombia,Cauca
+res_city_co_396,Sotará Paispamba,19760,19760,Colombia,Cauca
+res_city_co_397,Suárez,19780,19780,Colombia,Cauca
+res_city_co_398,Sucre,19785,19785,Colombia,Cauca
+res_city_co_399,Timbío,19807,19807,Colombia,Cauca
+res_city_co_400,Timbiquí,19809,19809,Colombia,Cauca
+res_city_co_401,Toribío,19821,19821,Colombia,Cauca
+res_city_co_402,Totoró,19824,19824,Colombia,Cauca
+res_city_co_403,Villa Rica,19845,19845,Colombia,Cauca
+res_city_co_404,Valledupar,20001,20001,Colombia,Cesar
+res_city_co_405,Aguachica,20011,20011,Colombia,Cesar
+res_city_co_406,Agustín Codazzi,20013,20013,Colombia,Cesar
+res_city_co_407,Astrea,20032,20032,Colombia,Cesar
+res_city_co_408,Becerril,20045,20045,Colombia,Cesar
+res_city_co_409,Bosconia,20060,20060,Colombia,Cesar
+res_city_co_410,Chimichagua,20175,20175,Colombia,Cesar
+res_city_co_411,Chiriguaná,20178,20178,Colombia,Cesar
+res_city_co_412,Curumaní,20228,20228,Colombia,Cesar
+res_city_co_413,El Copey,20238,20238,Colombia,Cesar
+res_city_co_414,El Paso,20250,20250,Colombia,Cesar
+res_city_co_415,Gamarra,20295,20295,Colombia,Cesar
+res_city_co_416,González,20310,20310,Colombia,Cesar
+res_city_co_417,La Gloria,20383,20383,Colombia,Cesar
+res_city_co_418,La Jagua de Ibirico,20400,20400,Colombia,Cesar
+res_city_co_419,Manaure Balcón del Cesar,20443,20443,Colombia,Cesar
+res_city_co_420,Pailitas,20517,20517,Colombia,Cesar
+res_city_co_421,Pelaya,20550,20550,Colombia,Cesar
+res_city_co_422,Pueblo Bello,20570,20570,Colombia,Cesar
+res_city_co_423,Río de Oro,20614,20614,Colombia,Cesar
+res_city_co_424,La Paz,20621,20621,Colombia,Cesar
+res_city_co_425,San Alberto,20710,20710,Colombia,Cesar
+res_city_co_426,San Diego,20750,20750,Colombia,Cesar
+res_city_co_427,San Martín,20770,20770,Colombia,Cesar
+res_city_co_428,Tamalameque,20787,20787,Colombia,Cesar
+res_city_co_429,Montería,23001,23001,Colombia,Córdoba
+res_city_co_430,Ayapel,23068,23068,Colombia,Córdoba
+res_city_co_431,Buenavista,23079,23079,Colombia,Córdoba
+res_city_co_432,Canalete,23090,23090,Colombia,Córdoba
+res_city_co_433,Cereté,23162,23162,Colombia,Córdoba
+res_city_co_434,Chimá,23168,23168,Colombia,Córdoba
+res_city_co_435,Chinú,23182,23182,Colombia,Córdoba
+res_city_co_436,Ciénaga de Oro,23189,23189,Colombia,Córdoba
+res_city_co_437,Cotorra,23300,23300,Colombia,Córdoba
+res_city_co_438,La Apartada,23350,23350,Colombia,Córdoba
+res_city_co_439,Lorica,23417,23417,Colombia,Córdoba
+res_city_co_440,Los Córdobas,23419,23419,Colombia,Córdoba
+res_city_co_441,Momil,23464,23464,Colombia,Córdoba
+res_city_co_442,Montelíbano,23466,23466,Colombia,Córdoba
+res_city_co_443,Moñitos,23500,23500,Colombia,Córdoba
+res_city_co_444,Planeta Rica,23555,23555,Colombia,Córdoba
+res_city_co_445,Pueblo Nuevo,23570,23570,Colombia,Córdoba
+res_city_co_446,Puerto Escondido,23574,23574,Colombia,Córdoba
+res_city_co_447,Puerto Libertador,23580,23580,Colombia,Córdoba
+res_city_co_448,Purísima de La Concepción,23586,23586,Colombia,Córdoba
+res_city_co_449,Sahagún,23660,23660,Colombia,Córdoba
+res_city_co_450,San Andrés de Sotavento,23670,23670,Colombia,Córdoba
+res_city_co_451,San Antero,23672,23672,Colombia,Córdoba
+res_city_co_452,San Bernardo del Viento,23675,23675,Colombia,Córdoba
+res_city_co_453,San Carlos,23678,23678,Colombia,Córdoba
+res_city_co_454,San José de Uré,23682,23682,Colombia,Córdoba
+res_city_co_455,San Pelayo,23686,23686,Colombia,Córdoba
+res_city_co_456,Tierralta,23807,23807,Colombia,Córdoba
+res_city_co_457,Tuchín,23815,23815,Colombia,Córdoba
+res_city_co_458,Valencia,23855,23855,Colombia,Córdoba
+res_city_co_459,Agua de Dios,25001,25001,Colombia,Cundinamarca
+res_city_co_460,Albán,25019,25019,Colombia,Cundinamarca
+res_city_co_461,Anapoima,25035,25035,Colombia,Cundinamarca
+res_city_co_462,Anolaima,25040,25040,Colombia,Cundinamarca
+res_city_co_463,Arbeláez,25053,25053,Colombia,Cundinamarca
+res_city_co_464,Beltrán,25086,25086,Colombia,Cundinamarca
+res_city_co_465,Bituima,25095,25095,Colombia,Cundinamarca
+res_city_co_466,Bojacá,25099,25099,Colombia,Cundinamarca
+res_city_co_467,Cabrera,25120,25120,Colombia,Cundinamarca
+res_city_co_468,Cachipay,25123,25123,Colombia,Cundinamarca
+res_city_co_469,Cajicá,25126,25126,Colombia,Cundinamarca
+res_city_co_470,Caparrapí,25148,25148,Colombia,Cundinamarca
+res_city_co_471,Cáqueza,25151,25151,Colombia,Cundinamarca
+res_city_co_472,Carmen de Carupa,25154,25154,Colombia,Cundinamarca
+res_city_co_473,Chaguaní,25168,25168,Colombia,Cundinamarca
+res_city_co_474,Chía,25175,25175,Colombia,Cundinamarca
+res_city_co_475,Chipaque,25178,25178,Colombia,Cundinamarca
+res_city_co_476,Choachí,25181,25181,Colombia,Cundinamarca
+res_city_co_477,Chocontá,25183,25183,Colombia,Cundinamarca
+res_city_co_478,Cogua,25200,25200,Colombia,Cundinamarca
+res_city_co_479,Cota,25214,25214,Colombia,Cundinamarca
+res_city_co_480,Cucunubá,25224,25224,Colombia,Cundinamarca
+res_city_co_481,El Colegio,25245,25245,Colombia,Cundinamarca
+res_city_co_482,El Peñón,25258,25258,Colombia,Cundinamarca
+res_city_co_483,El Rosal,25260,25260,Colombia,Cundinamarca
+res_city_co_484,Facatativá,25269,25269,Colombia,Cundinamarca
+res_city_co_485,Fómeque,25279,25279,Colombia,Cundinamarca
+res_city_co_486,Fosca,25281,25281,Colombia,Cundinamarca
+res_city_co_487,Funza,25286,25286,Colombia,Cundinamarca
+res_city_co_488,Fúquene,25288,25288,Colombia,Cundinamarca
+res_city_co_489,Fusagasugá,25290,25290,Colombia,Cundinamarca
+res_city_co_490,Gachalá,25293,25293,Colombia,Cundinamarca
+res_city_co_491,Gachancipá,25295,25295,Colombia,Cundinamarca
+res_city_co_492,Gachetá,25297,25297,Colombia,Cundinamarca
+res_city_co_493,Gama,25299,25299,Colombia,Cundinamarca
+res_city_co_494,Girardot,25307,25307,Colombia,Cundinamarca
+res_city_co_495,Granada,25312,25312,Colombia,Cundinamarca
+res_city_co_496,Guachetá,25317,25317,Colombia,Cundinamarca
+res_city_co_497,Guaduas,25320,25320,Colombia,Cundinamarca
+res_city_co_498,Guasca,25322,25322,Colombia,Cundinamarca
+res_city_co_499,Guataquí,25324,25324,Colombia,Cundinamarca
+res_city_co_500,Guatavita,25326,25326,Colombia,Cundinamarca
+res_city_co_501,Guayabal de Síquima,25328,25328,Colombia,Cundinamarca
+res_city_co_502,Guayabetal,25335,25335,Colombia,Cundinamarca
+res_city_co_503,Gutiérrez,25339,25339,Colombia,Cundinamarca
+res_city_co_504,Jerusalén,25368,25368,Colombia,Cundinamarca
+res_city_co_505,Junín,25372,25372,Colombia,Cundinamarca
+res_city_co_506,La Calera,25377,25377,Colombia,Cundinamarca
+res_city_co_507,La Mesa,25386,25386,Colombia,Cundinamarca
+res_city_co_508,La Palma,25394,25394,Colombia,Cundinamarca
+res_city_co_509,La Peña,25398,25398,Colombia,Cundinamarca
+res_city_co_510,La Vega,25402,25402,Colombia,Cundinamarca
+res_city_co_511,Lenguazaque,25407,25407,Colombia,Cundinamarca
+res_city_co_512,Machetá,25426,25426,Colombia,Cundinamarca
+res_city_co_513,Madrid,25430,25430,Colombia,Cundinamarca
+res_city_co_514,Manta,25436,25436,Colombia,Cundinamarca
+res_city_co_515,Medina,25438,25438,Colombia,Cundinamarca
+res_city_co_516,Mosquera,25473,25473,Colombia,Cundinamarca
+res_city_co_517,Nariño,25483,25483,Colombia,Cundinamarca
+res_city_co_518,Nemocón,25486,25486,Colombia,Cundinamarca
+res_city_co_519,Nilo,25488,25488,Colombia,Cundinamarca
+res_city_co_520,Nimaima,25489,25489,Colombia,Cundinamarca
+res_city_co_521,Nocaima,25491,25491,Colombia,Cundinamarca
+res_city_co_522,Venecia,25506,25506,Colombia,Cundinamarca
+res_city_co_523,Pacho,25513,25513,Colombia,Cundinamarca
+res_city_co_524,Paime,25518,25518,Colombia,Cundinamarca
+res_city_co_525,Pandi,25524,25524,Colombia,Cundinamarca
+res_city_co_526,Paratebueno,25530,25530,Colombia,Cundinamarca
+res_city_co_527,Pasca,25535,25535,Colombia,Cundinamarca
+res_city_co_528,Puerto Salgar,25572,25572,Colombia,Cundinamarca
+res_city_co_529,Pulí,25580,25580,Colombia,Cundinamarca
+res_city_co_530,Quebradanegra,25592,25592,Colombia,Cundinamarca
+res_city_co_531,Quetame,25594,25594,Colombia,Cundinamarca
+res_city_co_532,Quipile,25596,25596,Colombia,Cundinamarca
+res_city_co_533,Apulo,25599,25599,Colombia,Cundinamarca
+res_city_co_534,Ricaurte,25612,25612,Colombia,Cundinamarca
+res_city_co_535,San Antonio del Tequendama,25645,25645,Colombia,Cundinamarca
+res_city_co_536,San Bernardo,25649,25649,Colombia,Cundinamarca
+res_city_co_537,San Cayetano,25653,25653,Colombia,Cundinamarca
+res_city_co_538,San Francisco,25658,25658,Colombia,Cundinamarca
+res_city_co_539,San Juan de Rioseco,25662,25662,Colombia,Cundinamarca
+res_city_co_540,Sasaima,25718,25718,Colombia,Cundinamarca
+res_city_co_541,Sesquilé,25736,25736,Colombia,Cundinamarca
+res_city_co_542,Sibaté,25740,25740,Colombia,Cundinamarca
+res_city_co_543,Silvania,25743,25743,Colombia,Cundinamarca
+res_city_co_544,Simijaca,25745,25745,Colombia,Cundinamarca
+res_city_co_545,Soacha,25754,25754,Colombia,Cundinamarca
+res_city_co_546,Sopó,25758,25758,Colombia,Cundinamarca
+res_city_co_547,Subachoque,25769,25769,Colombia,Cundinamarca
+res_city_co_548,Suesca,25772,25772,Colombia,Cundinamarca
+res_city_co_549,Supatá,25777,25777,Colombia,Cundinamarca
+res_city_co_550,Susa,25779,25779,Colombia,Cundinamarca
+res_city_co_551,Sutatausa,25781,25781,Colombia,Cundinamarca
+res_city_co_552,Tabio,25785,25785,Colombia,Cundinamarca
+res_city_co_553,Tausa,25793,25793,Colombia,Cundinamarca
+res_city_co_554,Tena,25797,25797,Colombia,Cundinamarca
+res_city_co_555,Tenjo,25799,25799,Colombia,Cundinamarca
+res_city_co_556,Tibacuy,25805,25805,Colombia,Cundinamarca
+res_city_co_557,Tibirita,25807,25807,Colombia,Cundinamarca
+res_city_co_558,Tocaima,25815,25815,Colombia,Cundinamarca
+res_city_co_559,Tocancipá,25817,25817,Colombia,Cundinamarca
+res_city_co_560,Topaipí,25823,25823,Colombia,Cundinamarca
+res_city_co_561,Ubalá,25839,25839,Colombia,Cundinamarca
+res_city_co_562,Ubaque,25841,25841,Colombia,Cundinamarca
+res_city_co_563,Ubaté,25843,25843,Colombia,Cundinamarca
+res_city_co_564,Une,25845,25845,Colombia,Cundinamarca
+res_city_co_565,Útica,25851,25851,Colombia,Cundinamarca
+res_city_co_566,Vergara,25862,25862,Colombia,Cundinamarca
+res_city_co_567,Vianí,25867,25867,Colombia,Cundinamarca
+res_city_co_568,Villagómez,25871,25871,Colombia,Cundinamarca
+res_city_co_569,Villapinzón,25873,25873,Colombia,Cundinamarca
+res_city_co_570,Villeta,25875,25875,Colombia,Cundinamarca
+res_city_co_571,Viotá,25878,25878,Colombia,Cundinamarca
+res_city_co_572,Yacopí,25885,25885,Colombia,Cundinamarca
+res_city_co_573,Zipacón,25898,25898,Colombia,Cundinamarca
+res_city_co_574,Zipaquirá,25899,25899,Colombia,Cundinamarca
+res_city_co_575,Quibdó,27001,27001,Colombia,Chocó
+res_city_co_576,Acandí,27006,27006,Colombia,Chocó
+res_city_co_577,Alto Baudó,27025,27025,Colombia,Chocó
+res_city_co_578,Atrato,27050,27050,Colombia,Chocó
+res_city_co_579,Bagadó,27073,27073,Colombia,Chocó
+res_city_co_580,Bahía solano,27075,27075,Colombia,Chocó
+res_city_co_581,Bajo baudó,27077,27077,Colombia,Chocó
+res_city_co_582,Bojayá,27099,27099,Colombia,Chocó
+res_city_co_583,El Cantón del San Pablo,27135,27135,Colombia,Chocó
+res_city_co_584,Carmen del Darién,27150,27150,Colombia,Chocó
+res_city_co_585,Cértegui,27160,27160,Colombia,Chocó
+res_city_co_586,Condoto,27205,27205,Colombia,Chocó
+res_city_co_587,El Carmen de Atrato,27245,27245,Colombia,Chocó
+res_city_co_588,El Litoral del San Juan,27250,27250,Colombia,Chocó
+res_city_co_589,Istmina,27361,27361,Colombia,Chocó
+res_city_co_590,Juradó,27372,27372,Colombia,Chocó
+res_city_co_591,Lloró,27413,27413,Colombia,Chocó
+res_city_co_592,Medio Atrato,27425,27425,Colombia,Chocó
+res_city_co_593,Medio Baudó,27430,27430,Colombia,Chocó
+res_city_co_594,Medio San Juan,27450,27450,Colombia,Chocó
+res_city_co_595,Nóvita,27491,27491,Colombia,Chocó
+res_city_co_596,Nuquí,27495,27495,Colombia,Chocó
+res_city_co_597,Río Iró,27580,27580,Colombia,Chocó
+res_city_co_598,Río Quito,27600,27600,Colombia,Chocó
+res_city_co_599,Riosucio,27615,27615,Colombia,Chocó
+res_city_co_600,San José del Palmar,27660,27660,Colombia,Chocó
+res_city_co_601,Sipí,27745,27745,Colombia,Chocó
+res_city_co_602,Tadó,27787,27787,Colombia,Chocó
+res_city_co_603,Unguía,27800,27800,Colombia,Chocó
+res_city_co_604,Unión Panamericana,27810,27810,Colombia,Chocó
+res_city_co_605,Neiva,41001,41001,Colombia,Huila
+res_city_co_606,Acevedo,41006,41006,Colombia,Huila
+res_city_co_607,Agrado,41013,41013,Colombia,Huila
+res_city_co_608,Aipe,41016,41016,Colombia,Huila
+res_city_co_609,Algeciras,41020,41020,Colombia,Huila
+res_city_co_610,Altamira,41026,41026,Colombia,Huila
+res_city_co_611,Baraya,41078,41078,Colombia,Huila
+res_city_co_612,Campoalegre,41132,41132,Colombia,Huila
+res_city_co_613,Colombia,41206,41206,Colombia,Huila
+res_city_co_614,Elías,41244,41244,Colombia,Huila
+res_city_co_615,Garzón,41298,41298,Colombia,Huila
+res_city_co_616,Gigante,41306,41306,Colombia,Huila
+res_city_co_617,Guadalupe,41319,41319,Colombia,Huila
+res_city_co_618,Hobo,41349,41349,Colombia,Huila
+res_city_co_619,Íquira,41357,41357,Colombia,Huila
+res_city_co_620,Isnos,41359,41359,Colombia,Huila
+res_city_co_621,La Argentina,41378,41378,Colombia,Huila
+res_city_co_622,La Plata,41396,41396,Colombia,Huila
+res_city_co_623,Nátaga,41483,41483,Colombia,Huila
+res_city_co_624,Oporapa,41503,41503,Colombia,Huila
+res_city_co_625,Paicol,41518,41518,Colombia,Huila
+res_city_co_626,Palermo,41524,41524,Colombia,Huila
+res_city_co_627,Palestina,41530,41530,Colombia,Huila
+res_city_co_628,Pital,41548,41548,Colombia,Huila
+res_city_co_629,Pitalito,41551,41551,Colombia,Huila
+res_city_co_630,Rivera,41615,41615,Colombia,Huila
+res_city_co_631,Saladoblanco,41660,41660,Colombia,Huila
+res_city_co_632,San Agustín,41668,41668,Colombia,Huila
+res_city_co_633,Santa María,41676,41676,Colombia,Huila
+res_city_co_634,Suaza,41770,41770,Colombia,Huila
+res_city_co_635,Tarqui,41791,41791,Colombia,Huila
+res_city_co_636,Tesalia,41797,41797,Colombia,Huila
+res_city_co_637,Tello,41799,41799,Colombia,Huila
+res_city_co_638,Teruel,41801,41801,Colombia,Huila
+res_city_co_639,Timaná,41807,41807,Colombia,Huila
+res_city_co_640,Villavieja,41872,41872,Colombia,Huila
+res_city_co_641,Yaguará,41885,41885,Colombia,Huila
+res_city_co_642,Riohacha,44001,44001,Colombia,La Guajira
+res_city_co_643,Albania,44035,44035,Colombia,La Guajira
+res_city_co_644,Barrancas,44078,44078,Colombia,La Guajira
+res_city_co_645,Dibulla,44090,44090,Colombia,La Guajira
+res_city_co_646,Distracción,44098,44098,Colombia,La Guajira
+res_city_co_647,El Molino,44110,44110,Colombia,La Guajira
+res_city_co_648,Fonseca,44279,44279,Colombia,La Guajira
+res_city_co_649,Hatonuevo,44378,44378,Colombia,La Guajira
+res_city_co_650,La Jagua del Pilar,44420,44420,Colombia,La Guajira
+res_city_co_651,Maicao,44430,44430,Colombia,La Guajira
+res_city_co_652,Manaure,44560,44560,Colombia,La Guajira
+res_city_co_653,San Juan del Cesar,44650,44650,Colombia,La Guajira
+res_city_co_654,Uribia,44847,44847,Colombia,La Guajira
+res_city_co_655,Urumita,44855,44855,Colombia,La Guajira
+res_city_co_656,Villanueva,44874,44874,Colombia,La Guajira
+res_city_co_657,Santa Marta,47001,47001,Colombia,Magdalena
+res_city_co_658,Algarrobo,47030,47030,Colombia,Magdalena
+res_city_co_659,Aracataca,47053,47053,Colombia,Magdalena
+res_city_co_660,Ariguaní,47058,47058,Colombia,Magdalena
+res_city_co_661,Cerro de San Antonio,47161,47161,Colombia,Magdalena
+res_city_co_662,Chivolo,47170,47170,Colombia,Magdalena
+res_city_co_663,Ciénaga,47189,47189,Colombia,Magdalena
+res_city_co_664,Concordia,47205,47205,Colombia,Magdalena
+res_city_co_665,El Banco,47245,47245,Colombia,Magdalena
+res_city_co_666,El Piñón,47258,47258,Colombia,Magdalena
+res_city_co_667,El Retén,47268,47268,Colombia,Magdalena
+res_city_co_668,Fundación,47288,47288,Colombia,Magdalena
+res_city_co_669,Guamal,47318,47318,Colombia,Magdalena
+res_city_co_670,Nueva Granada,47460,47460,Colombia,Magdalena
+res_city_co_671,Pedraza,47541,47541,Colombia,Magdalena
+res_city_co_672,Pijiño del Carmen,47545,47545,Colombia,Magdalena
+res_city_co_673,Pivijay,47551,47551,Colombia,Magdalena
+res_city_co_674,Plato,47555,47555,Colombia,Magdalena
+res_city_co_675,Puebloviejo,47570,47570,Colombia,Magdalena
+res_city_co_676,Remolino,47605,47605,Colombia,Magdalena
+res_city_co_677,Sabanas de San Ángel,47660,47660,Colombia,Magdalena
+res_city_co_678,Salamina,47675,47675,Colombia,Magdalena
+res_city_co_679,San Sebastián de Buenavista,47692,47692,Colombia,Magdalena
+res_city_co_680,San Zenón,47703,47703,Colombia,Magdalena
+res_city_co_681,Santa Ana,47707,47707,Colombia,Magdalena
+res_city_co_682,Santa Bárbara de Pinto,47720,47720,Colombia,Magdalena
+res_city_co_683,Sitionuevo,47745,47745,Colombia,Magdalena
+res_city_co_684,Tenerife,47798,47798,Colombia,Magdalena
+res_city_co_685,Zapayán,47960,47960,Colombia,Magdalena
+res_city_co_686,Zona Bananera,47980,47980,Colombia,Magdalena
+res_city_co_687,Villavicencio,50001,50001,Colombia,Meta
+res_city_co_688,Acacías,50006,50006,Colombia,Meta
+res_city_co_689,Barranca de Upía,50110,50110,Colombia,Meta
+res_city_co_690,Cabuyaro,50124,50124,Colombia,Meta
+res_city_co_691,Castilla La Nueva,50150,50150,Colombia,Meta
+res_city_co_692,Cubarral,50223,50223,Colombia,Meta
+res_city_co_693,Cumaral,50226,50226,Colombia,Meta
+res_city_co_694,El Calvario,50245,50245,Colombia,Meta
+res_city_co_695,El Castillo,50251,50251,Colombia,Meta
+res_city_co_696,El Dorado,50270,50270,Colombia,Meta
+res_city_co_697,Fuente de Oro,50287,50287,Colombia,Meta
+res_city_co_698,Granada,50313,50313,Colombia,Meta
+res_city_co_699,Guamal,50318,50318,Colombia,Meta
+res_city_co_700,Mapiripán,50325,50325,Colombia,Meta
+res_city_co_701,Mesetas,50330,50330,Colombia,Meta
+res_city_co_702,La Macarena,50350,50350,Colombia,Meta
+res_city_co_703,Uribe,50370,50370,Colombia,Meta
+res_city_co_704,Lejanías,50400,50400,Colombia,Meta
+res_city_co_705,Puerto Concordia,50450,50450,Colombia,Meta
+res_city_co_706,Puerto Gaitán,50568,50568,Colombia,Meta
+res_city_co_707,Puerto López,50573,50573,Colombia,Meta
+res_city_co_708,Puerto Lleras,50577,50577,Colombia,Meta
+res_city_co_709,Puerto Rico,50590,50590,Colombia,Meta
+res_city_co_710,Restrepo,50606,50606,Colombia,Meta
+res_city_co_711,San Carlos de Guaroa,50680,50680,Colombia,Meta
+res_city_co_712,San Juan de Arama,50683,50683,Colombia,Meta
+res_city_co_713,San Juanito,50686,50686,Colombia,Meta
+res_city_co_714,San Martín,50689,50689,Colombia,Meta
+res_city_co_715,Vistahermosa,50711,50711,Colombia,Meta
+res_city_co_716,Pasto,52001,52001,Colombia,Nariño
+res_city_co_717,Albán,52019,52019,Colombia,Nariño
+res_city_co_718,Aldana,52022,52022,Colombia,Nariño
+res_city_co_719,Ancuya,52036,52036,Colombia,Nariño
+res_city_co_720,Arboleda,52051,52051,Colombia,Nariño
+res_city_co_721,Barbacoas,52079,52079,Colombia,Nariño
+res_city_co_722,Belén,52083,52083,Colombia,Nariño
+res_city_co_723,Buesaco,52110,52110,Colombia,Nariño
+res_city_co_724,Colón,52203,52203,Colombia,Nariño
+res_city_co_725,Consacá,52207,52207,Colombia,Nariño
+res_city_co_726,Contadero,52210,52210,Colombia,Nariño
+res_city_co_727,Córdoba,52215,52215,Colombia,Nariño
+res_city_co_728,Cuaspud Carlosama,52224,52224,Colombia,Nariño
+res_city_co_729,Cumbal,52227,52227,Colombia,Nariño
+res_city_co_730,Cumbitara,52233,52233,Colombia,Nariño
+res_city_co_731,Chachagüí,52240,52240,Colombia,Nariño
+res_city_co_732,El Charco,52250,52250,Colombia,Nariño
+res_city_co_733,El Peñol,52254,52254,Colombia,Nariño
+res_city_co_734,El Rosario,52256,52256,Colombia,Nariño
+res_city_co_735,El Tablón de Gómez,52258,52258,Colombia,Nariño
+res_city_co_736,El Tambo,52260,52260,Colombia,Nariño
+res_city_co_737,Funes,52287,52287,Colombia,Nariño
+res_city_co_738,Guachucal,52317,52317,Colombia,Nariño
+res_city_co_739,Guaitarilla,52320,52320,Colombia,Nariño
+res_city_co_740,Gualmatán,52323,52323,Colombia,Nariño
+res_city_co_741,Iles,52352,52352,Colombia,Nariño
+res_city_co_742,Imués,52354,52354,Colombia,Nariño
+res_city_co_743,Ipiales,52356,52356,Colombia,Nariño
+res_city_co_744,La Cruz,52378,52378,Colombia,Nariño
+res_city_co_745,La Florida,52381,52381,Colombia,Nariño
+res_city_co_746,La Llanada,52385,52385,Colombia,Nariño
+res_city_co_747,La Tola,52390,52390,Colombia,Nariño
+res_city_co_748,La Unión,52399,52399,Colombia,Nariño
+res_city_co_749,Leiva,52405,52405,Colombia,Nariño
+res_city_co_750,Linares,52411,52411,Colombia,Nariño
+res_city_co_751,Los Andes,52418,52418,Colombia,Nariño
+res_city_co_752,Magüí,52427,52427,Colombia,Nariño
+res_city_co_753,Mallama,52435,52435,Colombia,Nariño
+res_city_co_754,Mosquera,52473,52473,Colombia,Nariño
+res_city_co_755,Nariño,52480,52480,Colombia,Nariño
+res_city_co_756,Olaya Herrera,52490,52490,Colombia,Nariño
+res_city_co_757,Ospina,52506,52506,Colombia,Nariño
+res_city_co_758,Francisco Pizarro,52520,52520,Colombia,Nariño
+res_city_co_759,Policarpa,52540,52540,Colombia,Nariño
+res_city_co_760,Potosí,52560,52560,Colombia,Nariño
+res_city_co_761,Providencia,52565,52565,Colombia,Nariño
+res_city_co_762,Puerres,52573,52573,Colombia,Nariño
+res_city_co_763,Pupiales,52585,52585,Colombia,Nariño
+res_city_co_764,Ricaurte,52612,52612,Colombia,Nariño
+res_city_co_765,Roberto Payán,52621,52621,Colombia,Nariño
+res_city_co_766,Samaniego,52678,52678,Colombia,Nariño
+res_city_co_767,Sandoná,52683,52683,Colombia,Nariño
+res_city_co_768,San Bernardo,52685,52685,Colombia,Nariño
+res_city_co_769,San Lorenzo,52687,52687,Colombia,Nariño
+res_city_co_770,San Pablo,52693,52693,Colombia,Nariño
+res_city_co_771,San Pedro de Cartago,52694,52694,Colombia,Nariño
+res_city_co_772,Santa Bárbara,52696,52696,Colombia,Nariño
+res_city_co_773,Santacruz,52699,52699,Colombia,Nariño
+res_city_co_774,Sapuyes,52720,52720,Colombia,Nariño
+res_city_co_775,Taminango,52786,52786,Colombia,Nariño
+res_city_co_776,Tangua,52788,52788,Colombia,Nariño
+res_city_co_777,San Andrés de Tumaco,52835,52835,Colombia,Nariño
+res_city_co_778,Túquerres,52838,52838,Colombia,Nariño
+res_city_co_779,Yacuanquer,52885,52885,Colombia,Nariño
+res_city_co_780,Cúcuta,54001,54001,Colombia,Norte de Santander
+res_city_co_781,Ábrego,54003,54003,Colombia,Norte de Santander
+res_city_co_782,Arboledas,54051,54051,Colombia,Norte de Santander
+res_city_co_783,Bochalema,54099,54099,Colombia,Norte de Santander
+res_city_co_784,Bucarasica,54109,54109,Colombia,Norte de Santander
+res_city_co_785,Cácota,54125,54125,Colombia,Norte de Santander
+res_city_co_786,Cáchira,54128,54128,Colombia,Norte de Santander
+res_city_co_787,Chinácota,54172,54172,Colombia,Norte de Santander
+res_city_co_788,Chitagá,54174,54174,Colombia,Norte de Santander
+res_city_co_789,Convención,54206,54206,Colombia,Norte de Santander
+res_city_co_790,Cucutilla,54223,54223,Colombia,Norte de Santander
+res_city_co_791,Durania,54239,54239,Colombia,Norte de Santander
+res_city_co_792,El Carmen,54245,54245,Colombia,Norte de Santander
+res_city_co_793,El Tarra,54250,54250,Colombia,Norte de Santander
+res_city_co_794,El Zulia,54261,54261,Colombia,Norte de Santander
+res_city_co_795,Gramalote,54313,54313,Colombia,Norte de Santander
+res_city_co_796,Hacarí,54344,54344,Colombia,Norte de Santander
+res_city_co_797,Herrán,54347,54347,Colombia,Norte de Santander
+res_city_co_798,Labateca,54377,54377,Colombia,Norte de Santander
+res_city_co_799,La Esperanza,54385,54385,Colombia,Norte de Santander
+res_city_co_800,La Playa,54398,54398,Colombia,Norte de Santander
+res_city_co_801,Los Patios,54405,54405,Colombia,Norte de Santander
+res_city_co_802,Lourdes,54418,54418,Colombia,Norte de Santander
+res_city_co_803,Mutiscua,54480,54480,Colombia,Norte de Santander
+res_city_co_804,Ocaña,54498,54498,Colombia,Norte de Santander
+res_city_co_805,Pamplona,54518,54518,Colombia,Norte de Santander
+res_city_co_806,Pamplonita,54520,54520,Colombia,Norte de Santander
+res_city_co_807,Puerto Santander,54553,54553,Colombia,Norte de Santander
+res_city_co_808,Ragonvalia,54599,54599,Colombia,Norte de Santander
+res_city_co_809,Salazar,54660,54660,Colombia,Norte de Santander
+res_city_co_810,San Calixto,54670,54670,Colombia,Norte de Santander
+res_city_co_811,San Cayetano,54673,54673,Colombia,Norte de Santander
+res_city_co_812,Santiago,54680,54680,Colombia,Norte de Santander
+res_city_co_813,Sardinata,54720,54720,Colombia,Norte de Santander
+res_city_co_814,Silos,54743,54743,Colombia,Norte de Santander
+res_city_co_815,Teorama,54800,54800,Colombia,Norte de Santander
+res_city_co_816,Tibú,54810,54810,Colombia,Norte de Santander
+res_city_co_817,Toledo,54820,54820,Colombia,Norte de Santander
+res_city_co_818,Villa Caro,54871,54871,Colombia,Norte de Santander
+res_city_co_819,Villa del Rosario,54874,54874,Colombia,Norte de Santander
+res_city_co_820,Armenia,63001,63001,Colombia,Quindío
+res_city_co_821,Buenavista,63111,63111,Colombia,Quindío
+res_city_co_822,Calarcá,63130,63130,Colombia,Quindío
+res_city_co_823,Circasia,63190,63190,Colombia,Quindío
+res_city_co_824,Córdoba,63212,63212,Colombia,Quindío
+res_city_co_825,Filandia,63272,63272,Colombia,Quindío
+res_city_co_826,Génova,63302,63302,Colombia,Quindío
+res_city_co_827,La Tebaida,63401,63401,Colombia,Quindío
+res_city_co_828,Montenegro,63470,63470,Colombia,Quindío
+res_city_co_829,Pijao,63548,63548,Colombia,Quindío
+res_city_co_830,Quimbaya,63594,63594,Colombia,Quindío
+res_city_co_831,Salento,63690,63690,Colombia,Quindío
+res_city_co_832,Pereira,66001,66001,Colombia,Risaralda
+res_city_co_833,Apía,66045,66045,Colombia,Risaralda
+res_city_co_834,Balboa,66075,66075,Colombia,Risaralda
+res_city_co_835,Belén de Umbría,66088,66088,Colombia,Risaralda
+res_city_co_836,Dosquebradas,66170,66170,Colombia,Risaralda
+res_city_co_837,Guática,66318,66318,Colombia,Risaralda
+res_city_co_838,La Celia,66383,66383,Colombia,Risaralda
+res_city_co_839,La Virginia,66400,66400,Colombia,Risaralda
+res_city_co_840,Marsella,66440,66440,Colombia,Risaralda
+res_city_co_841,Mistrató,66456,66456,Colombia,Risaralda
+res_city_co_842,Pueblo Rico,66572,66572,Colombia,Risaralda
+res_city_co_843,Quinchía,66594,66594,Colombia,Risaralda
+res_city_co_844,Santa Rosa de Cabal,66682,66682,Colombia,Risaralda
+res_city_co_845,Santuario,66687,66687,Colombia,Risaralda
+res_city_co_846,Bucaramanga,68001,68001,Colombia,Santander
+res_city_co_847,Aguada,68013,68013,Colombia,Santander
+res_city_co_848,Albania,68020,68020,Colombia,Santander
+res_city_co_849,Aratoca,68051,68051,Colombia,Santander
+res_city_co_850,Barbosa,68077,68077,Colombia,Santander
+res_city_co_851,Barichara,68079,68079,Colombia,Santander
+res_city_co_852,Barrancabermeja,68081,68081,Colombia,Santander
+res_city_co_853,Betulia,68092,68092,Colombia,Santander
+res_city_co_854,Bolívar,68101,68101,Colombia,Santander
+res_city_co_855,Cabrera,68121,68121,Colombia,Santander
+res_city_co_856,California,68132,68132,Colombia,Santander
+res_city_co_857,Capitanejo,68147,68147,Colombia,Santander
+res_city_co_858,Carcasí,68152,68152,Colombia,Santander
+res_city_co_859,Cepitá,68160,68160,Colombia,Santander
+res_city_co_860,Cerrito,68162,68162,Colombia,Santander
+res_city_co_861,Charalá,68167,68167,Colombia,Santander
+res_city_co_862,Charta,68169,68169,Colombia,Santander
+res_city_co_863,Chima,68176,68176,Colombia,Santander
+res_city_co_864,Chipatá,68179,68179,Colombia,Santander
+res_city_co_865,Cimitarra,68190,68190,Colombia,Santander
+res_city_co_866,Concepción,68207,68207,Colombia,Santander
+res_city_co_867,Confines,68209,68209,Colombia,Santander
+res_city_co_868,Contratación,68211,68211,Colombia,Santander
+res_city_co_869,Coromoro,68217,68217,Colombia,Santander
+res_city_co_870,Curití,68229,68229,Colombia,Santander
+res_city_co_871,El Carmen de Chucuri,68235,68235,Colombia,Santander
+res_city_co_872,El Guacamayo,68245,68245,Colombia,Santander
+res_city_co_873,El Peñón,68250,68250,Colombia,Santander
+res_city_co_874,El Playón,68255,68255,Colombia,Santander
+res_city_co_875,Encino,68264,68264,Colombia,Santander
+res_city_co_876,Enciso,68266,68266,Colombia,Santander
+res_city_co_877,Florián,68271,68271,Colombia,Santander
+res_city_co_878,Floridablanca,68276,68276,Colombia,Santander
+res_city_co_879,Galán,68296,68296,Colombia,Santander
+res_city_co_880,Gámbita,68298,68298,Colombia,Santander
+res_city_co_881,Girón,68307,68307,Colombia,Santander
+res_city_co_882,Guaca,68318,68318,Colombia,Santander
+res_city_co_883,Guadalupe,68320,68320,Colombia,Santander
+res_city_co_884,Guapotá,68322,68322,Colombia,Santander
+res_city_co_885,Guavatá,68324,68324,Colombia,Santander
+res_city_co_886,Güepsa,68327,68327,Colombia,Santander
+res_city_co_887,Hato,68344,68344,Colombia,Santander
+res_city_co_888,Jesús María,68368,68368,Colombia,Santander
+res_city_co_889,Jordán,68370,68370,Colombia,Santander
+res_city_co_890,La Belleza,68377,68377,Colombia,Santander
+res_city_co_891,Landázuri,68385,68385,Colombia,Santander
+res_city_co_892,La Paz,68397,68397,Colombia,Santander
+res_city_co_893,Lebrija,68406,68406,Colombia,Santander
+res_city_co_894,Los Santos,68418,68418,Colombia,Santander
+res_city_co_895,Macaravita,68425,68425,Colombia,Santander
+res_city_co_896,Málaga,68432,68432,Colombia,Santander
+res_city_co_897,Matanza,68444,68444,Colombia,Santander
+res_city_co_898,Mogotes,68464,68464,Colombia,Santander
+res_city_co_899,Molagavita,68468,68468,Colombia,Santander
+res_city_co_900,Ocamonte,68498,68498,Colombia,Santander
+res_city_co_901,Oiba,68500,68500,Colombia,Santander
+res_city_co_902,Onzaga,68502,68502,Colombia,Santander
+res_city_co_903,Palmar,68522,68522,Colombia,Santander
+res_city_co_904,Palmas del Socorro,68524,68524,Colombia,Santander
+res_city_co_905,Páramo,68533,68533,Colombia,Santander
+res_city_co_906,Piedecuesta,68547,68547,Colombia,Santander
+res_city_co_907,Pinchote,68549,68549,Colombia,Santander
+res_city_co_908,Puente Nacional,68572,68572,Colombia,Santander
+res_city_co_909,Puerto Parra,68573,68573,Colombia,Santander
+res_city_co_910,Puerto Wilches,68575,68575,Colombia,Santander
+res_city_co_911,Rionegro,68615,68615,Colombia,Santander
+res_city_co_912,Sabana de Torres,68655,68655,Colombia,Santander
+res_city_co_913,San Andrés,68669,68669,Colombia,Santander
+res_city_co_914,San Benito,68673,68673,Colombia,Santander
+res_city_co_915,San Gil,68679,68679,Colombia,Santander
+res_city_co_916,San Joaquín,68682,68682,Colombia,Santander
+res_city_co_917,San José de Miranda,68684,68684,Colombia,Santander
+res_city_co_918,San Miguel,68686,68686,Colombia,Santander
+res_city_co_919,San Vicente de Chucurí,68689,68689,Colombia,Santander
+res_city_co_920,Santa Bárbara,68705,68705,Colombia,Santander
+res_city_co_921,Santa Helena del Opón,68720,68720,Colombia,Santander
+res_city_co_922,Simacota,68745,68745,Colombia,Santander
+res_city_co_923,Socorro,68755,68755,Colombia,Santander
+res_city_co_924,Suaita,68770,68770,Colombia,Santander
+res_city_co_925,Sucre,68773,68773,Colombia,Santander
+res_city_co_926,Suratá,68780,68780,Colombia,Santander
+res_city_co_927,Tona,68820,68820,Colombia,Santander
+res_city_co_928,Valle de San José,68855,68855,Colombia,Santander
+res_city_co_929,Vélez,68861,68861,Colombia,Santander
+res_city_co_930,Vetas,68867,68867,Colombia,Santander
+res_city_co_931,Villanueva,68872,68872,Colombia,Santander
+res_city_co_932,Zapatoca,68895,68895,Colombia,Santander
+res_city_co_933,Sincelejo,70001,70001,Colombia,Sucre
+res_city_co_934,Buenavista,70110,70110,Colombia,Sucre
+res_city_co_935,Caimito,70124,70124,Colombia,Sucre
+res_city_co_936,Colosó,70204,70204,Colombia,Sucre
+res_city_co_937,Corozal,70215,70215,Colombia,Sucre
+res_city_co_938,Coveñas,70221,70221,Colombia,Sucre
+res_city_co_939,Chalán,70230,70230,Colombia,Sucre
+res_city_co_940,El Roble,70233,70233,Colombia,Sucre
+res_city_co_941,Galeras,70235,70235,Colombia,Sucre
+res_city_co_942,Guaranda,70265,70265,Colombia,Sucre
+res_city_co_943,La Unión,70400,70400,Colombia,Sucre
+res_city_co_944,Los Palmitos,70418,70418,Colombia,Sucre
+res_city_co_945,Majagual,70429,70429,Colombia,Sucre
+res_city_co_946,Morroa,70473,70473,Colombia,Sucre
+res_city_co_947,Ovejas,70508,70508,Colombia,Sucre
+res_city_co_948,Palmito,70523,70523,Colombia,Sucre
+res_city_co_949,Sampués,70670,70670,Colombia,Sucre
+res_city_co_950,San Benito Abad,70678,70678,Colombia,Sucre
+res_city_co_951,San Juan de Betulia,70702,70702,Colombia,Sucre
+res_city_co_952,San Marcos,70708,70708,Colombia,Sucre
+res_city_co_953,San Onofre,70713,70713,Colombia,Sucre
+res_city_co_954,San pedro,70717,70717,Colombia,Sucre
+res_city_co_955,San Luis de Sincé,70742,70742,Colombia,Sucre
+res_city_co_956,Sucre,70771,70771,Colombia,Sucre
+res_city_co_957,Santiago de Tolú,70820,70820,Colombia,Sucre
+res_city_co_958,San José de Toluviejo,70823,70823,Colombia,Sucre
+res_city_co_959,Ibagué,73001,73001,Colombia,Tolima
+res_city_co_960,Alpujarra,73024,73024,Colombia,Tolima
+res_city_co_961,Alvarado,73026,73026,Colombia,Tolima
+res_city_co_962,Ambalema,73030,73030,Colombia,Tolima
+res_city_co_963,Anzoátegui,73043,73043,Colombia,Tolima
+res_city_co_964,Armero,73055,73055,Colombia,Tolima
+res_city_co_965,Ataco,73067,73067,Colombia,Tolima
+res_city_co_966,Cajamarca,73124,73124,Colombia,Tolima
+res_city_co_967,Carmen de Apicalá,73148,73148,Colombia,Tolima
+res_city_co_968,Casabianca,73152,73152,Colombia,Tolima
+res_city_co_969,Chaparral,73168,73168,Colombia,Tolima
+res_city_co_970,Coello,73200,73200,Colombia,Tolima
+res_city_co_971,Coyaima,73217,73217,Colombia,Tolima
+res_city_co_972,Cunday,73226,73226,Colombia,Tolima
+res_city_co_973,Dolores,73236,73236,Colombia,Tolima
+res_city_co_974,Espinal,73268,73268,Colombia,Tolima
+res_city_co_975,Falan,73270,73270,Colombia,Tolima
+res_city_co_976,Flandes,73275,73275,Colombia,Tolima
+res_city_co_977,Fresno,73283,73283,Colombia,Tolima
+res_city_co_978,Guamo,73319,73319,Colombia,Tolima
+res_city_co_979,Herveo,73347,73347,Colombia,Tolima
+res_city_co_980,Honda,73349,73349,Colombia,Tolima
+res_city_co_981,Icononzo,73352,73352,Colombia,Tolima
+res_city_co_982,Lérida,73408,73408,Colombia,Tolima
+res_city_co_983,Líbano,73411,73411,Colombia,Tolima
+res_city_co_984,Mariquita,73443,73443,Colombia,Tolima
+res_city_co_985,Melgar,73449,73449,Colombia,Tolima
+res_city_co_986,Murillo,73461,73461,Colombia,Tolima
+res_city_co_987,Natagaima,73483,73483,Colombia,Tolima
+res_city_co_988,Ortega,73504,73504,Colombia,Tolima
+res_city_co_989,Palocabildo,73520,73520,Colombia,Tolima
+res_city_co_990,Piedras,73547,73547,Colombia,Tolima
+res_city_co_991,Planadas,73555,73555,Colombia,Tolima
+res_city_co_992,Prado,73563,73563,Colombia,Tolima
+res_city_co_993,Purificación,73585,73585,Colombia,Tolima
+res_city_co_994,Rioblanco,73616,73616,Colombia,Tolima
+res_city_co_995,Roncesvalles,73622,73622,Colombia,Tolima
+res_city_co_996,Rovira,73624,73624,Colombia,Tolima
+res_city_co_997,Saldaña,73671,73671,Colombia,Tolima
+res_city_co_998,San Antonio,73675,73675,Colombia,Tolima
+res_city_co_999,San Luis,73678,73678,Colombia,Tolima
+res_city_co_1000,Santa Isabel,73686,73686,Colombia,Tolima
+res_city_co_1001,Suárez,73770,73770,Colombia,Tolima
+res_city_co_1002,Valle de San Juan,73854,73854,Colombia,Tolima
+res_city_co_1003,Venadillo,73861,73861,Colombia,Tolima
+res_city_co_1004,Villahermosa,73870,73870,Colombia,Tolima
+res_city_co_1005,Villarrica,73873,73873,Colombia,Tolima
+res_city_co_1006,Cali,76001,76001,Colombia,Valle del Cauca
+res_city_co_1007,Alcalá,76020,76020,Colombia,Valle del Cauca
+res_city_co_1008,Andalucía,76036,76036,Colombia,Valle del Cauca
+res_city_co_1009,Ansermanuevo,76041,76041,Colombia,Valle del Cauca
+res_city_co_1010,Argelia,76054,76054,Colombia,Valle del Cauca
+res_city_co_1011,Bolívar,76100,76100,Colombia,Valle del Cauca
+res_city_co_1012,Buenaventura,76109,76109,Colombia,Valle del Cauca
+res_city_co_1013,Buga,76111,76111,Colombia,Valle del Cauca
+res_city_co_1014,Bugalagrande,76113,76113,Colombia,Valle del Cauca
+res_city_co_1015,Caicedonia,76122,76122,Colombia,Valle del Cauca
+res_city_co_1016,Calima,76126,76126,Colombia,Valle del Cauca
+res_city_co_1017,Candelaria,76130,76130,Colombia,Valle del Cauca
+res_city_co_1018,Cartago,76147,76147,Colombia,Valle del Cauca
+res_city_co_1019,Dagua,76233,76233,Colombia,Valle del Cauca
+res_city_co_1020,El Águila,76243,76243,Colombia,Valle del Cauca
+res_city_co_1021,El Cairo,76246,76246,Colombia,Valle del Cauca
+res_city_co_1022,El Cerrito,76248,76248,Colombia,Valle del Cauca
+res_city_co_1023,El Dovio,76250,76250,Colombia,Valle del Cauca
+res_city_co_1024,Florida,76275,76275,Colombia,Valle del Cauca
+res_city_co_1025,Ginebra,76306,76306,Colombia,Valle del Cauca
+res_city_co_1026,Guacarí,76318,76318,Colombia,Valle del Cauca
+res_city_co_1027,Jamundí,76364,76364,Colombia,Valle del Cauca
+res_city_co_1028,La Cumbre,76377,76377,Colombia,Valle del Cauca
+res_city_co_1029,La unión,76400,76400,Colombia,Valle del Cauca
+res_city_co_1030,La victoria,76403,76403,Colombia,Valle del Cauca
+res_city_co_1031,Obando,76497,76497,Colombia,Valle del Cauca
+res_city_co_1032,Palmira,76520,76520,Colombia,Valle del Cauca
+res_city_co_1033,Pradera,76563,76563,Colombia,Valle del Cauca
+res_city_co_1034,Restrepo,76606,76606,Colombia,Valle del Cauca
+res_city_co_1035,Riofrío,76616,76616,Colombia,Valle del Cauca
+res_city_co_1036,Roldanillo,76622,76622,Colombia,Valle del Cauca
+res_city_co_1037,San pedro,76670,76670,Colombia,Valle del Cauca
+res_city_co_1038,Sevilla,76736,76736,Colombia,Valle del Cauca
+res_city_co_1039,Toro,76823,76823,Colombia,Valle del Cauca
+res_city_co_1040,Trujillo,76828,76828,Colombia,Valle del Cauca
+res_city_co_1041,Tuluá,76834,76834,Colombia,Valle del Cauca
+res_city_co_1042,Ulloa,76845,76845,Colombia,Valle del Cauca
+res_city_co_1043,Versalles,76863,76863,Colombia,Valle del Cauca
+res_city_co_1044,Vijes,76869,76869,Colombia,Valle del Cauca
+res_city_co_1045,Yotoco,76890,76890,Colombia,Valle del Cauca
+res_city_co_1046,Yumbo,76892,76892,Colombia,Valle del Cauca
+res_city_co_1047,Zarzal,76895,76895,Colombia,Valle del Cauca
+res_city_co_1048,Arauca,81001,81001,Colombia,Arauca
+res_city_co_1049,Arauquita,81065,81065,Colombia,Arauca
+res_city_co_1050,Cravo Norte,81220,81220,Colombia,Arauca
+res_city_co_1051,Fortul,81300,81300,Colombia,Arauca
+res_city_co_1052,Puerto Rondón,81591,81591,Colombia,Arauca
+res_city_co_1053,Saravena,81736,81736,Colombia,Arauca
+res_city_co_1054,Tame,81794,81794,Colombia,Arauca
+res_city_co_1055,Yopal,85001,85001,Colombia,Casanare
+res_city_co_1056,Aguazul,85010,85010,Colombia,Casanare
+res_city_co_1057,Chámeza,85015,85015,Colombia,Casanare
+res_city_co_1058,Hato Corozal,85125,85125,Colombia,Casanare
+res_city_co_1059,La salina,85136,85136,Colombia,Casanare
+res_city_co_1060,Maní,85139,85139,Colombia,Casanare
+res_city_co_1061,Monterrey,85162,85162,Colombia,Casanare
+res_city_co_1062,Nunchía,85225,85225,Colombia,Casanare
+res_city_co_1063,Orocué,85230,85230,Colombia,Casanare
+res_city_co_1064,Paz de Ariporo,85250,85250,Colombia,Casanare
+res_city_co_1065,Pore,85263,85263,Colombia,Casanare
+res_city_co_1066,Recetor,85279,85279,Colombia,Casanare
+res_city_co_1067,Sabanalarga,85300,85300,Colombia,Casanare
+res_city_co_1068,Sácama,85315,85315,Colombia,Casanare
+res_city_co_1069,San Luis de Palenque,85325,85325,Colombia,Casanare
+res_city_co_1070,Támara,85400,85400,Colombia,Casanare
+res_city_co_1071,Tauramena,85410,85410,Colombia,Casanare
+res_city_co_1072,Trinidad,85430,85430,Colombia,Casanare
+res_city_co_1073,Villanueva,85440,85440,Colombia,Casanare
+res_city_co_1074,Mocoa,86001,86001,Colombia,Putumayo
+res_city_co_1075,Colón,86219,86219,Colombia,Putumayo
+res_city_co_1076,Orito,86320,86320,Colombia,Putumayo
+res_city_co_1077,Puerto Asís,86568,86568,Colombia,Putumayo
+res_city_co_1078,Puerto Caicedo,86569,86569,Colombia,Putumayo
+res_city_co_1079,Puerto Guzmán,86571,86571,Colombia,Putumayo
+res_city_co_1080,Puerto Leguízamo,86573,86573,Colombia,Putumayo
+res_city_co_1081,Sibundoy,86749,86749,Colombia,Putumayo
+res_city_co_1082,San Francisco,86755,86755,Colombia,Putumayo
+res_city_co_1083,San Miguel,86757,86757,Colombia,Putumayo
+res_city_co_1084,Santiago,86760,86760,Colombia,Putumayo
+res_city_co_1085,Valle del Guamuez,86865,86865,Colombia,Putumayo
+res_city_co_1086,Villagarzón,86885,86885,Colombia,Putumayo
+res_city_co_1087,San Andrés,88001,88001,Colombia,"Archipiélago de San Andrés, Providencia y Santa Catalina"
+res_city_co_1088,Providencia,88564,88564,Colombia,"Archipiélago de San Andrés, Providencia y Santa Catalina"
+res_city_co_1089,Leticia,91001,91001,Colombia,Amazonas (CO)
+res_city_co_1090,El encanto,91263,91263,Colombia,Amazonas (CO)
+res_city_co_1091,La Chorrera,91405,91405,Colombia,Amazonas (CO)
+res_city_co_1092,La Pedrera,91407,91407,Colombia,Amazonas (CO)
+res_city_co_1093,La victoria,91430,91430,Colombia,Amazonas (CO)
+res_city_co_1094,Mirití – Paraná,91460,91460,Colombia,Amazonas (CO)
+res_city_co_1095,Puerto Alegría,91530,91530,Colombia,Amazonas (CO)
+res_city_co_1096,Puerto Arica,91536,91536,Colombia,Amazonas (CO)
+res_city_co_1097,Puerto Nariño,91540,91540,Colombia,Amazonas (CO)
+res_city_co_1098,Puerto Santander,91669,91669,Colombia,Amazonas (CO)
+res_city_co_1099,Tarapacá,91798,91798,Colombia,Amazonas (CO)
+res_city_co_1100,Inírida,94001,94001,Colombia,Guainía
+res_city_co_1101,Barrancominas,94343,94343,Colombia,Guainía
+res_city_co_1102,San Felipe,94883,94883,Colombia,Guainía
+res_city_co_1103,Puerto Colombia,94884,94884,Colombia,Guainía
+res_city_co_1104,La Guadalupe,94885,94885,Colombia,Guainía
+res_city_co_1105,Cacahual,94886,94886,Colombia,Guainía
+res_city_co_1106,Pana Pana,94887,94887,Colombia,Guainía
+res_city_co_1107,Morichal,94888,94888,Colombia,Guainía
+res_city_co_1108,San José del Guaviare,95001,95001,Colombia,Guaviare
+res_city_co_1109,Calamar,95015,95015,Colombia,Guaviare
+res_city_co_1110,El Retorno,95025,95025,Colombia,Guaviare
+res_city_co_1111,Miraflores,95200,95200,Colombia,Guaviare
+res_city_co_1112,Mitú,97001,97001,Colombia,Vaupés
+res_city_co_1113,Carurú,97161,97161,Colombia,Vaupés
+res_city_co_1114,Pacoa,97511,97511,Colombia,Vaupés
+res_city_co_1115,Taraira,97666,97666,Colombia,Vaupés
+res_city_co_1116,Papunahua,97777,97777,Colombia,Vaupés
+res_city_co_1117,Yavaraté,97889,97889,Colombia,Vaupés
+res_city_co_1118,Puerto Carreño,99001,99001,Colombia,Vichada
+res_city_co_1119,La Primavera,99524,99524,Colombia,Vichada
+res_city_co_1120,Santa Rosalía,99624,99624,Colombia,Vichada
+res_city_co_1121,Cumaribo,99773,99773,Colombia,Vichada

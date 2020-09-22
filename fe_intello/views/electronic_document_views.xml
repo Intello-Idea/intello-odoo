@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="electronic_document_view" model="ir.ui.view">
+            <field name="name">electronic.document.view</field>
+            <field name="model">electronic.document.dian</field>
+            <field name="arch" type="xml">
+                <form string="Electronic Document">
+                    <sheet>
+                        <group col="2">
+                            <group colspan="1">
+                                <field name="invoice" placeholder="Invoice"/>
+                                <field name="partner"/>
+                                <field name="cufe" placeholder="Text CUFE"/>
+                                <field name="document_key"/>
+                            </group>
+
+                        </group>
+                        <notebook>
+                            <page string="Detail">
+                                <field name="electronic_document_detail">
+                                    <tree editable="top">
+                                        <field name="date" placeholder="Date"/>
+                                        <field name="code_response" placeholder="Code Response"/>
+                                        <field name="message_response" placeholder="Message Response"/>
+                                        <field name="type_action" placeholder="Type Action"/>
+                                        <field name="type_document" placeholder="Type Document"/>
+
+                                        <!-- field invisible -->
+                                        <field name="document_filename" invisible="1"/>
+
+                                        <field name="document" height="64" widget="binary" filename="document_filename"/>
+                                        <field name="is_attachment" invisible="1"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

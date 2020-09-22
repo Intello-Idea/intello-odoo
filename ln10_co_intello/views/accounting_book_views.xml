@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <!-- form accounting book -->
+        <record id="accounting_book_form" model="ir.ui.view">
+            <field name="name">accounting.book.form</field>
+            <field name="model">accounting.book</field>
+            <field name="arch" type="xml">
+                <form create="false" class="oe_form_configuration o_base_settings">
+                    <div class="o_control_panel">
+                        <button name="reload" type="object" class="btn btn-primary o_form_button_save"
+                                string="Save &amp; Reload"/>
+                    </div>
+                    <sheet>
+                        <group>
+                            <separator string="ID and Name Book"/>
+                            <field name="id_book"/>
+                            <field name="name" placeholder="Accounting Book Name"/>
+                            <field name="initials" placeholder="Initials"/>
+                            <field name="book_principal"/>
+                        </group>
+                        <notebook>
+                            <page string="Homologous" attrs="{'invisible':[('book_principal','=',True)]}">
+                                <field name="detail">
+                                    <tree editable="top">
+                                        <field name="year"/>
+                                        <field name="count_account_base"/>
+                                        <field name="count_approved_account"/>
+                                    </tree>
+                                </field>
+                            </page>
+                            <page string="Own Accounts">
+                                <field name="detail_own_accounts">
+                                    <tree editable="top">
+                                        <field name="accounting_account"
+                                               options="{'no_quick_create': True, 'no_create_edit' : True}"/>
+                                    </tree>
+                                </field>
+                            </page>
+                            <page string="Month Block">
+                                <field name="month_block">
+                                    <tree editable="bot">
+                                        <field name="year"/>
+                                        <field name="month"/>
+                                        <field name="is_closed"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- tree book  -->
+        <record id="accounting_book_tree" model="ir.ui.view">
+            <field name="name">accounting.book.tree</field>
+            <field name="model">accounting.book</field>
+            <field name="arch" type="xml">
+                <tree string="Accounting Book">
+                    <field name="id_book"/>
+                    <field name="initials"/>
+                    <field name="name"/>
+                    <field name="book_principal"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- action accounting book-->
+        <record id="action_accounting_book" model="ir.actions.act_window">
+            <field name="name">Accounting Book</field>
+            <field name="res_model">accounting.book</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Menu action Accounting book-->
+        <record id="access_main_hr_menu" model="res.groups">
+            <field name="name">Hr Main Menu</field>
+        </record>
+
+        <record id="menu_account_multibook" model="ir.ui.menu">
+            <field name="name">Accounting Book</field>
+            <field name="sequence" eval="5"/>
+            <field name="action" eval="False"/>
+            <field name="parent_id" ref="account.account_account_menu"/>
+            <!--<field name="groups_id" eval="[(3,0,[ref('access_main_hr_menu')])]"/>-->
+        </record>
+
+        <!--Multi Book Accounting-->
+        <!-- Form multi book accounting -->
+        <record id="multi_book_accounting_form" model="ir.ui.view">
+            <field name="name">multi.book.account.form</field>
+            <field name="model">multi.book.account</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group colspan="2">
+                            <group>
+                                <separator string=" Base And Approved "/>
+                                <field name="book" options="{'no_quick_create': True, 'no_create_edit' : True}"/>
+                                <field name="year"/>
+                                <field name="count_account_base"
+                                       options="{'no_quick_create': True, 'no_create_edit' : True}"/>
+                                <field name="count_approved_account"
+                                       options="{'no_quick_create': True, 'no_create_edit' : True}"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Tree multi book accounting -->
+        <record id="multi_book_accounting_tree" model="ir.ui.view">
+            <field name="name">multi.book.account.tree</field>
+            <field name="model">multi.book.account</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="book"/>
+                    <field name="year"/>
+                    <field name="count_account_base"/>
+                    <field name="count_approved_account"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Search Multi Book accounting -->
+        <record id="view_multi_book_account_search" model="ir.ui.view">
+            <field name="name">view.multi.book.account.search</field>
+            <field name="model">multi.book.account</field>
+            <field name="arch" type="xml">
+                <search string="Multi Book">
+                    <field name="year"/>
+                    <group string="Group By">
+                        <filter name="book" string="Book"
+                                context="{'group_by': 'book'}"/>
+                        <filter name="year" string="Year"
+                                icon="terp-partner" context="{'group_by':'year'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <!-- Action multi book accounting -->
+        <record id="action_multi_book_accounting" model="ir.actions.act_window">
+            <field name="name">Approved accounts</field>
+            <field name="res_model">multi.book.account</field>
+            <field name="context">{'search_default_book': 1}</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record id="menu_multi_book_accounting" model="ir.ui.menu">
+            <field name="name">Approved accounts</field>
+            <field name="sequence" eval="6"/>
+            <field name="action" eval="False"/>
+            <field name="parent_id" ref="account.account_account_menu"/>
+            <!--<field name="groups_id" eval="[(3,0,[ref('access_main_hr_menu')])]"/>-->
+        </record>
+
+        <!-- Own Accounts -->
+        <!-- Form Own Accounts -->
+        <record id="own_account_form" model="ir.ui.view">
+            <field name="name">own.accounts.form</field>
+            <field name="model">own.accounts</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group colspan="2">
+                            <group>
+                                <separator string="Name and Own Account"/>
+                                <field name="book" options="{'no_quick_create': True, 'no_create_edit' : True}"/>
+                                <field name="accounting_account"
+                                       options="{'no_quick_create': True, 'no_create_edit' : True}"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Tree Own accounting -->
+        <record id="own_account_tree" model="ir.ui.view">
+            <field name="name">own.accounts.tree</field>
+            <field name="model">own.accounts</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="book"/>
+                    <field name="accounting_account"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Action -->
+        <record id="action_Own_Accounts" model="ir.actions.act_window">
+            <field name="name">Own accounts</field>
+            <field name="res_model">own.accounts</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Menu Item -->
+        <menuitem
+                name="Own accounts"
+                id="menu_action_Own_accounts"
+                parent="account.account_account_menu"
+                sequence="6"/>
+
+        <record id="view_view_form" model="ir.ui.view">
+            <field name="name">view.base.form</field>
+            <field name="model">account.book.menu</field>
+            <field name="arch" type="xml">
+                <form string="">
+                    <sheet>
+                        <group>
+                            <field name="id_book"/>
+                            <field name="menu_item_id"/>
+                            <field name="action_id"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+    </data>
+</odoo>

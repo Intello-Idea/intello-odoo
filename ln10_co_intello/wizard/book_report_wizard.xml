@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="book_report_wizard_view" model="ir.ui.view">
+            <field name="name">Wizard Report</field>
+            <field name="model">book.report.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Wizard Report">
+                    <script>
+                        $(document).ready(function(){
+                            $('.modal-dialog').css({'width': '25%'});
+                        });
+                    </script>
+
+                    <separator string="Select Book"/>
+                    <field name="book_id" required="1"
+                           options="{'no_create_edit': True, 'no_create': True, 'no_open': True}" style="width: 100%;"/>
+                    <footer>
+                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                        <button string="Render Report" name="" type="action" class="btn-primary"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+    </data>
+</odoo>

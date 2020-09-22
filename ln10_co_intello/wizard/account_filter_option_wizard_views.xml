@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="report_account_wizard_view" model="ir.ui.view">
+            <field name="name">Auxiliary Account Report</field>
+            <field name="model">report.account.auxiliary.wizard</field>
+            <field name="inherit_id" ref="auxiliary_account_report.report_account_wizard_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//form/group[1]" position="before">
+                    <group string="Book " col="2" attrs="{'invisible': [('is_multi_book', '=', False)]}">
+                        <field name="is_multi_book" invisible="1"/>
+                        <field name="book_id"
+                               attrs="{'invisible': [('is_multi_book', '=', False)],'required':[('is_multi_book', '!=', False)]}"
+                               options="{'no_create_edit': True, 'no_create': True, 'no_open': True}">
+
+                        </field>
+                    </group>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

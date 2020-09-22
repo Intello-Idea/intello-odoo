@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <odoo>
+    <data>
+        <record model="ir.ui.view" id="res_lang_tree_code_dian">
+            <field name="name">res.lang.tree.dian</field>
+            <field name="model">res.lang</field>
+            <field name="inherit_id" ref="base.res_lang_tree"/>
+            <field name="arch" type="xml">
+                <field name="direction" position="before">
+                    <field name="code_lang"/>
+                </field>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="res_lang_form_code_dian">
+            <field name="name">res.lang.form.dian</field>
+            <field name="model">res.lang</field>
+            <field name="inherit_id" ref="base.res_lang_form"/>
+            <field name="arch" type="xml">
+                <field name="active" position="before">
+                    <field name="code_lang"/>
+                </field>
+            </field>
+        </record>
+    </data>
+</odoo>

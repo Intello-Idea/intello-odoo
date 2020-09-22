@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_account_move_reversal_ln10" model="ir.ui.view">
+            <field name="name">account.move.reversal.form</field>
+            <field name="model">account.move.reversal</field>
+            <field name="inherit_id" ref="account.view_account_move_reversal"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='reason']" position="before">
+                    <field name="note_concept_dian" required="1"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

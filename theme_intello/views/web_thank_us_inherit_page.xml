@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="thi_contactus_thanks" name="Thanks (Contact us)">
+        <t t-call="website.layout">
+            <div id="wrap" class="category_area">
+                <div class="oe_structure" id="oe_structure_website_form_contact_us_thanks_1"/>
+                <section id="develop_banner_id" name="develop_banner" class="banner banner-thanks">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-7 offset-md-1">
+                                <div class="banner-title-contact">
+                                    <h1>
+                                        <span class="banner-title-top text-spacing">MUCHAS
+                                            <br/>
+                                        </span>
+                                        <span class="banner-title-middle">GRACIAS POR
+                                            <br/>
+                                        </span>
+                                        <span class="banner-title-top">VISITARNOS
+                                            <br/>
+                                        </span>
+                                    </h1>
+                                </div>
+                                <div style="banner-title-line">
+                                    <hr class="bottom-line"/>
+                                </div>
+                                <div class="banner-subtitle-text">
+                                    <h4>
+                                        <span class="banner-subtitle">Te estaremos dando respuesta en
+                                            <br/>
+                                            el
+                                        </span>
+                                        <span class="banner-subtitle-bold">menor tiempo</span>
+                                        <span class="banner-subtitle">posible</span>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="col-md-4"/>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record id="thi_home" model="ir.ui.view">
+            <field name="name">Home</field>
+            <field name="type">qweb</field>
+            <field name="inherit_id" search="[('key', '=', 'website.homepage')]"/>
+            <field name="arch" type="xml">
+                <xpath expr="//*[@id='wrap']" position="replace">
+                    <div id="wrap" class="oe_structure page_home">
+                        <section id="page_home_banner_id" name="page_home_banner"
+                                 class="banner banner_home">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-7 offset-md-1 banner-top-space">
+                                        <div class="banner-title-text">
+                                            <h1>
+                                                <span class="banner-title-top">Es el momento de<br/></span>
+                                                <span class="banner-title-middle">potenciar tu negocio,<br/></span>
+                                                <span class="banner-title-bottom">nosotros <span>te
+                                                    ayudamos.</span><br/></span>
+                                            </h1>
+                                        </div>
+                                        <div style="banner-title-line">
+                                            <hr class="bottom-line"/>
+                                        </div>
+                                        <div class="banner-subtitle-text">
+                                            <h4>
+                                                <span class="banner-subtitle">En esta época de cambios, estar en el
+                                                    mundo digital es necesario para darle continuidad a tu
+                                                    negocio.</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4"/>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="official_partner_id" name="official_partner"
+                                 class="margin-section-middle">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-8 offset-md-2 background">
+                                        <div class="row">
+                                            <div class="offset-md-4 col-md-8">
+                                                <div class="title-section-middle">
+                                                    <div class="b-left-white">
+                                                        <h1 class="title_our">
+                                                            Partner
+                                                        </h1>
+                                                    </div>
+                                                    <div class="subtitle-bottom">
+                                                        <h2 class="subtitle_our">
+                                                            oficial
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="d-flex align-items-center justify-content-center">
+                                                    <p class="text-left paragraph">
+                                                        Estando a la vanguardia, ofrecemos servicios de tecnología de la
+                                                        información que generan valor a tu empresa permitiendo mayor
+                                                        productividad y competitividad en el mercado.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <a href="/odoo" class="button_erp">
+                                                    <img src="/theme_intello/static/src/img/home/ERP-Odoo.png"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="scrum_methodology_id" name="scrum_methodology">
+                            <div class="container-fluid">
+                                <h2 class="title_pre">Intello Idea una apuesta segura<br/>para tu empresa</h2>
+                                <div class="row body">
+                                    <div class="offset-md-1 col-md-6">
+                                        <h3 class="title">Metodología<br/><span>SCRUM</span></h3>
+                                    </div>
+                                    <div class="col-md-5"/>
+                                    <div class="offset-md-1 col-md-6">
+                                        <p class="paragraph">
+                                            Trabajamos bajo esta metodología que aplica las mejores prácticas para el
+                                            trabajo en equipo y colaborativo, obteniendo resultados exitosos en poco
+                                            tiempo.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="scrum_cycle_id" name="scrum_cycle">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-10 offset-md-1">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="card">
+                                                    <img src="/theme_intello/static/src/img/home/Planificacion.png"
+                                                         class="card-img-top" alt="..."/>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">PLANIFICACIÓN</h5>
+                                                    </div>
+                                                </div>
+                                                <p class="paragraph">Definimos requerimientos, riesgos, objetivos,
+                                                    tiempos, alcance,
+                                                    entregables y roles del
+                                                    equipo de trabajo.</p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card">
+                                                    <img src="/theme_intello/static/src/img/home/Desarrollo.png"
+                                                         class="card-img-top" alt="..."/>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">DESARROLLO</h5>
+                                                    </div>
+                                                </div>
+                                                <p class="paragraph">Garantizamos el cumplimiento de los objetivos
+                                                    planteados en los plazos establecidos de los
+                                                    entregables.</p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card">
+                                                    <img src="/theme_intello/static/src/img/home/Retrospectiva.png"
+                                                         class="card-img-top" alt="..."/>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">RETROSPECTIVA</h5>
+                                                    </div>
+                                                </div>
+                                                <p class="paragraph">Demostración de requerimientos, inspección y
+                                                    adaptación, mejora continua de la
+                                                    productividad.</p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card orange">
+                                                    <img src="/theme_intello/static/src/img/home/Retroalimentacion.png"
+                                                         class="card-img-top" alt="..."/>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">RETROALIMENTACIÓN</h5>
+                                                    </div>
+                                                </div>
+                                                <p class="paragraph">Compartimos los resultados con nuestro cliente para
+                                                    verificar y validar el
+                                                    cumplimiento de los objetivos.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="our_experience_id" name="our_experience">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-7 banner banner-left">
+                                        <div class="row pt-5">
+                                            <div class="offset-md-1 col-md-10">
+                                                <div class="row pt-5">
+                                                    <div class="col-md-4">
+                                                        <div class="card">
+                                                            <img src="/theme_intello/static/src/img/home/Colaboracion.png"
+                                                                 class="card-img-top" alt="..."/>
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">COLABORACIÓN</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="card">
+                                                            <img src="/theme_intello/static/src/img/home/Solucion.png"
+                                                                 class="card-img-top" alt="..."/>
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">SOLUCIÓN</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="card">
+                                                            <img src="/theme_intello/static/src/img/home/Innovacion.png"
+                                                                 class="card-img-top" alt="..."/>
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">INNOVACIÓN</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="offset-md-3 col-md-9 pt-5">
+                                                        <h2 class="title pt-5">
+                                                            Nosotros, la solución.<br/>El lugar seguro para tu futuro.
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 banner banner-right">
+                                        <div class="row pt-5">
+                                            <div class="offset-md-1 col-md-10 pt-5">
+                                                <h3 class="title">NUESTRA<br/><span>EXPERIENCIA</span></h3>
+                                            </div>
+                                            <div class="offset-md-1 col-md-10 pt-5">
+                                                <p class="paragraph">
+                                                    Nuestros clientes nos han preferido por el respaldo que les
+                                                    brindamos en cada proyecto trabajado. Nuestra habilidad está en
+                                                    escucharlos, apoyarlos y aportar soluciones a sus necesidades.
+                                                </p>
+                                            </div>
+                                            <div class="offset-md-1 col-md-10 pt-5">
+                                                <h3 class="subtitle">AMPLIA<br/>TRAYECTORIA</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="our_clients_id" name="our_clients">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="offset-md-1 col-md-10">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="client">
+                                                    <img src="/theme_intello/static/src/img/home/clients/Bismark.png"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="client">
+                                                    <img src="/theme_intello/static/src/img/home/clients/Cerescos.png"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="client">
+                                                    <img src="/theme_intello/static/src/img/home/clients/Consensus.png"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="client">
+                                                    <img src="/theme_intello/static/src/img/home/clients/Copidrogas.png"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="client">
+                                                    <img src="/theme_intello/static/src/img/home/clients/Engitech.png"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="client">
+                                                    <img src="/theme_intello/static/src/img/home/clients/Epithelium.png"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="client">
+                                                    <img src="/theme_intello/static/src/img/home/clients/Looking.png"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="client">
+                                                    <img src="/theme_intello/static/src/img/home/clients/Masglo.png"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Inherit Form View to Modify it -->
+        <record id="res_config_settings_fe_mf_view_form" model="ir.ui.view">
+            <field name="name">res.config.settings.fe.mf.view.form</field>
+            <field name="model">res.config.settings</field>
+            <field name="inherit_id" ref="fe_intello.res_config_settings_fe_view_form"/>
+            <field name="arch" type="xml">
+
+                <xpath expr="//div[@id='fe_send_mail']" position="replace">
+                </xpath>
+
+            </field>
+        </record>
+
+    </data>
+</odoo>

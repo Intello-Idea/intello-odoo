@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="accounting_book_one" model="accounting.book" forcecreate="0">
+            <field name="id_book">1</field>
+            <field name="initials">NI</field>
+            <field name="name">NIIF</field>
+            <field name="book_principal">True</field>
+        </record>
+
+    </data>
+</odoo>

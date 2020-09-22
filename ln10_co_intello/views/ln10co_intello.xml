@@ -53,18 +53,18 @@
         </record>
 
         <record id="action_dian_code" model="ir.actions.act_window">
-            <field name="name">Colombian DIAN codes</field>
+            <field name="name">Colombian DIAN Codes</field>
             <field name="res_model">ln10_co_intello.diancodes</field>
-            <field name="view_type">form</field>
+            <!--<field name="view_type">form</field>-->
             <field name="view_mode">tree,form</field>
         </record>
 
         <menuitem
-            action="action_dian_code"
-            name="Colombian DIAN codes"
-            id="dian_code_menu"
-            parent="account.account_account_menu"
-            sequence="100"/>
+                action="action_dian_code"
+                name="Colombian DIAN Codes"
+                id="dian_code_menu"
+                parent="account.account_account_menu"
+                sequence="100"/>
 
         <record id="ciiu_codes_view_tree" model="ir.ui.view">
             <field name="name">ln10_co_intello.ciiucodes.tree</field>
@@ -113,18 +113,18 @@
         </record>
 
         <record id="action_ciiu_code" model="ir.actions.act_window">
-            <field name="name">Colombian CIIU codes</field>
+            <field name="name">Colombian CIIU Codes</field>
             <field name="res_model">ln10_co_intello.ciiucodes</field>
-            <field name="view_type">form</field>
+            <!--<field name="view_type">form</field>-->
             <field name="view_mode">tree,form</field>
         </record>
 
         <menuitem
-            action="action_ciiu_code"
-            name="Colombian CIIU codes"
-            id="ciiu_code_menu"
-            parent="account.account_account_menu"
-            sequence="105"/>
+                action="action_ciiu_code"
+                name="Colombian CIIU Codes"
+                id="ciiu_code_menu"
+                parent="account.account_account_menu"
+                sequence="105"/>
 
         <record id="nomenclature_dian_view_tree" model="ir.ui.view">
             <field name="name">ln10_co_intello.nomenclaturedian.tree</field>
@@ -169,16 +169,255 @@
         <record id="action_nomenclature_dian" model="ir.actions.act_window">
             <field name="name">DIAN Address Nomenclature</field>
             <field name="res_model">ln10_co_intello.nomenclaturedian</field>
-            <field name="view_type">form</field>
+            <!--<field name="view_type">form</field>-->
             <field name="view_mode">tree,form</field>
         </record>
 
         <menuitem
-            action="action_nomenclature_dian"
-            name="DIAN Adress Nomenclature"
-            id="nomenclature_dian_menu"
-            parent="account.account_account_menu"
-            sequence="107"/>
+                action="action_nomenclature_dian"
+                name="DIAN Address Nomenclature"
+                id="nomenclature_dian_menu"
+                parent="account.account_account_menu"
+                sequence="107"/>
+
+        <record id="documenttype_view_tree" model="ir.ui.view">
+            <field name="name">ln10_co_intello.documenttype.tree</field>
+            <field name="model">ln10_co_intello.documenttype</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="key_dian"/>
+                    <field name="name"/>
+                    <field name="with_digit"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="documenttype_view_form" model="ir.ui.view">
+            <field name="name">ln10_co_intello.documenttype.form</field>
+            <field name="model">ln10_co_intello.documenttype</field>
+            <field name="arch" type="xml">
+                <!--<tree editable="bottom">-->
+                <form string="DIAN Address Nomenclature">
+                    <sheet>
+                        <group>
+                            <field name="key_dian"/>
+                            <field name="name"/>
+                            <field name="code_short"/>
+                            <field name="with_digit" widget="check"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="documenttype_view_search" model="ir.ui.view">
+            <field name="name">ln10_co_intello.documenttype.search</field>
+            <field name="model">ln10_co_intello.documenttype</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="key_dian"/>
+                    <field name="name"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="action_documenttype" model="ir.actions.act_window">
+            <field name="name">DIAN Address Nomenclature</field>
+            <field name="res_model">ln10_co_intello.documenttype</field>
+            <!--<field name="view_type">form</field>-->
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem
+                action="action_documenttype"
+                name="DIAN Documents Type"
+                id="documenttype_menu"
+                parent="account.account_account_menu"
+                sequence="109"/>
+
+        <record id="taxestype_view_tree" model="ir.ui.view">
+            <field name="name">ln10_co_intello.taxestype.tree</field>
+            <field name="model">ln10_co_intello.taxestype</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="type"/>
+                    <field name="code"/>
+                    <field name="name"/>
+                    <field name="operation"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="taxestype_view_form" model="ir.ui.view">
+            <field name="name">ln10_co_intello.taxestype.form</field>
+            <field name="model">ln10_co_intello.taxestype</field>
+            <field name="arch" type="xml">
+                <!--<tree editable="bottom">-->
+                <form string="DIAN Taxes Type">
+                    <sheet>
+                        <group>
+                            <field name="type"/>
+                            <field name="code"/>
+                            <field name="name"/>
+                            <field name="operation"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="taxestype_view_search" model="ir.ui.view">
+            <field name="name">ln10_co_intello.taxestype.search</field>
+            <field name="model">ln10_co_intello.taxestype</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="code"/>
+                    <field name="name"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="action_taxestype" model="ir.actions.act_window">
+            <field name="name">DIAN taxes Type</field>
+            <field name="res_model">ln10_co_intello.taxestype</field>
+            <!--<field name="view_type">form</field>-->
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem
+                action="action_taxestype"
+                name="DIAN Taxes Type"
+                id="taxestype_menu"
+                parent="account.account_account_menu"
+                sequence="110"/>
+
+        <record id="relationfiscalpositions_view_tree" model="ir.ui.view">
+            <field name="name">ln10_co_intello.relationfiscalpositions.tree</field>
+            <field name="model">ln10_co_intello.relationfiscalpositions</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="src_fiscal_position"/>
+                    <field name="dst_fiscal_position"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="relationfiscalpositions_view_form" model="ir.ui.view">
+            <field name="name">ln10_co_intello.relationfiscalpositions.form</field>
+            <field name="model">ln10_co_intello.relationfiscalpositions</field>
+            <field name="arch" type="xml">
+                <!--<tree editable="bottom">-->
+                <form string="Fiscal Position Relation">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="src_fiscal_position"/>
+                            <field name="dst_fiscal_position"/>
+                        </group>
+
+                        <notebook>
+                            <page name="tax_type_mapping" string="Tax Type Mapping">
+                                <field name="tax_types_ids" widget="one2many"
+                                       context="{'append_type_to_tax_name': True}">
+                                    <tree name="tax_type_map_tree" string="Tax Type Mapping" editable="bottom">
+                                        <field name="tax_type" context="{'append_type_to_tax_name': True}"/>
+                                        <field name="apply_account" widget="widgetonbutton"/>
+                                        <field name="apply_tax" widget="widgetonbutton"/>
+                                    </tree>
+                                    <form name="tax_type_map_form" string="Tax Type Mapping">
+                                        <group>
+                                            <field name="tax_type" context="{'append_type_to_tax_name': True}"/>
+                                            <field name="apply_account" widget="widgetonbutton"/>
+                                            <field name="apply_tax" widget="widgetonbutton"/>
+                                        </group>
+                                    </form>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="relationfiscalpositions_view_search" model="ir.ui.view">
+            <field name="name">ln10_co_intello.relationfiscalpositions.search</field>
+            <field name="model">ln10_co_intello.relationfiscalpositions</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="src_fiscal_position"/>
+                    <field name="dst_fiscal_position"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="action_relationfiscalpositions" model="ir.actions.act_window">
+            <field name="name">Relation Fiscal Position</field>
+            <field name="res_model">ln10_co_intello.relationfiscalpositions</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem
+                action="action_relationfiscalpositions"
+                name="Relation Fiscal Position"
+                id="relationfiscalpositions_menu"
+                parent="account.account_account_menu"
+                sequence="115"/>
+
+        <record id="account_invoice_resolution_view_tree" model="ir.ui.view">
+            <field name="name">account.dian.resolution.view.tree</field>
+            <field name="model">account.dian.resolution</field>
+            <field name="arch" type="xml">
+                <tree string="invoice_resolution_tree">
+                    <field name="type" width="20%"/>
+                    <field name="resolution" width="20%"/>
+                    <field name="prefix" width="20%"/>
+                    <field name="ini_number" width="20%"/>
+                    <field name="fin_number" width="20%"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="account_invoice_resolution_view_form" model="ir.ui.view">
+            <field name="name">account.dian.resolution.view.form</field>
+            <field name="model">account.dian.resolution</field>
+            <field name="arch" type="xml">
+                <form string="account_invoice_resolution_form">
+                    <sheet>
+                        <group col="2">
+                            <group colspan="1">
+                                <!-- fields invisible-->
+                                <field name="name" invisible="1"/>
+                                <separator string="DIAN Resolution"/>
+
+                                <field name="resolution"/>
+                                <field name="date" required="1"/>
+                                <field name="ini_date" required="1"/>
+                                <field name="fin_date" required="1"/>
+                                <field name="prefix"/>
+                                <field name="ini_number" required="1"/>
+                                <field name="fin_number" required="1"/>
+                                <field name="type" required="1"/>
+
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="account_invoice_resolution_action" model="ir.actions.act_window">
+            <field name="name">DIAN Resolution</field>
+            <field name="res_model">account.dian.resolution</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem
+                action="account_invoice_resolution_action"
+                name="DIAN Resolution"
+                id="invoice_resolution_menu"
+                parent="account.account_account_menu"
+                sequence="10"/>
 
     </data>
 </odoo>

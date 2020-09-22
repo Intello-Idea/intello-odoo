@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="thi_know_more" model="ir.ui.view">
+            <field name="name">Know More</field>
+            <field name="type">qweb</field>
+            <field name="key">theme_intello.thi_know_our</field>
+            <field name="arch" type="xml">
+                <t name="know_more" priority="40" t-name="theme_intello.thi_know_more">
+                    <t t-call="website.layout">
+                        <t t-set="pageName" t-value="'web_develop'"/>
+                        <div id="wrap" class="oe_structure">
+                            <section id="know_more_banner_id" name="know_more_banner" class="banner banner-know-more">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-8 offset-md-1">
+                                            <div class="banner-title-text-know-more">
+                                                <h1>
+                                                    <span class="banner-title-odoo-our">DESCUBRE EL </span>
+                                                    <span class="banner-tittle-odoo-our-bold">ALCANCE</span>
+                                                    <p class="banner-title-odoo-our">DE CADA MÓDULO</p>
+                                                </h1>
+                                            </div>
+                                            <div class="banner-img-know">
+                                                <img src="/theme_intello/static/src/img/odoo-know-more/Logo-odoo-02.png"
+                                                     class="img-fluid">
+
+                                                </img>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3"/>
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="know_more_video_id" name="know_more_video" class="know-more-section-video">
+                                <div class="container-fluid">
+                                    <div class="row padding-row-video text-center">
+                                        <div class="col-md-3">
+                                            <h1>COMPRAS</h1>
+                                            <div class="container-video">
+                                                <a href="" data-toggle="modal" data-target="#modal_compras">
+                                                    <img src="/theme_intello/static/src/img/odoo-know-more/COMPRAS.png"
+                                                         class="img-fluid img-video"/>
+                                                    <div class="middle">
+                                                        <img src="/theme_intello/static/src/img/odoo-know-more/Play-10.png"
+                                                         class="img-fluid img-video-play"/>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <h1>VENTAS</h1>
+                                            <div class="container-video">
+                                                <a href="" data-toggle="modal" data-target="#modal_ventas">
+                                                    <img src="/theme_intello/static/src/img/odoo-know-more/VENTAS.png"
+                                                         class="img-fluid img-video"/>
+                                                    <div class="middle">
+                                                        <img src="/theme_intello/static/src/img/odoo-know-more/Play-10.png"
+                                                         class="img-fluid img-video-play"/>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <h1>POS RESTAURANTES</h1>
+                                            <div class="container-video">
+                                                <a href="" data-toggle="modal" data-target="#modal_punto_venta_1">
+                                                    <img src="/theme_intello/static/src/img/odoo-know-more/PUNTOVENTAS-1.png"
+                                                         class="img-fluid img-video"/>
+                                                    <div class="middle">
+                                                        <img src="/theme_intello/static/src/img/odoo-know-more/Play-10.png"
+                                                         class="img-fluid img-video-play"/>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <h1>POS TIENDAS</h1>
+                                            <div class="container-video">
+                                                <a href="" data-toggle="modal" data-target="#modal_punto_venta_2">
+                                                    <img src="/theme_intello/static/src/img/odoo-know-more/PUNTOVENTAS-2.png"
+                                                         class="img-fluid img-video"/>
+                                                    <div class="middle">
+                                                        <img src="/theme_intello/static/src/img/odoo-know-more/Play-10.png"
+                                                         class="img-fluid img-video-play"/>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row padding-row-video text-center">
+                                        <div class="col-md-3">
+                                            <h1>CRM</h1>
+                                            <div class="container-video">
+                                                <a href="" data-toggle="modal" data-target="#modal_crm">
+                                                    <img src="/theme_intello/static/src/img/odoo-know-more/CRM.png"
+                                                         class="img-fluid img-video"/>
+                                                    <div class="middle">
+                                                        <img src="/theme_intello/static/src/img/odoo-know-more/Play-10.png"
+                                                         class="img-fluid img-video-play"/>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <h1>INVENTARIO</h1>
+                                            <div class="container-video">
+                                                <a href="" data-toggle="modal" data-target="#modal_inventario">
+                                                    <img src="/theme_intello/static/src/img/odoo-know-more/INVENTARIO.png"
+                                                         class="img-fluid img-video"/>
+                                                    <div class="middle">
+                                                        <img src="/theme_intello/static/src/img/odoo-know-more/Play-10.png"
+                                                         class="img-fluid img-video-play"/>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <h1>MANTENIMIENTO</h1>
+                                            <div class="container-video">
+                                                <a href="" data-toggle="modal" data-target="#modal_mantenimiento">
+                                                    <img src="/theme_intello/static/src/img/odoo-know-more/MANTENIMIENTO.png"
+                                                         class="img-fluid img-video"/>
+                                                    <div class="middle">
+                                                        <img src="/theme_intello/static/src/img/odoo-know-more/Play-10.png"
+                                                         class="img-fluid img-video-play"/>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <h1>FABRICACIÓN 1</h1>
+                                            <div class="container-video">
+                                                <a href="" data-toggle="modal" data-target="#modal_fabricacion_1">
+                                                    <img src="/theme_intello/static/src/img/odoo-know-more/FABRICACION-1.png"
+                                                         class="img-fluid img-video"/>
+                                                     <div class="middle">
+                                                        <img src="/theme_intello/static/src/img/odoo-know-more/Play-10.png"
+                                                         class="img-fluid img-video-play"/>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row padding-row-video text-center">
+                                        <div class="col-md-3">
+                                            <h1>FABRICACIÓN 2</h1>
+                                            <div class="container-video">
+                                                <a href="" data-toggle="modal" data-target="#modal_fabricacion_2">
+                                                    <img src="/theme_intello/static/src/img/odoo-know-more/FABRICACION-2.png"
+                                                         class="img-fluid img-video"/>
+                                                    <div class="middle">
+                                                        <img src="/theme_intello/static/src/img/odoo-know-more/Play-10.png"
+                                                         class="img-fluid img-video-play"/>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9"/>
+                                    </div>
+                                </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="modal_compras" tabindex="-1" role="dialog"
+                                     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-know-more">
+                                                <h5 class="modal-title">COMPRAS</h5>
+                                            </div>
+                                            <div class="modal-body-know-more">
+                                                <video width="100%" heigth="500px" controls="True"
+                                                       class="img-fluid mx-auto d-block">
+                                                    <source src="/theme_intello/static/src/img/odoo-know-more/COMPRAS.mp4"
+                                                            type="video/mp4"/>
+                                                </video>
+                                            </div>
+                                            <div class="modal-footer modal-footer-know-more">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="modal_ventas" tabindex="-1" role="dialog"
+                                     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-know-more">
+                                                <h5 class="modal-title">VENTAS</h5>
+                                            </div>
+                                            <div class="modal-body-know-more">
+                                                <video width="100%" heigth="500px" controls="True"
+                                                       class="img-fluid mx-auto d-block">
+                                                    <source src="/theme_intello/static/src/img/odoo-know-more/VENTAS.mp4"
+                                                            type="video/mp4"/>
+                                                </video>
+                                            </div>
+                                            <div class="modal-footer modal-footer-know-more">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="modal_punto_venta_1" tabindex="-1" role="dialog"
+                                     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-know-more">
+                                                <h5 class="modal-title">PUNTO DE VENTA 1 </h5>
+                                            </div>
+                                            <div class="modal-body-know-more">
+                                                <video width="100%" heigth="500px" controls="True"
+                                                       class="img-fluid mx-auto d-block">
+                                                    <source src="/theme_intello/static/src/img/odoo-know-more/PUNTO-VENTA_1.mp4"
+                                                            type="video/mp4"/>
+                                                </video>
+                                            </div>
+                                            <div class="modal-footer modal-footer-know-more">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="modal_punto_venta_2" tabindex="-1" role="dialog"
+                                     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-know-more">
+                                                <h5 class="modal-title">PUNTO DE VENTA 2</h5>
+                                            </div>
+                                            <div class="modal-body-know-more">
+                                                <video width="100%" heigth="500px" controls="True"
+                                                       class="img-fluid mx-auto d-block">
+                                                    <source src="/theme_intello/static/src/img/odoo-know-more/PUNTO-VENTA_2.mp4"
+                                                            type="video/mp4"/>
+                                                </video>
+                                            </div>
+                                            <div class="modal-footer modal-footer-know-more">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="modal fade" id="modal_crm" tabindex="-1" role="dialog"
+                                     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-know-more">
+                                                <h5 class="modal-title">CRM</h5>
+                                            </div>
+                                            <div class="modal-body-know-more">
+                                                <video width="100%" heigth="500px" controls="True"
+                                                       class="img-fluid mx-auto d-block">
+                                                    <source src="/theme_intello/static/src/img/odoo-know-more/CRM.mp4"
+                                                            type="video/mp4"/>
+                                                </video>
+                                            </div>
+                                            <div class="modal-footer modal-footer-know-more">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="modal_inventario" tabindex="-1" role="dialog"
+                                     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-know-more">
+                                                <h5 class="modal-title">INVENTARIO</h5>
+                                            </div>
+                                            <div class="modal-body-know-more">
+                                                <video width="100%" heigth="500px" controls="True"
+                                                       class="img-fluid mx-auto d-block">
+                                                    <source src="/theme_intello/static/src/img/odoo-know-more/INVENTARIO.mp4"
+                                                            type="video/mp4"/>
+                                                </video>
+                                            </div>
+                                            <div class="modal-footer modal-footer-know-more">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="modal_mantenimiento" tabindex="-1" role="dialog"
+                                     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-know-more">
+                                                <h5 class="modal-title">MANTENIMIENTO</h5>
+                                            </div>
+                                            <div class="modal-body-know-more">
+                                                <video width="100%" heigth="500px" controls="True"
+                                                       class="img-fluid mx-auto d-block">
+                                                    <source src="/theme_intello/static/src/img/odoo-know-more/MANTENIMIENTO.mp4"
+                                                            type="video/mp4"/>
+                                                </video>
+                                            </div>
+                                            <div class="modal-footer modal-footer-know-more">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="modal_fabricacion_1" tabindex="-1" role="dialog"
+                                     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-know-more">
+                                                <h5 class="modal-title">FABRICACIÓN 1</h5>
+                                            </div>
+                                            <div class="modal-body-know-more">
+                                                <video width="100%" heigth="500px" controls="True"
+                                                       class="img-fluid mx-auto d-block">
+                                                    <source src="/theme_intello/static/src/img/odoo-know-more/FABRICACION_1.mp4"
+                                                            type="video/mp4"/>
+                                                </video>
+                                            </div>
+                                            <div class="modal-footer modal-footer-know-more">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="modal_fabricacion_2" tabindex="-1" role="dialog"
+                                     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-know-more">
+                                                <h5 class="modal-title">FABRICACIÓN 1</h5>
+                                            </div>
+                                            <div class="modal-body-know-more">
+                                                <video width="100%" heigth="500px" controls="True"
+                                                       class="img-fluid mx-auto d-block">
+                                                    <source src="/theme_intello/static/src/img/odoo-know-more/FABRICACION_2.mp4"
+                                                            type="video/mp4"/>
+                                                </video>
+                                            </div>
+                                            <div class="modal-footer modal-footer-know-more">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </section>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+
+
+    </data>
+
+    <data noupdate="0">
+        <!-- Manage Page odoo -->
+        <record id="thi_know_more_page" model="website.page">
+            <field name="is_published">True</field>
+            <field name="url">/odoo/know-more</field>
+            <field name="view_id" ref="theme_intello.thi_know_more"/>
+            <field name="track">True</field>
+        </record>
+
+    </data>
+</odoo>

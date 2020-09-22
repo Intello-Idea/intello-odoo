@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="thi_sap_consulting" model="ir.ui.view">
+            <field name="name">SAP Consulting</field>
+            <field name="type">qweb</field>
+            <field name="key">theme_intello.thi_sap_consulting</field>
+            <field name="arch" type="xml">
+                <t name="SAP Consulting" priority="40" t-name="theme_intello.thi_sap_consulting">
+                    <t t-call="website.layout">
+                        <t t-set="pageName" t-value="'sap_consulting'"/>
+                        <div id="wrap" class="oe_structure">
+                            <section id="sap_consulting_banner_id" name="sap_consulting_banner"
+                                     class="banner banner_sap">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-7 offset-md-1">
+                                            <div class="banner-title-text">
+                                                <h1>
+                                                    <span class="banner-title-top">CONSULTORÍA</span>
+                                                    <span class="banner-title-middle">SAP para tu</span>
+                                                    <span class="banner-title-bottom">empresa</span>
+                                                </h1>
+                                            </div>
+                                            <div class="banner-title-line">
+                                                <hr class="bottom-line"/>
+                                            </div>
+                                            <div class="banner-subtitle-text">
+                                                <h4>
+                                                    <span class="banner-subtitle">Obtén más valor con nuestros
+                                                        servicios</span>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4"/>
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="sap_our_work_id" name="sap_our_work" class="margin-section-middle">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-11 offset-md-1 background_sap_section_middle">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <div class="title-sap-section-middle">
+                                                        <div class="b-left-black">
+                                                            <h1 class="title_our">
+                                                                Nuestro
+                                                            </h1>
+                                                        </div>
+                                                        <div class="subtitle-sap-bottom">
+                                                            <h2 class="subtitle_our">
+                                                                trabajo
+                                                            </h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-1"/>
+                                                <div class="col-md-5">
+                                                    <div class="d-flex align-items-center justify-content-center">
+                                                        <p class="text-justify paragraph">
+                                                            Asesoramos en los procesos de tu negocio mediante la
+                                                            consultoría SAP, con la finalidad de ayudarte a lograr
+                                                            un
+                                                            aprovechamiento máximo de tus recursos empresariales.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-1"/>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="sap_develop_abap_id" name="sap_develop_abap" class="margin-section-bottom-sap">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-6 offset-md-1">
+                                            <div class="background-bottom-section">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="align-items-center justify-content-center">
+                                                <div class="text-tittle-sap-bottom">
+                                                    <h1>
+                                                        Desarrollo ABAP
+                                                    </h1>
+                                                </div>
+                                                <div class="text-justify text-paragraph-sap-bottom">
+                                                    <p>
+                                                        Como complemento a los servicios de
+                                                        Consultoría SAP, <span class="text-paragraph-sap-bottom-bold">
+                                                        Intello Idea</span> cuenta con
+                                                        un equipo de profesionales especializados en lenguaje de
+                                                        programación ABAP,
+                                                        cubriendo con ello los requerimientos específicos de nuestros clientes en cuanto a
+                                                        la adaptación de funcionalidades del sistema.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-1"/>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+    </data>
+
+    <data noupdate="1">
+        <!-- Manage Page odoo -->
+        <record id="thi_sap_consulting" model="website.page">
+            <field name="is_published">True</field>
+            <field name="url">/sap-consulting</field>
+            <field name="view_id" ref="theme_intello.thi_sap_consulting"/>
+            <field name="track">True</field>
+        </record>
+    </data>
+</odoo>

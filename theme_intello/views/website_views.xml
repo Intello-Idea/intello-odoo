@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="thi_menu_tree" model="ir.ui.view">
+            <field name="name">thi.website.menu.tree</field>
+            <field name="model">website.menu</field>
+            <field name="inherit_id" ref="website.menu_tree"/>
+            <field name="arch" type="xml">
+
+                <xpath expr="//field[@name='parent_id']" position="after">
+                    <field name="class_icon"/>
+                </xpath>
+
+            </field>
+        </record>
+    
+    </data>
+</odoo>
