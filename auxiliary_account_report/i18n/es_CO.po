@@ -4,23 +4,23 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0-20200114\n"
+"Project-Id-Version: Odoo Server 12.0+e-20191002\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-21 16:02+0000\n"
-"PO-Revision-Date: 2020-04-21 11:49-0500\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2020-04-21 22:39+0000\n"
+"PO-Revision-Date: 2020-04-21 17:42-0500\n"
+"Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: es\n"
-"X-Generator: Poedit 2.3\n"
+"Language: es_CO\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #. module: auxiliary_account_report
 #: model_terms:ir.ui.view,arch_db:auxiliary_account_report.report_account_wizard_view
 msgid "Account Assistant Grouping"
-msgstr "Agrupaciones "
+msgstr "Agrupaciones"
 
 #. module: auxiliary_account_report
 #: model_terms:ir.ui.view,arch_db:auxiliary_account_report.report_account_wizard_view
@@ -81,13 +81,13 @@ msgid "Auxiliary Report"
 msgstr "Reporte Auxiliar de Cuentas"
 
 #. module: auxiliary_account_report
-#: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:0
+#: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:41
 #, python-format
 msgid "Balance"
-msgstr "Balance"
+msgstr "Saldo"
 
 #. module: auxiliary_account_report
-#: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:0
+#: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:38
 #, python-format
 msgid "Base document number"
 msgstr "Número de Documento Base"
@@ -105,38 +105,38 @@ msgstr "Creado por"
 #. module: auxiliary_account_report
 #: model:ir.model.fields,field_description:auxiliary_account_report.field_report_account_auxiliary_wizard__create_date
 msgid "Created on"
-msgstr "Creado en"
+msgstr "Creado"
 
 #. module: auxiliary_account_report
-#: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:0
+#: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:40
 #, python-format
 msgid "Credit"
-msgstr "Haber"
+msgstr "Credito"
 
 #. module: auxiliary_account_report
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__time_frame__co
+#: selection:report.account.auxiliary.wizard,time_frame:0
 msgid "Custom"
 msgstr "Personalizar"
 
 #. module: auxiliary_account_report
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__accounts__cs
+#: selection:report.account.auxiliary.wizard,accounts:0
 msgid "Customize selection"
 msgstr "Personalizar selección"
 
 #. module: auxiliary_account_report
-#: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:0
+#: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:36
 #, python-format
 msgid "Date"
 msgstr "Fecha"
 
 #. module: auxiliary_account_report
-#: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:0
+#: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:39
 #, python-format
 msgid "Debit"
-msgstr "Debe"
+msgstr "Debito"
 
 #. module: auxiliary_account_report
-#: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:0
+#: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:42
 #, python-format
 msgid "Description"
 msgstr "Descripción"
@@ -145,12 +145,12 @@ msgstr "Descripción"
 #: model:ir.model.fields,field_description:auxiliary_account_report.field_account_auxiliary_report__display_name
 #: model:ir.model.fields,field_description:auxiliary_account_report.field_report_account_auxiliary_wizard__display_name
 msgid "Display Name"
-msgstr "Mostrar nombre"
+msgstr "Nombre Público"
 
 #. module: auxiliary_account_report
 #: model:ir.model.fields,field_description:auxiliary_account_report.field_report_account_auxiliary_wizard__end_date
 msgid "End Date"
-msgstr "Fecha final"
+msgstr "Fecha Final"
 
 #. module: auxiliary_account_report
 #: model:ir.model.fields,field_description:auxiliary_account_report.field_account_auxiliary_report__id
@@ -162,32 +162,32 @@ msgstr ""
 #: model:ir.model.fields,field_description:auxiliary_account_report.field_account_auxiliary_report____last_update
 #: model:ir.model.fields,field_description:auxiliary_account_report.field_report_account_auxiliary_wizard____last_update
 msgid "Last Modified on"
-msgstr "Última modificación el"
+msgstr "Última Modificación el"
 
 #. module: auxiliary_account_report
 #: model:ir.model.fields,field_description:auxiliary_account_report.field_report_account_auxiliary_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Actualizado por"
+msgstr "Última actualización por"
 
 #. module: auxiliary_account_report
 #: model:ir.model.fields,field_description:auxiliary_account_report.field_report_account_auxiliary_wizard__write_date
 msgid "Last Updated on"
-msgstr "Ultima actualización en"
+msgstr "Actualizado"
 
 #. module: auxiliary_account_report
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__time_frame__ly
+#: selection:report.account.auxiliary.wizard,time_frame:0
 msgid "Last financial year"
-msgstr "Ultimo año financiero"
+msgstr "Último año financiero"
 
 #. module: auxiliary_account_report
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__time_frame__lm
+#: selection:report.account.auxiliary.wizard,time_frame:0
 msgid "Last month"
-msgstr "Ultimo mes"
+msgstr "Último mes"
 
 #. module: auxiliary_account_report
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__time_frame__lq
+#: selection:report.account.auxiliary.wizard,time_frame:0
 msgid "Last quarter"
-msgstr "Ultimo trimestre"
+msgstr "Último trimestre"
 
 #. module: auxiliary_account_report
 #: model_terms:ir.ui.view,arch_db:auxiliary_account_report.report_account_wizard_view
@@ -205,27 +205,27 @@ msgid "Report Account Wizard"
 msgstr ""
 
 #. module: auxiliary_account_report
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__accounts__se
+#: selection:report.account.auxiliary.wizard,accounts:0
 msgid "Select all"
-msgstr "Seleccionar todo"
+msgstr "Seleccionar Todo"
 
 #. module: auxiliary_account_report
 #: model:ir.model.fields,field_description:auxiliary_account_report.field_report_account_auxiliary_wizard__start_date
 msgid "Start Date"
-msgstr "Fecha inicial"
+msgstr "Fecha Inicial"
 
 #. module: auxiliary_account_report
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__time_frame__ty
+#: selection:report.account.auxiliary.wizard,time_frame:0
 msgid "This financial year"
 msgstr "Este año financiero"
 
 #. module: auxiliary_account_report
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__time_frame__tm
+#: selection:report.account.auxiliary.wizard,time_frame:0
 msgid "This month"
 msgstr "Este mes"
 
 #. module: auxiliary_account_report
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__time_frame__tq
+#: selection:report.account.auxiliary.wizard,time_frame:0
 msgid "This quarter"
 msgstr "Este trimestre"
 
@@ -235,47 +235,47 @@ msgid "Time Frame"
 msgstr "Periodo de Tiempo"
 
 #. module: auxiliary_account_report
-#: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:0
+#: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:37
 #, python-format
 msgid "Type base document"
 msgstr "Documento Base"
 
 #. module: auxiliary_account_report
-#: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:0
+#: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:35
 #, python-format
 msgid "Type document"
 msgstr "Tipo de Documento"
 
 #. module: auxiliary_account_report
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__analytical_account__1
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__analytical_tag__1
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__associated__1
+#: selection:report.account.auxiliary.wizard,analytical_account:0
+#: selection:report.account.auxiliary.wizard,analytical_tag:0
+#: selection:report.account.auxiliary.wizard,associated:0
 msgid "Unfold 1"
 msgstr "Agrupación 1"
 
 #. module: auxiliary_account_report
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__analytical_account__2
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__analytical_tag__2
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__associated__2
+#: selection:report.account.auxiliary.wizard,analytical_account:0
+#: selection:report.account.auxiliary.wizard,analytical_tag:0
+#: selection:report.account.auxiliary.wizard,associated:0
 msgid "Unfold 2"
 msgstr "Agrupación 2"
 
 #. module: auxiliary_account_report
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__analytical_account__3
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__analytical_tag__3
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__associated__3
+#: selection:report.account.auxiliary.wizard,analytical_account:0
+#: selection:report.account.auxiliary.wizard,analytical_tag:0
+#: selection:report.account.auxiliary.wizard,associated:0
 msgid "Unfold 3"
 msgstr "Agrupación 3"
 
 #. module: auxiliary_account_report
-#: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:0
+#: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:47
 #, python-format
 msgid "account-assistant"
 msgstr "Asistente de cuentas"
 
 #. module: auxiliary_account_report
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__analytical_account__0
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__analytical_tag__0
-#: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__associated__0
+#: selection:report.account.auxiliary.wizard,analytical_account:0
+#: selection:report.account.auxiliary.wizard,analytical_tag:0
+#: selection:report.account.auxiliary.wizard,associated:0
 msgid "don't show"
-msgstr "No mostrar"
+msgstr "no mostrar"
