@@ -344,6 +344,16 @@ button.bg-transparent {
   letter-spacing: 28px;
 }
 
+@media only screen and (max-width: 1400px) {
+  .banner {
+    width: 100%;
+    height: 600px; //648px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .banner {
     width: 100%;
@@ -628,52 +638,52 @@ button.bg-transparent {
 
       .section_two {
 
-      padding-right: 1em;
+        padding-right: 1em;
 
-      .add {
-        font-family: "Aller";
-        font-weight: bold;
-        font-size: 18pt;
-
-        span {
-          font-size: 49pt;
-        }
-      }
-
-      .btn-orange {
-        font-size: 10pt;
-      }
-
-      .title {
-        padding-top: 1em;
-        padding-left: 2em;
-      }
-
-      .info {
-        padding-top: 1em;
-
-        .list-unstyled {
-          color: $intello_black;
-          text-align: left;
-
-          li {
-            padding-top: 0.5em;
-          }
-
-          .circle-icon {
-            background: $intello_white;
-            padding: 5px;
-            border-radius: 50%;
-            width: 26px;
-            text-align: center;
-          }
+        .add {
+          font-family: "Aller";
+          font-weight: bold;
+          font-size: 18pt;
 
           span {
-            font-size: 9pt;
+            font-size: 49pt;
+          }
+        }
+
+        .btn-orange {
+          font-size: 10pt;
+        }
+
+        .title {
+          padding-top: 1em;
+          padding-left: 2em;
+        }
+
+        .info {
+          padding-top: 1em;
+
+          .list-unstyled {
+            color: $intello_black;
+            text-align: left;
+
+            li {
+              padding-top: 0.5em;
+            }
+
+            .circle-icon {
+              background: $intello_white;
+              padding: 5px;
+              border-radius: 50%;
+              width: 26px;
+              text-align: center;
+            }
+
+            span {
+              font-size: 9pt;
+            }
           }
         }
       }
-    }
 
       .section_three {
         .row {
@@ -769,7 +779,7 @@ button.bg-transparent {
   .banner-title-text {
     color: $intello_white;
     padding-top: 5em;
-    padding-right: 6em;
+    padding-right: 5em;
 
     .banner-title-top {
       font-family: "Montserrat Alternates Black";
@@ -1007,6 +1017,188 @@ button.bg-transparent {
 
       img {
         max-width: 90%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+
+  #wrap.page_home {
+    .banner-title-text {
+      padding-top: 3em;
+      padding-right: 0;
+
+      .banner-title-top {
+        font-size: 45pt;
+      }
+
+      .banner-title-middle {
+        font-size: 35pt;
+      }
+
+      .banner-title-bottom {
+        font-size: 35pt;
+      }
+    }
+
+    .banner-subtitle-text {
+      padding-top: 1em;
+      padding-right: 5em;
+
+      .banner-subtitle {
+        font-size: 20pt;
+      }
+    }
+
+    #official_partner_id.margin-section-middle {
+      margin-top: -6em;
+      padding-bottom: 4em;
+
+      .background {
+        height: auto;
+        padding-bottom: 1em;
+
+        .title-section-middle {
+          padding-top: 3em;
+          padding-left: 13em;
+
+          .title_our {
+            font-size: 35pt;
+          }
+
+          .subtitle-bottom {
+            padding-left: 6em;
+
+            .subtitle_our {
+              font-size: 25pt;
+            }
+          }
+        }
+
+        .subtitle-bottom {
+          padding-left: 11em;
+        }
+
+
+        .paragraph {
+          padding: 1em;
+          text-align: justify !important;
+          font-size: 14pt;
+        }
+
+        .button_erp {
+          img {
+            height: 7em;
+            padding-left: 0;
+          }
+        }
+      }
+    }
+
+    #scrum_methodology_id {
+      padding-top: 0;
+      background-size: 980px;
+      background-position: right top;
+
+      .title_pre {
+        font-size: 25pt;
+        color: $intello-black;
+      }
+
+      .title {
+        font-size: 29.7pt;
+
+        span {
+          font-size: 48.48pt;
+        }
+      }
+
+      .body {
+        padding-top: 4em;
+        padding-bottom: 4em;
+      }
+
+      .paragraph {
+        text-align: justify;
+        font-size: 12pt;
+      }
+    }
+
+    #scrum_cycle_id {
+      padding-top: 3em;
+      margin-top: 0;
+
+      .card {
+        border: 3px solid $intello-orange;
+        border-radius: 20px;
+
+        .card-body {
+          padding: 0;
+
+          .card-title {
+            font-size: 10pt;
+          }
+        }
+
+        &.orange {
+          background: $intello-orange;
+
+          .card-title {
+            color: $intello_white;
+          }
+        }
+      }
+
+      .paragraph {
+        padding: 1em 1em;
+        font-size: 9pt;
+      }
+    }
+
+    #our_experience_id {
+      .pt-5 {
+        padding-top: 1em !important;
+      }
+
+      .banner-left {
+        height: 400px;
+
+        .title {
+          font-size: 15pt;
+        }
+      }
+
+      .banner-right {
+        height: 400px;
+
+        .title {
+          font-size: 23pt;
+
+          span {
+            font-size: 37pt;
+          }
+        }
+
+        .paragraph {
+          font-size: 10pt;
+        }
+
+        .subtitle {
+          font-size: 30pt;
+        }
+      }
+
+      .card {
+        .card-body {
+          padding-left: 0;
+          padding-bottom: 0;
+          padding-right: 0;
+
+          .card-title {
+            font-size: 12pt;
+          }
+        }
       }
     }
   }
@@ -1525,7 +1717,7 @@ button.bg-transparent {
   #wrap.page_home {
 
     .banner-subtitle-text {
-      padding-top: 1em;
+      padding-top: 0em;
       padding-right: 3em;
 
       .banner-subtitle {
@@ -1543,7 +1735,7 @@ button.bg-transparent {
 
         .title-section-middle {
           padding-top: 2em;
-          padding-left: 10em;
+          padding-left: 6em;
 
           .title_our {
             font-size: 30pt;
@@ -1571,7 +1763,7 @@ button.bg-transparent {
 
         .button_erp {
           img {
-            height: 7em;
+            height: 5em;
             padding-left: 0;
           }
         }
@@ -2118,8 +2310,6 @@ button.bg-transparent {
 }
 
 .odoo_home_bottom.background {
-
-
   width: 100%;
   height: 1000px;
   background-size: cover;
@@ -2133,7 +2323,7 @@ button.bg-transparent {
       color: $intello-white;
       font-family: "Aller";
       font-weight: bold;
-      font-size: 24pt;
+      font-size: 20pt;
 
       i {
         color: $intello-orange;
@@ -2319,7 +2509,8 @@ button.bg-transparent {
   min-height: 600px;
 }
 
-@media only screen and (max-width: 1200px) {
+
+@media only screen and (max-width: 1400px) {
   #odoo_home_banner_id {
     .banner-top-space {
       padding-top: 5em;
@@ -2357,12 +2548,13 @@ button.bg-transparent {
     .button-odoo {
       font-size: 16pt !important;
     }
+
     .content-odoo {
       font-size: 19pt;
     }
   }
 
-   #what_is_odoo_id {
+  #what_is_odoo_id {
 
     h2 {
       font-size: 45pt;
@@ -2411,7 +2603,7 @@ button.bg-transparent {
           font-size: 31pt;
         }
 
-        span{
+        span {
           font-size: 50pt;
         }
 
@@ -2453,7 +2645,158 @@ button.bg-transparent {
         padding-left: 4em !important;
         padding-right: 0 !important;
 
-        span{
+        span {
+          font-size: 76pt;
+        }
+      }
+    }
+
+    .chart-05 {
+      .letters-chart {
+        span {
+          font-size: 76pt;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #odoo_home_banner_id {
+    .banner-top-space {
+      padding-top: 5em;
+    }
+
+    .banner-title-bottom {
+      font-size: 43pt;
+    }
+
+    .banner-subtitle-text {
+      padding-right: 0;
+    }
+
+    .banner-subtitle {
+      font-size: 23pt;
+    }
+  }
+
+  #odoo_benefits_id {
+    .box {
+      .title-top {
+        font-size: 54pt;
+      }
+
+      .items-box {
+        padding-top: 2em;
+      }
+
+      .item {
+        font-size: 24pt;
+        padding-left: 1.5em;
+      }
+    }
+
+    .button-odoo {
+      font-size: 16pt !important;
+    }
+
+    .content-odoo {
+      font-size: 19pt;
+    }
+  }
+
+  #what_is_odoo_id {
+
+    h2 {
+      font-size: 45pt;
+    }
+
+    span {
+      font-size: 61pt;
+    }
+
+    p {
+      font-size: 15pt;
+    }
+
+  }
+
+  #odoo_home_our_work_id {
+
+    .title {
+      font-size: 55pt;
+    }
+
+    .subtitle-section-bottom {
+      padding-left: 7em;
+    }
+
+    .subtitle {
+      font-size: 40pt;
+    }
+
+    .paragraph {
+      font-size: 21pt;
+    }
+
+    .list-group-item {
+      font-size: 14pt;
+    }
+  }
+
+  #odoo_home_infography_id {
+    .chart-01 {
+      .letters-chart {
+        padding-left: 3em !important;
+        padding-right: 4em !important;
+
+        p {
+          font-size: 31pt;
+        }
+
+        span {
+          font-size: 50pt;
+        }
+
+      }
+    }
+
+    .chart-02 {
+      .letters-chart {
+        padding-left: 3em !important;
+        padding-right: 2em !important;
+
+        p {
+          font-size: 31pt;
+        }
+
+        span {
+          font-size: 50pt;
+        }
+      }
+    }
+
+    .chart-03 {
+      .letters-chart {
+        padding-left: 3em !important;
+        padding-right: 4em !important;
+
+        p {
+          font-size: 31pt;
+        }
+
+        span {
+          font-size: 50pt;
+        }
+      }
+    }
+
+    .chart-04 {
+      .letters-chart {
+        padding-left: 4em !important;
+        padding-right: 0 !important;
+
+        span {
           font-size: 76pt;
         }
       }
@@ -2645,9 +2988,10 @@ button.bg-transparent {
 }
 
 @media only screen and (max-width: 600px) {
+
   #odoo_home_banner_id {
     .banner-title-text {
-      padding-top: 0;
+      padding-top: 4em;
       padding-right: 0;
     }
 
@@ -2670,7 +3014,7 @@ button.bg-transparent {
     margin-top: 0;
 
     .title-top {
-      font-size: 30pt;
+      font-size: 30pt !important;
     }
 
     .box {
@@ -2696,7 +3040,7 @@ button.bg-transparent {
 
     .item {
       padding-left: 2.5em;
-      font-size: 16pt;
+      font-size: 16pt !important;
     }
 
     .text-right {
@@ -3649,6 +3993,49 @@ button.bg-transparent {
 
 }
 
+@media only screen and (max-width: 1400px) {
+
+  #odoo_demo_banner_id {
+    .banner-title-text {
+      padding-top: 4em;
+      padding-right: 0;
+    }
+
+    .banner-subtitle-text {
+      padding-right: 0;
+    }
+  }
+
+  #odoo_demo_form_id {
+    &.section-form {
+      .col-lg-3 {
+        padding-right: 0 !important;
+      }
+
+      .o_website_form_required_custom {
+        font-size: 11pt;
+      }
+
+      .background-demo {
+        width: 200px;
+        height: 100px;
+
+        p {
+          padding-top: 0.3em;
+          font-size: 18pt;
+        }
+      }
+
+      .text-selection {
+        label {
+          font-size: 16pt;
+        }
+
+      }
+    }
+  }
+
+}
 
 @media only screen and (max-width: 1200px) {
 
@@ -3889,6 +4276,78 @@ button.bg-transparent {
 
 .margin-column-mobile {
   margin-top: -11em;
+}
+
+
+@media only screen and (max-width: 1400px) {
+  #page_mobile_banner_id {
+    .banner-title-text {
+      padding-top: 3em;
+    }
+
+    .banner-title-top {
+      font-size: 50pt;
+    }
+
+    .text-spacing {
+      letter-spacing: 25px;
+    }
+
+    .banner-title-middle {
+      font-size: 45pt;
+    }
+
+    .banner-title-bottom {
+      font-size: 45pt;
+    }
+
+    .banner-subtitle-text {
+      padding-right: 1em;
+    }
+
+    .banner-subtitle {
+      font-size: 23pt;
+    }
+
+    .banner-subtitle-bold {
+      font-size: 23pt;
+    }
+
+  }
+
+  #page_app_mobile_our_work_id {
+
+    .title-mobile-section-middle {
+      padding-left: 6em;
+    }
+
+    .title_our {
+      font-size: 58pt;
+    }
+
+    .subtitle-mobile-bottom {
+      padding-left: 6em;
+    }
+
+    .subtitle_our {
+      font-size: 47pt;
+    }
+
+    .paragraph {
+      font-size: 15pt;
+    }
+
+    .paragraph-bold {
+      font-size: 14pt;
+    }
+  }
+
+  #page_mobile_bullet_id {
+    .background-bottom {
+      background-size: 428px auto;
+    }
+  }
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -4330,6 +4789,55 @@ button.bg-transparent {
   padding-left: 1em;
 }
 
+@media only screen and (max-width: 1400px) {
+
+   #key_words_id {
+    .key_words_image_1 {
+      min-height: 16em;
+    }
+
+    .key_words_image_2 {
+      min-height: 16em;
+    }
+
+    .key_words_image_3 {
+      min-height: 16em;
+    }
+
+    .key_words_image_4 {
+      min-height: 16em;
+    }
+
+    .key_words_image_5 {
+      min-height: 16em;
+    }
+
+    .col-left {
+      padding-left: 5em;
+      height: 16em;
+    }
+
+    .col-right {
+      height: 15em;
+    }
+
+    .content-section {
+      font-size: 11pt;
+    }
+
+    .title-section {
+      h3 {
+        font-size: 41pt;
+      }
+
+      h4 {
+        font-size: 25pt;
+      }
+    }
+  }
+
+}
+
 @media only screen and (max-width: 1200px) {
 
   #develop_banner_id {
@@ -4737,6 +5245,70 @@ button.bg-transparent {
   font-family: "Century Gothic Regular";
   font-weight: bold;
   font-size: 16pt;
+}
+
+@media only screen and (max-width: 1400px) {
+
+  #sap_consulting_banner_id {
+
+    .banner-title-top {
+      font-size: 50pt;
+    }
+
+    .banner-title-middle {
+      font-size: 46pt;
+    }
+
+    .banner-title-bottom {
+      font-size: 41pt;
+    }
+
+    .banner-subtitle-text {
+      padding-right: 0;
+    }
+
+    .banner-subtitle {
+      font-size: 21pt;
+    }
+  }
+
+  #sap_our_work_id {
+    .title-sap-section-middle {
+      padding-top: 3em;
+      padding-left: 4em;
+    }
+
+    .title_our {
+      font-size: 65pt;
+    }
+
+    .subtitle-sap-bottom {
+      padding-left: 9em;
+    }
+
+    .subtitle_our {
+      font-size: 45pt;
+    }
+
+    .paragraph {
+      font-size: 18pt;
+    }
+  }
+
+  #sap_develop_abap_id {
+    h1 {
+      font-size: 26pt;
+    }
+
+    .text-paragraph-sap-bottom {
+      font-size: 12pt;
+    }
+
+    .text-paragraph-sap-bottom-bold {
+      font-size: 12pt;
+    }
+  }
+
 }
 
 @media only screen and (max-width: 1200px) {

@@ -103,7 +103,7 @@
                                                                         <span class="icon icon-modules"/>
                                                                     </div>
                                                                     <div class="col-md-11 col-sm-11 col-11">
-                                                                        <p class="item">Modulos 100% integrados</p>
+                                                                        <p class="item">Módulos 100% integrados</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -166,60 +166,6 @@
                                     </div>
                                 </div>
                             </section>
-
-                            <!--<section name="odoo_home_our_work" id="odoo_home_our_work_id">
-                                <div class="container-fluid odoo_home_bottom">
-                                    <div class="background">
-                                        <div class="row h-100">
-                                            <div class="col-md-4 offset-md-3">
-                                                <div class="row h-100">
-                                                    <div class="col-md-12">
-                                                        <div class="d-flex align-items-center justify-content-center">
-                                                            <div class="h-75">
-                                                            </div>
-                                                            <div>
-                                                                <a href="/odoo/odoo-our" class="btn btn-orange btn-lg">
-                                                                    DESCUBRE
-                                                                    MÁS</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-5">
-                                                <div class="col-md-9 offset-md-2 h-100">
-                                                    <div class="row h-100">
-                                                        <div class="col-md-12 h-15">
-                                                            <div class="title-section-bottom ">
-                                                                <div class="b-left-orange">
-                                                                    <h1 class="title">
-                                                                        Nuestro
-                                                                    </h1>
-                                                                </div>
-                                                                <div class="subtitle-section-bottom">
-                                                                    <h2 class="subtitle">
-                                                                        trabajo
-                                                                    </h2>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="d-flex align-items-center justify-content-center">
-                                                                <p class="text-right paragraph">
-                                                                    Somos tu partner Odoo de confianza. Contamos con
-                                                                    profesionales
-                                                                    expertos, lo que garantiza un servicio de
-                                                                    calidad, acorde a tus necesidades.
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>-->
                             <section name="odoo_home_our_work" id="odoo_home_our_work_id">
                                 <div class="container-fluid odoo_home_bottom background">
                                     <div class="row h-100">
