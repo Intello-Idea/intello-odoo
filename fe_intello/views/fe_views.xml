@@ -34,7 +34,8 @@
                     <page string="Electronic Invoice" name="electronic_invoice">
                         <!-- fields invisible -->
                         <header>
-                            <field name="electronic_document_status" widget="statusbar" statusbar_visible="1,2,3,4,5,6,7"/>
+                            <field name="electronic_document_status" widget="statusbar"
+                                   statusbar_visible="1,2,3,4,5,6,7"/>
                         </header>
                         <field name="partner_response" invisible="1"/>
                         <group>
@@ -55,7 +56,6 @@
 
             </field>
         </record>
-
 
         <record id="electronic_invoice_view_tree" model="ir.ui.view">
             <field name="name">electronic_invoice_view_tree</field>
@@ -115,15 +115,15 @@
                                   ('type', '=', 'out_refund')]</field>
         </record>
 
-        <menuitem id="menu_fe_integration_view" name="Electronic Invoice"
-                  parent="account.menu_finance_receivables" sequence="200"/>
+        <!--<menuitem id="menu_fe_integration_view" name="Electronic Invoice"
+                  parent="account.menu_finance_receivables" sequence="200"/>-->
 
         <!-- This Menu Item must have a parent and an action -->
-        <menuitem id="invoice_send_to_DIAN"
-                  name="Electronic Invoice"
-                  parent="menu_fe_integration_view"
+        <menuitem id="invoice_send_to_dian"
+                  name="Electronic Invoices"
+                  parent="account.menu_finance_receivables"
                   action="action_electronic_invoice"
-                  sequence="1"/>
+                  sequence="200"/>
 
         <record model="ir.actions.server" id="send_to_dian">
             <field name="name">Send to DIAN</field>
@@ -134,9 +134,7 @@
             <field name="code">
                 action = model.process_document()
             </field>
-
         </record>
-
 
     </data>
 </odoo>

@@ -17,8 +17,8 @@
                                         <div class="col-md-7 offset-md-1">
                                             <div class="banner-title-text">
                                                 <h1>
-                                                    <span class="banner-title-top">CONSULTORÍA</span>
-                                                    <span class="banner-title-middle">SAP para tu</span>
+                                                    <span class="banner-title-top">CONSULTORÍA<br/></span>
+                                                    <span class="banner-title-middle">SAP PARA TU<br/></span>
                                                     <span class="banner-title-bottom">empresa</span>
                                                 </h1>
                                             </div>
@@ -41,7 +41,7 @@
                                     <div class="row">
                                         <div class="col-md-11 offset-md-1 background_sap_section_middle">
                                             <div class="row">
-                                                <div class="col-md-5">
+                                                <div class="col-md-5 col-sm ">
                                                     <div class="title-sap-section-middle">
                                                         <div class="b-left-black">
                                                             <h1 class="title_our">
@@ -66,8 +66,6 @@
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-1"/>
-
                                             </div>
                                         </div>
                                     </div>
@@ -80,7 +78,7 @@
                                             <div class="background-bottom-section">
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-4 col-sm-12 col-12">
                                             <div class="align-items-center justify-content-center">
                                                 <div class="text-tittle-sap-bottom">
                                                     <h1>
@@ -100,7 +98,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-1"/>
                                     </div>
                                 </div>
                             </section>

@@ -21,12 +21,13 @@
                                                     <span class="banner-title-bottom">proyecto web</span>
                                                 </h1>
                                             </div>
-                                            <div style="banner-title-line">
+                                            <div class="banner-title-line">
                                                 <hr class="bottom-line"/>
                                             </div>
                                             <div class="banner-subtitle-text">
                                                 <h4>
-                                                    <span class="banner-subtitle">¡Si aún no estás en la web,</span>
+                                                    <span class="banner-subtitle">¡Si aún no estás en la
+                                                        web,<br/></span>
                                                     <span class="banner-subtitle"> es el</span>
                                                     <span class="banner-subtitle-bold"> momento!</span>
                                                 </h4>
@@ -39,34 +40,50 @@
                             <section id="key_words_id" name="key_words" class="padding-section-develop">
                                 <div class="container-fluid">
                                     <div class="row">
+                                        <div class="title-section b-left-orange title-develop d-sm-none">
+                                            <h3>Desarrollo</h3>
+                                            <h4>Web</h4>
+                                        </div>
+                                        <div class="col-left align-items-center justify-content-center d-sm-none">
+                                            <p class="text-justify content-section">
+                                                Desarrollo web es un término que define
+                                                la
+                                                creación
+                                                de sitios web para Internet o una
+                                                intranet.
+                                            </p>
+                                        </div>
                                         <div class="col-md-10 offset-md-1">
                                             <div class="row">
                                                 <div class="col-md-12 pb-4">
                                                     <div class="row">
-                                                        <div class="col-md-3">
+                                                        <div class="col-md-3 col-sm-3 col-6 adjust-col-sm">
                                                             <div class="key_words_image_1"/>
                                                         </div>
-                                                        <div class="col-md-3">
+                                                        <div class="col-md-3 col-sm-3 col-6 adjust-col-sm">
                                                             <div class="key_words_image_2"/>
                                                         </div>
-                                                        <div class="col-md-3">
+                                                        <div class="col-md-3 col-sm-3 col-6 adjust-col-sm">
                                                             <div class="key_words_image_3"/>
                                                         </div>
-                                                        <div class="col-md-3">
+                                                        <div class="col-md-3 col-sm-3 col-6 adjust-col-sm">
                                                             <div class="key_words_image_4"/>
+                                                        </div>
+                                                        <div class="col-6 d-sm-none ">
+                                                            <div class="key_words_image_5"/>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-12 pt-1">
+                                                <div class="col-md-12 d-none d-sm-block pt-1">
                                                     <div class="row">
-                                                        <div class="col-md-3">
+                                                        <div class="col-md-3 col-sm-3 col-4">
                                                             <div class="key_words_image_5"/>
                                                         </div>
-                                                        <div class="col-md-9 ">
+                                                        <div class="col-md-9 col-9">
                                                             <div class="float-div-develop">
                                                                 <div class="row">
                                                                     <div class="col-md-6">
-                                                                        <div class="col-left d-flex align-items-center justify-content-center">
+                                                                        <div class="col-left d-none d-sm-flex align-items-center justify-content-center">
                                                                             <p class="text-justify content-section">
                                                                                 Desarrollo web es un término que define
                                                                                 la
@@ -77,7 +94,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-md-6">
-                                                                        <div class="col-right d-flex align-items-center justify-content-center">
+                                                                        <div class="col-right d-none d-sm-flex align-items-center justify-content-center">
                                                                             <div class="title-section b-left-orange title-develop">
                                                                                 <h3>Desarrollo</h3>
                                                                                 <h4>Web</h4>

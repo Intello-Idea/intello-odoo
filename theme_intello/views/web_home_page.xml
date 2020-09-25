@@ -41,7 +41,7 @@
                                  class="margin-section-middle">
                             <div class="container-fluid">
                                 <div class="row">
-                                    <div class="col-md-8 offset-md-2 background">
+                                    <div class="col-md-8 offset-md-2 col-sm-12 col-12 background">
                                         <div class="row">
                                             <div class="offset-md-4 col-md-8">
                                                 <div class="title-section-middle">
@@ -98,9 +98,9 @@
                         <section id="scrum_cycle_id" name="scrum_cycle">
                             <div class="container-fluid">
                                 <div class="row">
-                                    <div class="col-md-10 offset-md-1">
+                                    <div class="col-xl-10 col-lg-10 col-md-10 offset-md-1 col-sm-12 col-12">
                                         <div class="row">
-                                            <div class="col-md-3">
+                                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
                                                 <div class="card">
                                                     <img src="/theme_intello/static/src/img/home/Planificacion.png"
                                                          class="card-img-top" alt="..."/>
@@ -113,7 +113,7 @@
                                                     entregables y roles del
                                                     equipo de trabajo.</p>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
                                                 <div class="card">
                                                     <img src="/theme_intello/static/src/img/home/Desarrollo.png"
                                                          class="card-img-top" alt="..."/>
@@ -125,7 +125,7 @@
                                                     planteados en los plazos establecidos de los
                                                     entregables.</p>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
                                                 <div class="card">
                                                     <img src="/theme_intello/static/src/img/home/Retrospectiva.png"
                                                          class="card-img-top" alt="..."/>
@@ -137,7 +137,7 @@
                                                     adaptación, mejora continua de la
                                                     productividad.</p>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
                                                 <div class="card orange">
                                                     <img src="/theme_intello/static/src/img/home/Retroalimentacion.png"
                                                          class="card-img-top" alt="..."/>
@@ -161,7 +161,7 @@
                                         <div class="row pt-5">
                                             <div class="offset-md-1 col-md-10">
                                                 <div class="row pt-5">
-                                                    <div class="col-md-4">
+                                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
                                                         <div class="card">
                                                             <img src="/theme_intello/static/src/img/home/Colaboracion.png"
                                                                  class="card-img-top" alt="..."/>
@@ -170,7 +170,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-4">
+                                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
                                                         <div class="card">
                                                             <img src="/theme_intello/static/src/img/home/Solucion.png"
                                                                  class="card-img-top" alt="..."/>
@@ -179,7 +179,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-4">
+                                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
                                                         <div class="card">
                                                             <img src="/theme_intello/static/src/img/home/Innovacion.png"
                                                                  class="card-img-top" alt="..."/>
@@ -220,46 +220,46 @@
                         <section id="our_clients_id" name="our_clients">
                             <div class="container-fluid">
                                 <div class="row">
-                                    <div class="offset-md-1 col-md-10">
+                                    <div class="offset-xl-1 col-xl-10 offset-lg-1 col-lg-10 col-md-12 col-sm-12 col-12">
                                         <div class="row">
-                                            <div class="col-md-3">
+                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                 <div class="client">
-                                                    <img src="/theme_intello/static/src/img/home/clients/Bismark.png"/>
+                                                    <img src="/theme_intello/static/src/img/home/clients/Bismark.png" class="img-fluid"/>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                 <div class="client">
-                                                    <img src="/theme_intello/static/src/img/home/clients/Cerescos.png"/>
+                                                    <img src="/theme_intello/static/src/img/home/clients/Cerescos.png" class="img-fluid"/>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                 <div class="client">
-                                                    <img src="/theme_intello/static/src/img/home/clients/Consensus.png"/>
+                                                    <img src="/theme_intello/static/src/img/home/clients/Consensus.png" class="img-fluid"/>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                 <div class="client">
-                                                    <img src="/theme_intello/static/src/img/home/clients/Copidrogas.png"/>
+                                                    <img src="/theme_intello/static/src/img/home/clients/Copidrogas.png" class="img-fluid"/>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                 <div class="client">
-                                                    <img src="/theme_intello/static/src/img/home/clients/Engitech.png"/>
+                                                    <img src="/theme_intello/static/src/img/home/clients/Engitech.png" class="img-fluid"/>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                 <div class="client">
-                                                    <img src="/theme_intello/static/src/img/home/clients/Epithelium.png"/>
+                                                    <img src="/theme_intello/static/src/img/home/clients/Epithelium.png" class="img-fluid"/>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                 <div class="client">
-                                                    <img src="/theme_intello/static/src/img/home/clients/Looking.png"/>
+                                                    <img src="/theme_intello/static/src/img/home/clients/Looking.png" class="img-fluid"/>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                 <div class="client">
-                                                    <img src="/theme_intello/static/src/img/home/clients/Masglo.png"/>
+                                                    <img src="/theme_intello/static/src/img/home/clients/Masglo.png" class="img-fluid"/>
                                                 </div>
                                             </div>
                                         </div>
