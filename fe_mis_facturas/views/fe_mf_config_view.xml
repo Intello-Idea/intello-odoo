@@ -50,11 +50,11 @@
         </record>
 
         <!-- inherit menu item of base integration electronic invoice -->
-        <record model="ir.ui.menu" id="fe_intello.menu_fe_integration_view">
+        <!--<record model="ir.ui.menu" id="fe_intello.menu_fe_integration_view">
             <field name="name">Electronic Invoice - Mis Facturas</field>
-        </record>
+        </record>-->
 
-        <menuitem id="menu_fe_mf_config_view" name="Configuration" parent="fe_intello.menu_fe_integration_view"
+        <menuitem id="menu_fe_mf_config_view" name="Configuration Electronic Invoice" parent="account.account_invoicing_menu"
                   action="action_fe_mf_config_view" sequence="20"/>
     </data>
 </odoo>

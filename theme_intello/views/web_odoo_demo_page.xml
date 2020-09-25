@@ -125,7 +125,7 @@
                                         <div class="row">
                                             <div class="col-md-9 offset-md-3">
                                                 <div class="row form-group form-field o_website_form_custom o_fake_not_editable">
-                                                    <div class="col-lg-5 col-md-5 text-selection">
+                                                    <div class="col-lg-5 col-md-12  text-selection">
                                                         <label class="col-form-label o_fake_editable"
                                                                for="modules">
                                                             SELECCIONE LOS MÓDULOS</label>
