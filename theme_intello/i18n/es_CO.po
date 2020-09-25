@@ -1,0 +1,1204 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_intello
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0-20191211\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-10 17:39+0000\n"
+"PO-Revision-Date: 2020-09-10 12:46-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_CO\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.theme_epithelium_404
+msgid "!PÁGINA NO ENCONTRADA¡"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.thi_brand_promotion
+msgid ""
+"-\n"
+"                Crea una"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_our_work_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_our_work_page
+msgid ""
+"...Nosotros podemos ayudarte a identificar y reducir los\n"
+"                                                        reprocesos,\n"
+"                                                        facilitando el camino para una rápida,\n"
+"                                                        acertada y económica sistematización de todas las áreas de tu\n"
+"                                                        empresa."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.login
+msgid "<i class=\"fa fa-database\" role=\"img\" aria-label=\"Database\" title=\"Database\"/>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid ""
+"<i class=\"icon-check\"/>\n"
+"                                                                    CONSULTORIA"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid ""
+"<i class=\"icon-check\"/>\n"
+"                                                                    DESARROLLO"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid ""
+"<i class=\"icon-check\"/>\n"
+"                                                                    IMPLEMENTACIÓN"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid ""
+"<i class=\"icon-check\"/>\n"
+"                                                                    SOPORTE"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid ""
+"<span class=\"banner-subtitle\">En esta época de cambios, estar en el\n"
+"                                                    mundo digital es necesario para darle continuidad a tu\n"
+"                                                    negocio.</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid ""
+"<span class=\"banner-subtitle\">La integración nunca fue tan\n"
+"                                                        sencilla</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_our_work_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_our_work_page
+msgid ""
+"<span class=\"banner-subtitle\">La tecnología es el factor\n"
+"                                                        fundamental<br/>\n"
+"                                                        para el desarrollo de las empresas.</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_sap_consulting_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_sap_consulting
+msgid ""
+"<span class=\"banner-subtitle\">Obtén más valor con nuestros\n"
+"                                                        servicios</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid ""
+"<span class=\"banner-subtitle\">Selecciona los módulos que\n"
+"                                                            quieres<br/>\n"
+"                                                            probar en tu demo</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.thi_contactus_thanks
+msgid ""
+"<span class=\"banner-subtitle\">Te estaremos dando respuesta en\n"
+"                                            <br/>\n"
+"                                            el\n"
+"                                        </span>\n"
+"                                        <span class=\"banner-subtitle-bold\">menor tiempo</span>\n"
+"                                        <span class=\"banner-subtitle\">posible</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_develop
+#: model_terms:website.page,arch_db:theme_intello.thi_develop_page
+msgid ""
+"<span class=\"banner-subtitle\">¡Si aún no estás en la web,<br/>es\n"
+"                                                        el</span>\n"
+"                                                    <span class=\"banner-subtitle-bold\"> momento!</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_app_mobile_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_app_mobile_page
+msgid ""
+"<span class=\"banner-subtitle\">¡Soluciones seguras en\n"
+"                                                        plataformas<br/></span>\n"
+"                                                    <span class=\"banner-subtitle-bold\">iOS </span>\n"
+"                                                    <span class=\"banner-subtitle\">y </span>\n"
+"                                                    <span class=\"banner-subtitle-bold\">Android!</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_our
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_our_page
+msgid "<span class=\"banner-subtitle-bold\">!Lee esto¡</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid ""
+"<span class=\"banner-title-bottom\">Una necesidad,<br/></span>\n"
+"                                                    <span class=\"banner-title-bottom\">una aplicación<br/></span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_know_more
+#: model_terms:website.page,arch_db:theme_intello.thi_know_more_page
+msgid ""
+"<span class=\"banner-title-odoo-our\">DESCUBRE EL </span>\n"
+"                                                    <span class=\"banner-tittle-odoo-our-bold\">ALCANCE<br/></span>\n"
+"                                                    <span class=\"banner-title-odoo-our\">DE CADA MÓDULO</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_our
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_our_page
+msgid ""
+"<span class=\"banner-title-odoo-our\">ES MOMENTO DE<br/></span>\n"
+"                                                    <span class=\"banner-tittle-odoo-our-bold\">REINVENTARSE</span>\n"
+"                                                    <span class=\"banner-title-odoo-our\">Y HACER<br/></span>\n"
+"                                                    <span class=\"banner-title-odoo-our\">QUE TU NEGOCIO</span>\n"
+"                                                    <span class=\"banner-tittle-odoo-our-bold\">SEA DIGITAL</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_our_work_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_our_work_page
+msgid ""
+"<span class=\"banner-title-top text-spacing\">ALIADOS<br/></span>\n"
+"                                                    <span class=\"banner-title-middle\">TECNOLÓGICOS<br/></span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_app_mobile_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_app_mobile_page
+msgid ""
+"<span class=\"banner-title-top text-spacing\">CREAMOS<br/></span>\n"
+"                                                    <span class=\"banner-title-middle\">APLICACIONES<br/></span>\n"
+"                                                    <span class=\"banner-title-bottom\">inteligentes<br/></span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_develop
+#: model_terms:website.page,arch_db:theme_intello.thi_develop_page
+msgid ""
+"<span class=\"banner-title-top text-spacing\">HACEMOS<br/></span>\n"
+"                                                    <span class=\"banner-title-middle\">REALIDAD TU<br/></span>\n"
+"                                                    <span class=\"banner-title-bottom\">proyecto web<br/></span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.thi_contactus_thanks
+msgid ""
+"<span class=\"banner-title-top text-spacing\">MUCHAS\n"
+"                                            <br/>\n"
+"                                        </span>\n"
+"                                        <span class=\"banner-title-middle\">GRACIAS POR\n"
+"                                            <br/>\n"
+"                                        </span>\n"
+"                                        <span class=\"banner-title-top\">VISITARNOS\n"
+"                                            <br/>\n"
+"                                        </span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_sap_consulting_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_sap_consulting
+msgid ""
+"<span class=\"banner-title-top\">CONSULTORÍA<br/></span>\n"
+"                                                    <span class=\"banner-title-middle\">SAP para tu<br/></span>\n"
+"                                                    <span class=\"banner-title-bottom\">empresa<br/></span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid ""
+"<span class=\"banner-title-top\">Es el momento de<br/></span>\n"
+"                                                <span class=\"banner-title-middle\">potenciar tu negocio,<br/></span>\n"
+"                                                <span class=\"banner-title-bottom\">nosotros <span>te\n"
+"                                                    ayudamos.</span><br/></span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_contactus
+msgid "<span class=\"fa fa-map-marker fa-fw mt16\" role=\"img\" aria-label=\"Address\" title=\"Address\"/>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid ""
+"<span class=\"o_fake_editable\">\n"
+"                                                                        CONTABILIDAD</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid "<span class=\"o_fake_editable\">COMPRAS</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid "<span class=\"o_fake_editable\">CRM</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid "<span class=\"o_fake_editable\">E-COMMERCE</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid "<span class=\"o_fake_editable\">FACTURACIÓN</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid "<span class=\"o_fake_editable\">INVENTARIO</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid "<span class=\"o_fake_editable\">MANUFACTURA</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid "<span class=\"o_fake_editable\">MARKETING</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid ""
+"<span class=\"o_fake_editable\">MESA DE\n"
+"                                                                        AYUDA</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid "<span class=\"o_fake_editable\">NÓMINA</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid "<span class=\"o_fake_editable\">PROYECTOS</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid "<span class=\"o_fake_editable\">VENTAS</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid "<span> Tu demo <br/> por 15 Días</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid "<span>!Hazlo ahora¡<br/></span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid "<span>13<br/></span>oficinas en <br/>todo el mundo"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid "<span>26 k<br/></span>aplicaciones en la tienda Odoo"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid "<span>3,000<br/></span>instalaciones por día"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid "<span>32<br/></span>idiomas soportados"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid "<span>5<br/></span>millones de usuarios"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid "AMPLIA<br/>TRAYECTORIA"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.thi_footer_custom
+msgid "APP MOBILE"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_our
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_our_page
+msgid ""
+"Apoyamos a las organizaciones a adoptar e implementar Odoo ERP como\n"
+"                                                    su\n"
+"                                                    principal herramienta de\n"
+"                                                    transformación y crecimiento."
+msgstr ""
+
+#. module: theme_intello
+#: model:website.menu,name:theme_intello.thi_app_mobile
+msgid "App Mobile"
+msgstr "App Móvil"
+
+
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_sap_consulting_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_sap_consulting
+msgid ""
+"Asesoramos en los procesos de tu negocio mediante la\n"
+"                                                            consultoría SAP, con la finalidad de ayudarte a lograr\n"
+"                                                            un\n"
+"                                                            aprovechamiento máximo de tus recursos empresariales."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid "BENEFICIOS"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.thi_footer_custom
+msgid "BLOG"
+msgstr ""
+
+#. module: theme_intello
+#: model:website.menu,name:theme_intello.thi_blog
+msgid "Blog"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_our_work_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_our_work_page
+msgid ""
+"Brindamos herramientas tecnológicas que permiten\n"
+"                                                                gestionar tu empresa desde cualquier lugar"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid "COLABORACIÓN"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.thi_footer_custom
+msgid "COMPARTAMOS<br/><span>IDEAS</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_know_more
+#: model_terms:website.page,arch_db:theme_intello.thi_know_more_page
+msgid "COMPRAS"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_our
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_our_page
+msgid "CONSULTORIA"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_contactus
+msgid ""
+"CONTÁCTANOS<br/>\n"
+"                                                <span>BOGOTÁ, COLOMBIA<br/></span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.thi_footer_custom
+msgid "CONTÁCTENOS"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_know_more
+#: model_terms:website.page,arch_db:theme_intello.thi_know_more_page
+msgid "CRM"
+msgstr ""
+
+#. module: theme_intello
+#: model:ir.model.fields,field_description:theme_intello.field_website_menu__class_icon
+msgid "Class icon"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_sap_consulting_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_sap_consulting
+msgid ""
+"Como complemento a los servicios de\n"
+"                                                        Consultoría SAP, <span class=\"text-paragraph-sap-bottom-bold"
+"\">\n"
+"                                                        Intello Idea</span> cuenta con\n"
+"                                                        un equipo de profesionales especializados en lenguaje de\n"
+"                                                        programación ABAP,\n"
+"                                                        cubriendo con ello los requerimientos específicos de nuestros "
+"clientes en cuanto a\n"
+"                                                        la adaptación de funcionalidades del sistema."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.thi_footer_custom
+msgid ""
+"Company\n"
+"                            name"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid ""
+"Compartimos los resultados con nuestro cliente para\n"
+"                                                    verificar y validar el\n"
+"                                                    cumplimiento de los objetivos."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_our
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_our_page
+msgid ""
+"Contamos con gerentes de proyectos consultores, analistas y\n"
+"                                                    desarrolladores con amplia experiencia en\n"
+"                                                    implementaciones Odoo."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_develop
+#: model_terms:website.page,arch_db:theme_intello.thi_develop_page
+msgid ""
+"Contamos con un equipo interdisciplinario en desarrollo\n"
+"                                                            web que a través de diversos lenguajes de\n"
+"                                                            programación permiten que tu solución funcione de manera\n"
+"                                                            rápida y eficiente.<br/><br/>\n"
+"                                                            Nuestros diseñadores gráficos, ingenieros y\n"
+"                                                            desarrolladores harán de tus proyectos y desafíos una\n"
+"                                                            realidad."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_our
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_our_page
+msgid ""
+"Contamos con una estructura de trabajo que nos permite brindarte el\n"
+"                                                    soporte funcional y técnico de la\n"
+"                                                    plataforma Odoo, con unos acuerdos de niveles de servicio "
+"adecuados\n"
+"                                                    a tus necesidades y así garantizar el\n"
+"                                                    funcionamiento continuo del servicio."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid "Controla y reduce costos"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.thi_footer_custom
+msgid "Copyright &amp;copy;"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_our
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_our_page
+msgid "DESARROLLO"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid ""
+"DESCUBRE\n"
+"                                                        MÁS"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid "DESCUBRE MÁS"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid ""
+"Definimos requerimientos, riesgos, objetivos,\n"
+"                                                    tiempos, alcance,\n"
+"                                                    entregables y roles del\n"
+"                                                    equipo de trabajo."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid ""
+"Demostración de requerimientos, inspección y\n"
+"                                                    adaptación, mejora continua de la\n"
+"                                                    productividad."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_our_work_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_our_work_page
+msgid "Desarrollamos tus ideas"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_develop
+#: model_terms:website.page,arch_db:theme_intello.thi_develop_page
+msgid "Desarrollo"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_sap_consulting_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_sap_consulting
+msgid "Desarrollo ABAP"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_develop
+#: model_terms:website.page,arch_db:theme_intello.thi_develop_page
+msgid ""
+"Desarrollo web es un término que define\n"
+"                                                                                la\n"
+"                                                                                creación\n"
+"                                                                                de sitios web para Internet o una\n"
+"                                                                                intranet."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid "Descubre lo que puedes hacer con"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid "EMAIL"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid "EMPRESA"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.thi_footer_custom
+msgid "ERP ODOO"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_contactus model_terms:theme.ir.ui.view,arch:theme_intello.login
+msgid "Email"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_our_work_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_our_work_page
+msgid "Equipo"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid "Escalable"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_app_mobile_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_app_mobile_page
+msgid "Estabilidad"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid ""
+"Estando a la vanguardia, ofrecemos servicios de tecnología de la\n"
+"                                                        información que generan valor a tu empresa permitiendo mayor\n"
+"                                                        productividad y competitividad en el mercado."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_our_work_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_our_work_page
+msgid ""
+"Expertos en diferentes áreas, trabajamos con pasión para\n"
+"                                                                ofrecer lo mejor de nosotros en cada proyecto"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_know_more
+#: model_terms:website.page,arch_db:theme_intello.thi_know_more_page
+msgid "FABRICACIÓN 1"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_know_more
+#: model_terms:website.page,arch_db:theme_intello.thi_know_more_page
+msgid "FABRICACIÓN 2"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_our_work_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_our_work_page
+msgid "Facilitamos la interrelación con tus clientes"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid ""
+"Garantizamos el cumplimiento de los objetivos\n"
+"                                                    planteados en los plazos establecidos de los\n"
+"                                                    entregables."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_contactus
+msgid ""
+"Google\n"
+"                                                Maps"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_our
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_our_page
+msgid "IMPLEMENTACIÓN"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid "INNOVACIÓN"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_know_more
+#: model_terms:website.page,arch_db:theme_intello.thi_know_more_page
+msgid "INVENTARIO"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid "Implementación rápida"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_our_work_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_our_work_page
+msgid "Implementamos sistemas de información"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_our_work_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_our_work_page
+msgid "Integramos tus procesos en una sola solución"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid "Intello Idea una apuesta segura<br/>para tu empresa"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid "Intuitivo y fácil de usar"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.thi_footer_custom
+msgid "LLEGO LA ERA DE LA TRANSFORMACIÓN DIGITAL"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_app_mobile_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_app_mobile_page
+msgid ""
+"Las aplicaciones móviles permitirán a tus usuarios estar\n"
+"                                                            siempre conectados desde cualquier lugar y dispositivo,\n"
+"                                                            es sin lugar a dudas una excelente manera de potenciar\n"
+"                                                            tu\n"
+"                                                            marca, fidelizar a tus clientes y multiplicar tus\n"
+"                                                            ventas."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_know_more
+#: model_terms:website.page,arch_db:theme_intello.thi_know_more_page
+msgid "MANTENIMIENTO"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid "Metodología<br/><span>SCRUM</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid "Modulos 100% integrados"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_our_work_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_our_work_page
+msgid ""
+"Muchos proyectos de tecnología fallan porque el software está\n"
+"                                                    distanciado del proceso y de las personas..."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid "NOMBRE"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid "NUESTRA<br/><span>EXPERIENCIA</span>"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.thi_footer_custom
+msgid "NUESTRO TRABAJO"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_app_mobile_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_app_mobile_page
+msgid "Navegación intuitiva"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid "Nosotros, la solución.<br/>El lugar seguro para tu futuro."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_app_mobile_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_develop model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_our_work_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_sap_consulting_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_app_mobile_page
+#: model_terms:website.page,arch_db:theme_intello.thi_develop_page
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+#: model_terms:website.page,arch_db:theme_intello.thi_our_work_page
+#: model_terms:website.page,arch_db:theme_intello.thi_sap_consulting
+msgid "Nuestro"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid ""
+"Nuestros clientes nos han preferido por el respaldo que les\n"
+"                                                    brindamos en cada proyecto trabajado. Nuestra habilidad está en\n"
+"                                                    escucharlos, apoyarlos y aportar soluciones a sus necesidades."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_our
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_our_page
+msgid ""
+"Nuestros especialistas Odoo desarrollan nuevas funcionalidades y\n"
+"                                                    mejoras para cubrir todos los flujos de\n"
+"                                                    operaciones deseados, que no están dentro del estándar de Odoo."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid "OTROS"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.thi_brand_promotion model:website.menu,name:theme_intello.thi_odoo
+msgid "Odoo"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid ""
+"Odoo es un paquete de aplicaciones de código abierto que cubre\n"
+"                                                        todas\n"
+"                                                        las necesidades de tu negocio."
+msgstr ""
+
+#. module: theme_intello
+#: model:website.menu,name:theme_intello.thi_other_services
+msgid "Other Services"
+msgstr "Otros Servicios"
+
+#. module: theme_intello
+#: model:website.menu,name:theme_intello.thi_our_work
+msgid "Our Work"
+msgstr "Nuestro Trabajo"
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_our_work_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_our_work_page
+msgid "PARTNER OFICIAL"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid "PLANIFICACIÓN"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_know_more
+#: model_terms:website.page,arch_db:theme_intello.thi_know_more_page
+msgid "PUNTO DE VENTA 1"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_know_more
+#: model_terms:website.page,arch_db:theme_intello.thi_know_more_page
+msgid "PUNTO DE VENTA 2"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid "Partner"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.login
+msgid "Password"
+msgstr "Contraseña"
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid "Personalizable"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_contactus
+msgid "Phone Number"
+msgstr "Teléfono"
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_contactus
+msgid ""
+"Piensa en <span>grande</span>, piensa\n"
+"                                                en <span>nosotros</span>."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.thi_brand_promotion
+msgid "Powered by"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid "RETROALIMENTACIÓN"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid "RETROSPECTIVA"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid "Rentable"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.thi_footer_custom
+msgid "SAP CONSULTING"
+msgstr ""
+
+#. module: theme_intello
+#: model:website.menu,name:theme_intello.thi_sap_consulting
+msgid "SAP Consulting"
+msgstr "Consultoría SAP"
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid "SELECCIONE LOS MÓDULOS"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid "SOLUCIÓN"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_our
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_our_page
+msgid "SOPORTE"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid "Seguro"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_contactus
+msgid "Send"
+msgstr "Enviar"
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_app_mobile_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_app_mobile_page
+msgid "Simplicidad"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid "Solicitar Demo"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid ""
+"Somos tu partner Odoo de confianza. Contamos con\n"
+"                                                                profesionales expertos, lo que garantiza un servicio "
+"de\n"
+"                                                                calidad, acorde a tus necesidades."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_contactus
+msgid "Subject"
+msgstr "Asunto"
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_demo
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_demo_page
+msgid "TELÉFONO"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_our
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_our_page
+msgid ""
+"Te brindamos asosoría especializada en Odoo para ayudarte a\n"
+"                                                        optimizar y organizar los procesos de tu empresa\n"
+"                                                        basados en las mejores prácticas. Nuestros consultores\n"
+"                                                        analizarán el funcionamiento de tu negocio y te sugerirán\n"
+"                                                        la mejor manera de usar Odoo, brindando acompañamiento de "
+"manera\n"
+"                                                        presencial o remota."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.thi_footer_custom
+msgid ""
+"Te brindamos herramientas de software que permitirán a tu empresa alcanzar\n"
+"                                            el éxito y perdurar en el tiempo."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid ""
+"Trabajamos bajo esta metodología que aplica las mejores prácticas para el\n"
+"                                            trabajo en equipo y colaborativo, obteniendo resultados exitosos en poco\n"
+"                                            tiempo."
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_app_mobile_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_app_mobile_page
+msgid ""
+"Tu aplicación móvil podrá ser personalizada, con un diseño\n"
+"                                                        orientado a tener una gran experiencia de usuario y obtener "
+"los\n"
+"                                                        máximos resultados de venta para tu negocio teniendo en cuenta:"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_app_mobile_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_app_mobile_page
+msgid "Usabilidad"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_know_more
+#: model_terms:website.page,arch_db:theme_intello.thi_know_more_page
+msgid "VENTAS"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_app_mobile_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_app_mobile_page
+msgid "Velocidad"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_app_mobile_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_app_mobile_page
+msgid "Visibilidad"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.thi_footer_custom
+msgid "WEB DEVELOP"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_develop
+#: model_terms:website.page,arch_db:theme_intello.thi_develop_page
+msgid "Web"
+msgstr ""
+
+#. module: theme_intello
+#: model:website.menu,name:theme_intello.thi_web_develop
+msgid "Web Develop"
+msgstr "Desarrollo Web"
+
+#. module: theme_intello
+#: model:ir.model,name:theme_intello.model_website_menu
+msgid "Website Menu"
+msgstr "Menú del Sitio Web"
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_contactus
+msgid "Your Company"
+msgstr "Tu Compañia"
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_contactus
+msgid "Your Name"
+msgstr "Tu Nombre"
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_contactus
+msgid "Your Question"
+msgstr "Tu Pregunta"
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_our_work_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_our_work_page
+msgid "de trabajo"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_home
+msgid "oficial"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_app_mobile_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_develop model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_our_work_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_sap_consulting_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_app_mobile_page
+#: model_terms:website.page,arch_db:theme_intello.thi_develop_page
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+#: model_terms:website.page,arch_db:theme_intello.thi_our_work_page
+#: model_terms:website.page,arch_db:theme_intello.thi_sap_consulting
+msgid "trabajo"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:theme.ir.ui.view,arch:theme_intello.thi_brand_promotion
+msgid ""
+"web\n"
+"                aquí"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid "¡Pruébalo gratis!"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_odoo_home
+#: model_terms:website.page,arch_db:theme_intello.thi_odoo_home_page
+msgid ""
+"¿Qué es<br/>\n"
+"                                                        <span>Odoo</span>?"
+msgstr ""
+
+#. module: theme_intello
+#: model_terms:ir.ui.view,arch_db:theme_intello.thi_app_mobile_page_ir_ui_view
+#: model_terms:website.page,arch_db:theme_intello.thi_app_mobile_page
+msgid ""
+"¿Ya estás aprovechando los beneficios de una app móvil en tu\n"
+"                                                            empresa?"
+msgstr ""
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.portal_show_sign_in
+msgid "<b>Sign in</b>"
+msgstr "<b>Iniciar Sesión</b>"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
+msgid "Contact Us"
+msgstr "Contáctanos"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.contactus model_terms:ir.ui.view,arch_db:website.footer_custom
+#: model_terms:ir.ui.view,arch_db:website.s_carousel model_terms:ir.ui.view,arch_db:website.s_comparisons
+#: model_terms:ir.ui.view,arch_db:website.s_cover model:website.menu,name:website.menu_contactus
+#: model_terms:website.page,arch_db:website.contactus_page
+msgid "Contact us"
+msgstr "Contáctanos"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.contactus model_terms:website.page,arch_db:website.contactus_page
+msgid ""
+"Contact us about anything related to our company or services.<br/>\n"
+"                                                                We'll do our best to get back to you as soon as possible."
+msgstr ""
+"Contáctanos sobre cualquier cosa relacionada con nuestra empresa o nuestros servicios.<br/>\n"
+"                                                                Haremos todo lo posible por darle respuesta a la brevedad."
