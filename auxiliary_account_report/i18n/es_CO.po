@@ -89,7 +89,7 @@ msgstr "Reporte Auxiliar de Cuentas"
 #: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:0
 #, python-format
 msgid "Balance"
-msgstr ""
+msgstr "Saldo"
 
 #. module: auxiliary_account_report
 #: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:0
@@ -110,13 +110,13 @@ msgstr "Creado por"
 #. module: auxiliary_account_report
 #: model:ir.model.fields,field_description:auxiliary_account_report.field_report_account_auxiliary_wizard__create_date
 msgid "Created on"
-msgstr "Creado"
+msgstr "Creado en"
 
 #. module: auxiliary_account_report
 #: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:0
 #, python-format
 msgid "Credit"
-msgstr "Haber"
+msgstr "Credito"
 
 #. module: auxiliary_account_report
 #: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__time_frame__co
@@ -138,7 +138,7 @@ msgstr "Fecha"
 #: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:0
 #, python-format
 msgid "Debit"
-msgstr "Debe"
+msgstr "Debito"
 
 #. module: auxiliary_account_report
 #: code:addons/auxiliary_account_report/models/account_auxiliary_report.py:0
@@ -167,32 +167,32 @@ msgstr ""
 #: model:ir.model.fields,field_description:auxiliary_account_report.field_account_auxiliary_report____last_update
 #: model:ir.model.fields,field_description:auxiliary_account_report.field_report_account_auxiliary_wizard____last_update
 msgid "Last Modified on"
-msgstr "Última Modificación el"
+msgstr "Última modificación el"
 
 #. module: auxiliary_account_report
 #: model:ir.model.fields,field_description:auxiliary_account_report.field_report_account_auxiliary_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Última actualización por"
+msgstr "Actualizado por"
 
 #. module: auxiliary_account_report
 #: model:ir.model.fields,field_description:auxiliary_account_report.field_report_account_auxiliary_wizard__write_date
 msgid "Last Updated on"
-msgstr "Actualizado"
+msgstr "Ultima actualización en"
 
 #. module: auxiliary_account_report
 #: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__time_frame__ly
 msgid "Last financial year"
-msgstr "Ultimo año financiero"
+msgstr "Último año financiero"
 
 #. module: auxiliary_account_report
 #: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__time_frame__lm
 msgid "Last month"
-msgstr "Ultimo mes"
+msgstr "Último mes"
 
 #. module: auxiliary_account_report
 #: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__time_frame__lq
 msgid "Last quarter"
-msgstr "Ultimo trimestre"
+msgstr "Último trimestre"
 
 #. module: auxiliary_account_report
 #: model:ir.model.fields,field_description:auxiliary_account_report.field_report_account_auxiliary_wizard__load_data_account
@@ -219,7 +219,7 @@ msgstr ""
 #. module: auxiliary_account_report
 #: model:ir.model.fields.selection,name:auxiliary_account_report.selection__report_account_auxiliary_wizard__accounts__se
 msgid "Select all"
-msgstr "Seleccionar todo"
+msgstr "Seleccionar Todo"
 
 #. module: auxiliary_account_report
 #: model:ir.model.fields,field_description:auxiliary_account_report.field_report_account_auxiliary_wizard__start_date
