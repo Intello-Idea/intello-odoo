@@ -1,0 +1,18 @@
+[submodule "fe_intello"]
+	path = fe_intello
+	url = https://github.com/Intello-Idea/fe_intello.git
+[submodule "fe_mis_facturas"]
+	path = fe_mis_facturas
+	url = https://github.com/Intello-Idea/fe_mis_facturas.git
+[submodule "translate_account"]
+	path = translate_account
+	url = https://github.com/Intello-Idea/translate_account.git
+[submodule "theme_intello"]
+	path = theme_intello
+	url = https://github.com/Intello-Idea/theme_intello.git
+[submodule "extend_expenses"]
+	path = extend_expenses
+	url = https://github.com/Intello-Idea/extend_expenses.git
+[submodule "ln10_co_intello"]
+	path = ln10_co_intello
+	url = https://github.com/Intello-Idea/ln10_co_intello.git
