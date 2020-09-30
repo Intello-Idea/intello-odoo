@@ -16,3 +16,6 @@
 [submodule "extend_expenses"]
 	path = extend_expenses
 	url = git@github.com:Intello-Idea/extend_expenses.git
+[submodule "auxiliary_account_report"]
+	path = auxiliary_account_report
+	url = git@github.com:Intello-Idea/auxiliary_account_report.git
