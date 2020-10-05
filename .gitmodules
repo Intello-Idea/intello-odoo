@@ -1,0 +1,21 @@
+[submodule "ln10_co_intello"]
+	path = ln10_co_intello
+	url = git@github.com:Intello-Idea/ln10_co_intello.git
+[submodule "translate_account"]
+	path = translate_account
+	url = git@github.com:Intello-Idea/translate_account.git
+[submodule "fe_intello"]
+	path = fe_intello
+	url = git@github.com:Intello-Idea/fe_intello.git
+[submodule "fe_mis_facturas"]
+	path = fe_mis_facturas
+	url = git@github.com:Intello-Idea/fe_mis_facturas.git
+[submodule "theme_intello"]
+	path = theme_intello
+	url = git@github.com:Intello-Idea/theme_intello.git
+[submodule "extend_expenses"]
+	path = extend_expenses
+	url = git@github.com:Intello-Idea/extend_expenses.git
+[submodule "auxiliary_account_report"]
+	path = auxiliary_account_report
+	url = git@github.com:Intello-Idea/auxiliary_account_report.git
