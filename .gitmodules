@@ -19,3 +19,6 @@
 [submodule "auxiliary_account_report"]
 	path = auxiliary_account_report
 	url = git@github.com:Intello-Idea/auxiliary_account_report.git
+[submodule "hr_payroll_co_intello"]
+	path = hr_payroll_co_intello
+	url = git@github.com:Intello-Idea/hr_payroll_co_intello.git
