@@ -1,0 +1,13 @@
+.update_information .row {
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .update_information .row {
+        flex-direction: column;
+    }
+    .update_information .row .col-4{
+        max-width: 100%;
+        margin-top: 5px;
+    }
+}
