@@ -1,0 +1,107 @@
+<odoo>
+
+  <template id="custom_event" inherit_id="website_event.event_description_full">
+    <xpath expr="//t[@t-call='website_event.event_details']/section[1]/div[1]" position="before">
+      <div class="container overflow-hidden">
+        <div class="update_register py-2 pl-md-0 pr-md-2">
+          <form id="custom_event_form"
+                class="mb-1"
+                t-attf-action="/event/#{slug(event)}/updateinformation" method="json"
+                enctype="multipart/form-data">
+            <link rel="stylesheet" href="/custom_event/static/src/css/update_events.css"></link>
+            <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+            <div class="update_information">
+              <div class="row">
+                <div class="col-lg col-4">
+                  <input type="text" class="form-control"
+                         name="compañia"
+                         placeholder="Ingrese nombre de la compañia"/>
+                </div>
+                <div class="col-lg col-4">
+                  <input type="text" class="form-control"
+                         name="orden"
+                         placeholder="Ingrese número de orden"/>
+                </div>
+                <div class="col-lg col-4">
+                  <button type="submit" class="btn btn-primary btn-block a-submit-custom">
+                    Update registers
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </xpath>
+  </template>
+
+  <template id="custom_event_modal" name="Custom Event Modal">
+    <div class="modal fade">
+      <div class="modal-dialog modal-lg" role="document">
+        <form class="form_update_information" t-attf-action="/event/#{slug(event)}/updateregister" method="post">
+          <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+          <div class="modal-content">
+            <div class="modal-header align-items-center">
+              <h4 class="modal-title">Update information</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>×</span></button>
+            </div>
+            <t t-if="data_update">
+              <t t-set="counter" t-value="1"/>
+              <t t-foreach="data_update" t-as="participantes">
+                <div class="modal-body bg-light border-bottom">
+                  <div class="row">
+                    <div class="col-lg my-2" style="display: none">
+                      <input class="form-control" t-att-type="hidden" t-attf-name="#{counter}-id"
+                             t-att-value="participantes.id" readonly="True"/>
+                    </div>
+                    <div class="col-lg my-2">
+                      <label>Name</label>
+                      <input class="form-control" type="text" t-attf-name="#{counter}-name"
+                             t-att-value="participantes.name"/>
+                    </div>
+                    <div class="col-lg my-2">
+                      <label>Email</label>
+                      <input class="form-control" type="text" t-attf-name="#{counter}-email"
+                             t-att-value="participantes.email"/>
+                    </div>
+                    <div class="col-lg my-2">
+                      <label>Phone</label>
+                      <input class="form-control" type="text" t-attf-name="#{counter}-phone"
+                             t-att-value="participantes.phone"/>
+                    </div>
+                  </div>
+                </div>
+              </t>
+            </t>
+            <t t-else="">
+              <div class="modal-body bg-light border-bottom">
+                <div class="row">
+                  <div class="col-lg my-2">
+                    <h5>No se encontraron registros asociados a esta busqueda</h5>
+                  </div>
+                </div>
+              </div>
+            </t>
+            <div class="modal-footer border-0 justify-content-between">
+              <button type="button" class="btn btn-secondary enable_button_event" data-dismiss="modal">Cancel</button>
+              <button type="submit" class="btn btn-primary">Continue</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </template>
+
+  <template id="custom_attendee_details_questions" inherit_id="website_event.registration_attendee_details" name="Custom Attendee Details with questions">
+    <xpath expr="//*[hasclass('row')]/div[1]/input[1]" position="attributes">
+      <attribute name="required"></attribute>
+    </xpath>
+    <xpath expr="//*[hasclass('row')]/div[2]/input[1]" position="attributes">
+      <attribute name="required"></attribute>
+    </xpath>
+    <xpath expr="//*[hasclass('row')]/div[3]/input[1]" position="attributes">
+      <attribute name="required"></attribute>
+    </xpath>
+  </template>
+
+</odoo>
